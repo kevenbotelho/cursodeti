@@ -67,6 +67,9 @@ p{
 h1#periododocurso{
     text-align: center;
 }
+h3{
+    padding: 5px 0px 0px 0px;
+}
 div.computadores{
     background-color: rgb(49, 238, 71);
     padding: 0px 10px 5px 10px;
