@@ -61,6 +61,7 @@ img{
     border-radius: 10px;
 }
 p{
+    padding: 5px 0px 0px 0px;
     text-align: justify;
     text-indent: 20px;
 }
