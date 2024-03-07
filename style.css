@@ -58,7 +58,7 @@ img{
     padding-top: 5px;
     max-width: 200px;
     min-width: 100px;
-    border-style: solid;
+    border:1px solid black;
     border-radius: 10px;
 }
 p{
