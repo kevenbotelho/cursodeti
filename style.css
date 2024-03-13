@@ -3,62 +3,71 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 body#body-principal{
+    background-color: gray;
+}
+body#body-assuntos{
     background-color: white;
 }
 header#cabecalho-pagina-principal{
-    background-color: gray;
+    background-color: black;
 }
 header > h1#titulo-principal-pagina-principal{
+    color: white;
     text-align: center;
     font-size: 37px;
-    padding: 5px 0px 5px 0px;
+    padding: 10px 0px 15px 0px;
 }
 main#main-principal{
     margin: auto;
     max-width: 580px;
     min-width: 300px;
-    border: 1px solid black;
+    border: 1px solid gray;
     border-top: none;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 main > div.caixa-de-assuntos{
     background-color: white;
-    padding: 20px;
+    padding: 9px 0px 5px 0px;
+    border: 1px solid white;
 }
 main > div > h1.nome-do-assunto{
+    color: red;
     text-align: center;
-    padding: 0px 0px 10px 0px;
+    padding: 0px 0px 7px 0px;
 }
 main > div > ol > li.lista-de-assunto{
     font-family: monospace;
-    font-size: 24px;
+    text-align: center;
+    font-size: 15px;
     list-style-position: inside;
-    padding: 5px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
 }
 main > div > ol > li > a{
-    color: blue;
+    color: wheat;
     text-decoration: none;
 }
 main > div#rede-de-computadores{
-    background-color: rgb(151, 151, 244);
+    background-color: black;
 }
 main > div#logica-de-programacao{
-    background-color: violet;
+    background-color: black;
 }
 main > div#tecnologias-web{
-    background-color: pink;
+    background-color: black;
 }
 main > div#gestao{
-    background-color: rgb(203, 127, 127);
+    background-color: black;
 }
 main > div#informatica{
-    background-color: rgb(235, 112, 67);
+    background-color: black;
 }
 main > div#manutencao-de-computadores{
-    background-color: yellow;
+    background-color: black;
 }
 main > div#tecnologias-emergentes{
-    background-color: rgb(90, 197, 90);
+    background-color: black;
 }
