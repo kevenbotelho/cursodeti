@@ -22,7 +22,7 @@ header > h1#titulo-principal-pagina-principal{
 }
 main#main-principal{
     margin: auto;
-    max-width: 580px;
+    max-width: 550px;
     min-width: 280px;
     border: 1px solid gray;
     border-top: none;
