@@ -17,8 +17,8 @@ header#cabecalho-pagina-principal{
 header > h1#titulo-principal-pagina-principal{
     color: white;
     text-align: center;
-    font-size: 37px;
-    padding: 10px 0px 15px 0px;
+    font-size: 27px;
+    padding: 10px 0px 10px 20px;
 }
 main#main-principal{
     margin: auto;
@@ -31,23 +31,24 @@ main#main-principal{
 }
 main > div.caixa-de-assuntos{
     background-color: white;
-    padding: 9px 0px 5px 0px;
+    padding: 12px 0px 27px 0px;
     border: 1px solid white;
 }
 main > div > h1.nome-do-assunto{
-    color: red;
+    font-size: 25px;
+    color: rgb(75, 75, 251);
     text-align: center;
-    padding: 0px 0px 7px 0px;
+    padding: 0px 0px 12px 0px;
 }
 main > div > ol > li.lista-de-assunto{
     font-family: monospace;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     list-style-position: inside;
     padding: 5px 0px 5px 0px;
 }
 main > div > ol > li > a{
-    color: wheat;
+    color: white;
     text-decoration: none;
 }
 main > div#rede-de-computadores{
