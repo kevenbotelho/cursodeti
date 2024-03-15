@@ -7,12 +7,7 @@
 }
 body#body-principal{
     height: 96vh;
-    background-color: #213557;
-    background-image: url(imagens/sla.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+    background-color: black;
 }
 body#body-assuntos{
     background-color: white;
@@ -36,9 +31,8 @@ main#main-principal{
     
 }
 main > div.caixa-de-assuntos{
-    
     padding: 12px 0px 27px 0px;
-    border: 2px solid rgb(140, 72, 72);
+    border: 2px solid wheat;
 }
 main > div > h1.nome-do-assunto{
     font-size: 25px;
