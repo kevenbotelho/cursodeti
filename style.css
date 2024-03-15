@@ -46,6 +46,7 @@ main#main-secundario{
     min-width: 320px;
     margin: auto;
     color: white;
+    padding: 20px;
 }
 main > h1#nome-do-assunto-pagina-secundaria{
     text-align: center;
