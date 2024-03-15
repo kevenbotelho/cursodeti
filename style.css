@@ -3,10 +3,16 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body#body-principal{
-    background-color: gray;
+    height: 96vh;
+    background-color: #213557;
+    background-image: url(imagens/sla.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 body#body-assuntos{
     background-color: white;
@@ -23,16 +29,16 @@ header > h1#titulo-principal-pagina-principal{
 main#main-principal{
     margin: auto;
     max-width: 550px;
-    min-width: 280px;
+    min-width: 270px;
     border: 1px solid gray;
     border-top: none;
     color: white;
-    background-color: black;
+    
 }
 main > div.caixa-de-assuntos{
-    background-color: white;
+    
     padding: 12px 0px 27px 0px;
-    border: 1px solid white;
+    border: 2px solid rgb(140, 72, 72);
 }
 main > div > h1.nome-do-assunto{
     font-size: 25px;
@@ -50,25 +56,4 @@ main > div > ol > li.lista-de-assunto{
 main > div > ol > li > a{
     color: white;
     text-decoration: none;
-}
-main > div#rede-de-computadores{
-    background-color: black;
-}
-main > div#logica-de-programacao{
-    background-color: black;
-}
-main > div#tecnologias-web{
-    background-color: black;
-}
-main > div#gestao{
-    background-color: black;
-}
-main > div#informatica{
-    background-color: black;
-}
-main > div#manutencao-de-computadores{
-    background-color: black;
-}
-main > div#tecnologias-emergentes{
-    background-color: black;
 }
