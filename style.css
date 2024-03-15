@@ -43,7 +43,7 @@ main#main-principal{
 }
 main#main-secundario{
     width: 600px;
-    min-width: 280px;
+    min-width: 320px;
     margin: auto;
     color: white;
 }
