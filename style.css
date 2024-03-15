@@ -42,8 +42,8 @@ main#main-principal{
     
 }
 main#main-secundario{
-    width: 600px;
-    min-width: 320px;
+    width: 550px;
+    min-width: 270px;
     margin: auto;
     color: white;
     padding: 20px;
