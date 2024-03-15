@@ -5,21 +5,32 @@
     padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 body#body-principal{
-    height: 96vh;
     background-color: black;
 }
-body#body-assuntos{
-    background-color: white;
+body#body-secundario{
+    height: 100%;
+    /*background-image: linear-gradient(to right, #5b9272, #5b6d92);*/
+    background-color: #292c43;
 }
+
 header#cabecalho-pagina-principal{
     background-color: black;
+    
+}
+header#header-secundario{
+    background-color: #2b5d68;
 }
 header > h1#titulo-principal-pagina-principal{
     color: white;
     text-align: center;
     font-size: 27px;
     padding: 10px 0px 10px 20px;
+}
+header > h1#titulo-principal-pagina-secundaria{
+    color: rgb(214, 214, 214);
+    text-align: center;
 }
 main#main-principal{
     margin: auto;
@@ -30,6 +41,18 @@ main#main-principal{
     color: white;
     
 }
+main#main-secundario{
+    width: 600px;
+    min-width: 280px;
+    margin: auto;
+    color: white;
+}
+main > h1#nome-do-assunto-pagina-secundaria{
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 30px;
+}
+
 main > div.caixa-de-assuntos{
     padding: 12px 0px 27px 0px;
     border: 2px solid wheat;
@@ -50,4 +73,29 @@ main > div > ol > li.lista-de-assunto{
 main > div > ol > li > a{
     color: white;
     text-decoration: none;
+}
+
+main > h2#nome-do-assunto-secundario-pagina-secundaria{
+    margin-top: -5px;
+    text-align: center;
+    font-size: 15px;
+    color: red;
+}
+p.pagina-secundaria{
+    text-align: justify;
+    text-indent: 20px;
+    padding: 15px 0px 15px 0px;
+    line-height: 1.4em;
+}
+ul.pagina-secundaria{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    text-align: justify;
+    list-style-position: inside;
+    border-radius: 20px;
+    margin: 20px;
+}
+ul.pagina-secundaria > li{
+    padding: 10px;
 }
