@@ -5,22 +5,20 @@
     padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/*PÁGINA PRINCIPAL*/
 body#body-principal{
     background-color: black;
 }
-body#body-secundario{
-    height: 100%;
-    /*background-image: linear-gradient(to right, #5b9272, #5b6d92);*/
-    background-color: #292c43;
+main#main-principal{
+    margin: auto;
+    max-width: 600px;
+    min-width: 270px;
+    border: 1px solid gray;
+    border-top: none;
+    color: white;
 }
-
 header#cabecalho-pagina-principal{
     background-color: black;
-    
-}
-header#header-secundario{
-    background-color: #2b5d68;
 }
 header > h1#titulo-principal-pagina-principal{
     color: white;
@@ -28,31 +26,6 @@ header > h1#titulo-principal-pagina-principal{
     font-size: 27px;
     padding: 10px 0px 10px 20px;
 }
-header > h1#titulo-principal-pagina-secundaria{
-    color: rgb(214, 214, 214);
-    text-align: center;
-}
-main#main-principal{
-    margin: auto;
-    max-width: 550px;
-    min-width: 270px;
-    border: 1px solid gray;
-    border-top: none;
-    color: white;
-    
-}
-main#main-secundario{
-    width: 600px;
-    min-width: 280px;
-    margin: auto;
-    color: white;
-}
-main > h1#nome-do-assunto-pagina-secundaria{
-    text-align: center;
-    padding: 20px 0px 0px 0px;
-    font-size: 30px;
-}
-
 main > div.caixa-de-assuntos{
     padding: 12px 0px 27px 0px;
     border: 2px solid wheat;
@@ -75,27 +48,91 @@ main > div > ol > li > a{
     text-decoration: none;
 }
 
+/*FIM - PÁGINA PRINCIPAL*/
+
+
+
+
+
+/*PÁGINAS SECUNDÁRIAS*/
+
+body#body-secundario{
+    /*background-image: linear-gradient(to right, #5b9272, #5b6d92);*/
+    background-color: #292c43;
+}
+header#header-secundario{
+    background-color: #2b5d68;
+}
+header > h1#titulo-principal-pagina-secundaria{
+    color: rgb(214, 214, 214);
+    text-align: center;
+}
+main#main-secundario{
+    max-width: 600px;
+    min-width: 260px;
+    margin: auto;
+    padding: 0px 20px 0px 20px;
+    color: white;
+}
+main > h1#nome-do-assunto-pagina-secundaria{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
 main > h2#nome-do-assunto-secundario-pagina-secundaria{
-    margin-top: -5px;
+    margin-top: -3px;
     text-align: center;
     font-size: 15px;
     color: red;
 }
+img{
+    display: block;
+    width: 500px;
+    margin: auto;
+}
 p.pagina-secundaria{
     text-align: justify;
     text-indent: 20px;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 20px 5px 20px;
     line-height: 1.4em;
 }
 ul.pagina-secundaria{
     background-color: white;
     color: black;
-    padding: 15px;
+    padding: 20px;
     text-align: justify;
-    list-style-position: inside;
     border-radius: 20px;
     margin: 20px;
 }
 ul.pagina-secundaria > li{
+    padding-bottom: 10px;
+    list-style-position: inside;
+}
+ul h2.topicos-pagina-secundaria{
+    font-size: 27px;
+    padding-bottom: 7px;
+}
+p.paragrafo-apos-titulo{
+    margin: -10px 0px -18px 0px;
+}
+p.link-pra-fora-da-pagina{
+    margin: 10px;
+}
+p.link-pra-fora-da-pagina > a{
+    text-decoration: none;
+    color: rgb(98, 98, 225);
+}
+p.link-pra-fora-da-pagina > a:hover{
+    text-decoration: underline;
+    color: red;
+}
+footer{
+    background-color: #3f785ed5;
+}
+footer > p{
+padding: 20px 0px 10px 20px;
+}
+footer > ul > li{
     padding: 10px;
 }
+/*FIM - PÁGINAS SECUNDARIAS*/
