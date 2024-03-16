@@ -38,13 +38,7 @@ main#main-principal{
     border-top: none;
     color: white;
 }
-main#main-secundario{
-    width: 550px;
-    min-width: 270px;
-    margin: auto;
-    color: white;
-    padding: 20px;
-}
+
 main > h1#nome-do-assunto-pagina-secundaria{
     text-align: center;
     padding: 20px 0px 0px 0px;
