@@ -10,7 +10,7 @@
 }
 /*PÁGINA PRINCIPAL*/
 body#body-principal{
-    background-color: rgb(83, 73, 73);
+    background-color: #292c43;
 }
 main#main-principal{
     margin: auto;
@@ -68,7 +68,7 @@ main > div > ol > li > a{
 
 /*PÁGINAS SECUNDÁRIAS*/
 body#body-secundario{
-    background-color: rgb(83, 73, 73);
+    background-color: #292c43;
 }
 header#header-secundario{
     background-color: #2b5d68;
@@ -76,7 +76,7 @@ header#header-secundario{
 header > h1#titulo-principal-pagina-secundaria{
     color: rgb(214, 214, 214);
     text-align: center;
-    padding: 10px 0px 10px 20px;
+    padding: 10px 0px 10px 0px;
     font-size: 27px;
 }
 img#imagem-principal-pagina-secundaria{
