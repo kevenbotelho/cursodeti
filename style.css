@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: Raleway;
+    src: url(fontes/raleway\ full\ version/);
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -38,12 +41,6 @@ main#main-principal{
     border-top: none;
     color: white;
 }
-
-main > h1#nome-do-assunto-pagina-secundaria{
-    text-align: center;
-    padding: 20px 0px 0px 0px;
-    font-size: 30px;
-}
 main > div.caixa-de-assuntos{
     padding: 12px 0px 27px 0px;
     border: 2px solid wheat;
@@ -70,9 +67,7 @@ main > div > ol > li > a{
 
 
 /*PÁGINAS SECUNDÁRIAS*/
-
 body#body-secundario{
-    /*background-image: linear-gradient(to right, #5b9272, #5b6d92);*/
     background-color: #292c43;
 }
 header#header-secundario{
@@ -82,9 +77,15 @@ header > h1#titulo-principal-pagina-secundaria{
     color: rgb(214, 214, 214);
     text-align: center;
 }
+img#imagem-principal-pagina-secundaria{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+div.imagem{
+    padding: 20px 0px 0px 0px;
+}
 main#main-secundario{
-    max-width: 600px;
-    min-width: 260px;
     margin: auto;
     padding: 0px 20px 0px 20px;
     color: white;
@@ -97,19 +98,35 @@ main > h1#nome-do-assunto-pagina-secundaria{
 main > h2#nome-do-assunto-secundario-pagina-secundaria{
     margin-top: -3px;
     text-align: center;
-    font-size: 15px;
-    color: red;
-}
-img{
-    display: block;
-    width: 500px;
-    margin: auto;
+    font-size: 17px;
+    font-family: 'Raleway';
+    color: rgb(7, 156, 129);
+    padding: 0px 0px 15px 0px;
 }
 p.pagina-secundaria{
     text-align: justify;
-    text-indent: 20px;
-    padding: 15px 20px 5px 20px;
-    line-height: 1.4em;
+    text-indent: 0px;
+    padding: 0px 20px 10px 20px;
+    line-height: 1.5em;
+}
+ul > div#imagens-centrais >img{
+    width: 150px;
+    display:inline-block;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+div#imagens-centrais{
+    text-align: center;
+    padding-bottom: 10px;
+}
+div.imagem{
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+div.imagem > img{
+    border-radius: 20px;
+    width: 300px;
 }
 ul.pagina-secundaria{
     background-color: white;
@@ -123,31 +140,24 @@ ul.pagina-secundaria > li{
     padding-bottom: 10px;
     list-style-position: inside;
 }
-ul h2.topicos-pagina-secundaria{
+h2.topicos-pagina-secundaria{
     font-size: 27px;
     padding-bottom: 7px;
+    padding: 0px 20px 5px 20px;
 }
 p.paragrafo-apos-titulo{
-    margin: -10px 0px -18px 0px;
-}
-p.link-pra-fora-da-pagina{
-    margin: 10px;
-}
-p.link-pra-fora-da-pagina > a{
-    text-decoration: none;
-    color: rgb(98, 98, 225);
-}
-p.link-pra-fora-da-pagina > a:hover{
-    text-decoration: underline;
-    color: red;
+    padding: 0px 20px 0px 20px;
 }
 footer{
-    background-color: #3f785ed5;
+    background-color: #2b5d68;
+    color: white;
+    padding: 20px 0px 10px 20px;
 }
-footer > p{
-padding: 20px 0px 10px 20px;
+footer > ul > li,p{
+    padding-left: 15px;
 }
-footer > ul > li{
-    padding: 10px;
+footer > img{
+    padding-top: 20px;
+    width: 200px;
 }
 /*FIM - PÁGINAS SECUNDARIAS*/
