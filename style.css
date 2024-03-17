@@ -87,12 +87,12 @@ div.imagem{
 }
 main#main-secundario{
     margin: auto;
-    padding: 0px 20px 0px 20px;
+    padding: 10px 10px 0px 0px;
     color: white;
 }
 main > h1#nome-do-assunto-pagina-secundaria{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 0px;
     font-size: 30px;
 }
 main > h2#nome-do-assunto-secundario-pagina-secundaria{
@@ -126,7 +126,7 @@ div.imagem{
 }
 div.imagem > img{
     border-radius: 20px;
-    width: 300px;
+    width: 215px;
 }
 ul.pagina-secundaria{
     background-color: white;
@@ -153,11 +153,19 @@ footer{
     color: white;
     padding: 20px 0px 10px 20px;
 }
-footer > ul > li,p{
-    padding-left: 15px;
+footer h1{
+    font-size: 20px;
+    padding: 0px 0px 7px 0px;
 }
-footer > img{
-    padding-top: 20px;
+footer > ul > li,p{
+    padding: 0px 0px 20px 15px;
+    font-size: 15px;
+}
+footer > div > img{
     width: 200px;
+    border-radius: 10px;
+}
+footer div{
+    text-align: center;
 }
 /*FIM - PÁGINAS SECUNDARIAS*/
