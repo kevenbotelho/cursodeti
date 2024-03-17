@@ -10,7 +10,7 @@
 }
 /*PÁGINA PRINCIPAL*/
 body#body-principal{
-    background-color: #292c43;
+    background-color: rgb(83, 73, 73);
 }
 main#main-principal{
     margin: auto;
@@ -43,7 +43,7 @@ main#main-principal{
 }
 main > div.caixa-de-assuntos{
     padding: 12px 0px 27px 0px;
-    border: 2px solid wheat;
+    border: 2px solid #dbdbdb;
 }
 main > div > h1.nome-do-assunto{
     font-size: 25px;
@@ -68,7 +68,7 @@ main > div > ol > li > a{
 
 /*PÁGINAS SECUNDÁRIAS*/
 body#body-secundario{
-    background-color: #292c43;
+    background-color: rgb(83, 73, 73);
 }
 header#header-secundario{
     background-color: #2b5d68;
