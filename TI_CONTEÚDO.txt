@@ -1,0 +1,162 @@
+RESUMO DAS AULAS
+
+Curso de TI - 1 avaliação
+
+A Internet
+
+A internet foi criada dps da Segunda Guerra Mundial, no período da Guerra Fria
+[IMAGEM]
+
+Contextualização
+No dia 4 de outubro de 1957 às 7:28 PM, a União Soviética enviou um satélite ao espaço, o Sputnik
+[IMAGEM]
+O presidente dos Estados Unidos da época, Dwight Eisenhower, preocupado com a evolução tecnológica da URSS, fundou um orgão de pesquisas pra guerra, a DARPA, para criarem armas e tecnologias cada vez mais fortes
+[IMAGEM]
+O Sputnik nada mais era do que um teste feito por esse país para recebimento de sinal, porém, os Estados Unidos não sabiam disso.Pensando que era um satélite espião,ficaram com medo de que alguma base militar aliada fosse atacada, pois, todos os dados seriam perdidos. Tendo o que foi dito anteriormente como base, procuraram uma forma de compartilharem dados entre eles, pra caso alguma base for atacada, terem o backup dos dados em outro local. Foi assim então que criaram a ARPANET, em 1969.
+[IMAGEM]
+Inicialmente, ela só conectava quatro pontos (A conexão era via cabo). Esses pontos eram computadores
+
+Primeiros computadores a se conectarem através da ARPANET
+[IMAGEM]
+Computador SDS sigma 7 na Universidade da Califórnia
+[IMAGEM]
+SDS 90 na Universidade de Stanford
+[IMAGEM]
+IBM 370/75 no Centro de matemática de Los Angeles
+[IMAGEM]
+E o DEC PDP-10, o único computador militar da época na Base Militar de Utah
+
+
+Apesar da conexão, como os aparelhos eram de empresas diferentes (SDS, IBM e DEC), eles não podiam se comunicar, pois falavam linguagens diferentes. Pensando nisso, o pessoal da Universidade da Califórnia criaram um protocolo, o NCP
+
+NOTA : Protocolo é como uma linguagem única que todos os computadores podem falar
+
+O NCP, Network Control Protocol, foi o primeiro método de comunicação, sua função era: CASO ALGUM COMPUTADOR QUISESSE CONVERSAR COM OUTRO, A REDE PARAVA DE FUNCIONAR, ERA ESTABELECIDA UMA CONEXÃO ENTRE OS DOIS PONTOS E ERA TRANSMITIDO OS DADOS, QUANDO TERMINAVAM, A REDE VOLTAVA AO NORMAL
+
+Só que com o passar do tempo, esse protocolo passou a ser impraticável com o crescimento da conexão. Com isso, dois pesquisadores, o Robert Kahn, criou o Transfer Control Protocol (TCP), ele visava resolver o problema de ter que parar a rede pra transmitir os dados. Porém, com esse novo método, estava muito difícil de identificar os computadores, então, o Vint Cerf criou o Internetwork Protocol (IP). Sendo assim, tornou-se um protocolo muito importante, o TCP/IP
+
+Com o passar do tempo, a rede foi dividida
+Militar - MILNET
+Científica - NSFNET
+Comerciais
+
+Mesmo com a separação das redes, foi necessária a comunicação entre elas, o que é chamada de Interconnect Working, o que foi se simplificando e virou a Internet
+-------------------------------------------------------------------------
+Primeira Página WEB
+[IMAGEM]
+A primeira página WEB foi criada em 6 de agosto de 1991 por Tim Berners-Lee
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+linha do tempo - WHATSAPP
+
+INFORMATICA BASICA - INTRODUÇÃO - REGINA CECIM
+MANUTENÇÃO DE COMPUTADORES - ELEMENTOS - ALINE OLIVEIRA
+MANUTENÇÃO DE COMPUTADORES - ALINE OLIVEIRA
+APOSTILA DISCIPLINA MANUTENÇÃO DE COMPUTADORES - TEC EM INFORMATICA-AL.OL
+TECNOLOGIAS EMERGENTES - AULA 01
+1º_PARTE_REDE DE COMPUTADORES_PCS_2024
+AULA1_LOGICA DE PROGRAMAÇÃO_P1NS01-2024
+APOSTILA DISCIPLINA MANUTENÇÃO DE COMPUTADORES - TEC EM INFORMATICA
+INTERNET DAS COISAS-IOTDOC-20240304-WA0040 - REDES DE COMPUTADORES I - 2ª PARTE
+AULA02_LÓGICA DE PROGRAMAÇÃO_P1NS01
+
+CLASSROOM
+AULA DE CAPA E FOLHA DE ROSTO
+AULA EXEMPLO 1 E 2 LOGICA DE PROGRAM
+AULA 1 LOGICA DE PROGRAMAÇÃO
+MANUTENÇÃO DE COMPUTADORES
+MANUTENÇÃO DE COMPUTADORES - COMPONENTES
+TECNOLOGIAS EMERGENTES - AULA 1
+TECNOLOGIAS EMERGENTES - AULA 2
+REGRAS ABNT
+TIPOS DE MANUTENÇÃO DE COMPUTADORES
+AULA 02 - TENDENCIAS - WEB 3.0
+2ª PARTE- REDES DE COMPUTADORES_PCS_2024
+MANUTENÇÃO DE COMPUTADORES - PRATICAS CONTEMPORANEAS
+TECNOLOGIAS EMERGENTES - AULA 03 - INTERNET DAS COISAS - IOT
+TECNOLOGIAS EMERGENTES-AULA 4 - BIG DATE
+AULA 03 - PROGRESSIVE WEB APPS (PWAS)
+AULA_WORD_CONFIGURAÇÃO_E_FORMATAÇÃO WORD
+AULA02_LOGICADEPROGRAMAÇAO
+
+---------------------------------------------------------------------------
+ORDEM DE ASSUNTOS POR ORDEM DAS AULAS
+
+<REDE>
+1º_PARTE_REDE DE COMPUTADORES_PCS_2024
+DOC-20240304-WA0040 - REDES DE COMPUTADORES I - 2ª PARTE
+2ª PARTE- REDES DE COMPUTADORES_PCS_2024
+2ª PARTE- REDES DE COMPUTADORES_PCS_2024
+</REDE>
+
+<LOGICA>
+AULA1_LOGICA DE PROGRAMAÇÃO_P1NS01-2024
+AULA02_LÓGICA DE PROGRAMAÇÃO_P1NS01
+AULA EXEMPLO 1 E 2 LOGICA DE PROGRAM
+AULA 1 LOGICA DE PROGRAMAÇÃO
+AULA02_LOGICADEPROGRAMAÇAO
+</LOGICA>
+
+<WEB>
+   AULA 03 - PROGRESSIVE WEB APPS (PWAS)
+</WEB>
+
+<GESTAO>
+   NADA AQUI:(
+</GESTAO>
+
+<INFORMAICA>
+INFORMATICA BASICA - INTRODUÇÃO - REGINA CECIM
+AULA DE CAPA E FOLHA DE ROSTO
+REGRAS ABNT
+SISTEMAS OPERACIONAIS
+AULA_WORD_CONFIGURAÇÃO_E_FORMATAÇÃO WORD
+</INFORMATICA>
+
+<MANUTENÇAO>
+MANUTENÇÃO DE COMPUTADORES - ELEMENTOS - ALINE OLIVEIRA
+MANUTENÇÃO DE COMPUTADORES - ALINE OLIVEIRA
+APOSTILA DISCIPLINA MANUTENÇÃO DE COMPUTADORES - TEC EM INFORMATICA-AL.OL
+MANUTENÇÃO DE COMPUTADORES
+MANUTENÇÃO DE COMPUTADORES - COMPONENTES
+TIPOS DE MANUTENÇÃO DE COMPUTADORES
+MANUTENÇÃO DE COMPUTADORES - PRATICAS CONTEMPORANEAS
+</MANUTENÇAO>
+
+
+<TECNOLOGIAS EMERGENTES>
+TECNOLOGIAS EMERGENTES - AULA 01
+INTERNET DAS COISAS-IOT
+TECNOLOGIAS EMERGENTES - AULA 1
+TECNOLOGIAS EMERGENTES - AULA 2
+AULA 02 - TENDENCIAS - WEB 3.0
+TECNOLOGIAS EMERGENTES - AULA 03 - INTERNET DAS COISAS - IOT
+TECNOLOGIAS EMERGENTES-AULA 4 - BIG DATE
+</TECNOLOGIAS EMERGENTES>
+
+
+------------------------------------------------------------
+<div class="caixa-de-assuntos">
+            <h1 class="nome-do-assunto"></h1>
+            <ol>
+                <li type="disc" class="lista-de-assunto"><a href=""></a></li>
+                <li type="disc" class="lista-de-assunto"><a href=""></a></li>
+                <li type="disc" class="lista-de-assunto"><a href=""></a></li>
+                <li type="disc" class="lista-de-assunto"><a href=""></a></li>
+            </ol>
+        </div>

@@ -130,6 +130,14 @@ div.imagem > img{
     border-radius: 20px;
     width: 215px;
 }
+div.imagem-especial-fluxo{
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+}
+div.imagem-especial-fluxo > img{
+    border-radius: 20px;
+    width: 230px;
+}
 ul.pagina-secundaria{
     background-color: white;
     color: black;
@@ -142,13 +150,27 @@ ul.pagina-secundaria > li{
     padding-bottom: 10px;
     list-style-position: inside;
 }
+ul.pagina-secundaria p{
+    margin-bottom: -10px;
+}
 h2.topicos-pagina-secundaria{
     font-size: 27px;
     padding-bottom: 7px;
     padding: 0px 20px 5px 20px;
 }
+ul.pagina-secundaria > h3{
+    font-size: 18px;
+}
+ul.ul-exemplo{
+    font-weight: bold;
+    background-color: rgba(76, 189, 140, 0.677);
+    margin-top: -5px;
+}
 p.paragrafo-apos-titulo{
     padding: 0px 20px 0px 20px;
+}
+p.exemplo{
+    color: red;
 }
 footer{
     background-color: #2b5d68;
