@@ -138,29 +138,6 @@ div.imagem-especial-fluxo > img{
     border-radius: 20px;
     width: 200px;
 }
-div.post-it-01{
-    background-color: rgba(86, 115, 177, 0.793);
-    color: black;
-    padding: 10px;
-    text-align: justify;
-    border-radius: 20px;
-    margin: 20px;
-    border: 1px solid black;
-}
-div.post-it-02{   
-    background-color: rgba(86, 177, 119, 0.793);
-    color: black;
-    padding: 10px;
-    text-align: justify;
-    border-radius: 20px;
-    margin: 20px;
-    border: 1px solid black;
-}
-div.post-it-02 > p , div.post-it-01 > p{
-    background-color: white; 
-    border-radius: 20px; 
-    padding: 20px;
-}
 ul.pagina-secundaria{
     background-color: white;
     color: black;
@@ -178,9 +155,9 @@ ul.pagina-secundaria p{
 }
 h2.topicos-pagina-secundaria{
     text-align: left;
-    font-size: 27px;
+    font-size: 25px;
     padding-bottom: 7px;
-    padding: 0px 20px 5px 20px;
+    padding: 0px 20px 10px 20px;
 }
 ul.pagina-secundaria > h3{
     font-size: 18px;
