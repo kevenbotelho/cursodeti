@@ -73,6 +73,11 @@ body#body-secundario{
 header#header-secundario{
     background-color: #2b5d68;
 }
+main#main-secundario{
+    margin: auto;
+    padding: 10px 0px 0px 0px;
+    color: white;
+}
 header > h1#titulo-principal-pagina-secundaria{
     color: rgb(214, 214, 214);
     text-align: center;
@@ -83,15 +88,12 @@ img#imagem-principal-pagina-secundaria{
     display: block;
     margin: auto;
     border-radius: 20px;
+    border: none;
 }
 div.imagem{
     padding: 20px 0px 0px 0px;
 }
-main#main-secundario{
-    margin: auto;
-    padding: 10px 0px 0px 0px;
-    color: white;
-}
+
 main > h1#nome-do-assunto-pagina-secundaria{
     text-align: center;
     padding-top: 0px;
@@ -111,7 +113,7 @@ p.pagina-secundaria{
     padding: 0px 20px 10px 20px;
     line-height: 1.5em;
 }
-ul > div#imagens-centrais >img{
+ul > div#imagens-centrais img{
     width: 150px;
     display:inline-block;
     margin: auto;
@@ -126,9 +128,10 @@ div.imagem{
     text-align: center;
     padding: 0px 0px 10px 0px;
 }
-div.imagem > img{
+div.imagem img{
     border-radius: 20px;
     width: 215px;
+    border: 1px solid black;
 }
 div.imagem-especial-fluxo{
     text-align: center;
@@ -145,14 +148,14 @@ ul.pagina-secundaria{
     text-align: justify;
     border-radius: 20px;
     margin: 20px;
+    box-shadow: 2px 2px 5px rgba(28, 27, 27, 0.64);
+
 }
 ul.pagina-secundaria > li{
     padding-bottom: 10px;
     list-style-position: inside;
 }
-ul.pagina-secundaria p{
-    margin-bottom: -10px;
-}
+
 h2.topicos-pagina-secundaria{
     text-align: left;
     font-size: 25px;
@@ -164,9 +167,11 @@ ul.pagina-secundaria > h3{
 }
 ul.ul-exemplo{
     font-weight: bold;
-    background-color: rgba(185, 176, 131, 0.677);
+    background-color: white;
     margin-top: -5px;
     margin: auto;
+    box-shadow: none;
+    border: 1px solid black;
 }
 p.paragrafo-apos-titulo{
     padding: 0px 20px 0px 20px;
@@ -174,6 +179,10 @@ p.paragrafo-apos-titulo{
 p.exemplo{
     color: black;
 }
+div img#quiz{
+    border-radius: 50%;
+}
+
 footer{
     background-color: #2b5d68;
     color: white;
@@ -183,9 +192,12 @@ footer h1{
     font-size: 20px;
     padding: 0px 0px 7px 0px;
 }
-footer > ul > li,p{
+footer > p{
     padding: 0px 0px 20px 15px;
     font-size: 15px;
 }
-
+footer > ul > li{
+    padding: 0px 0px 20px 15px;
+    font-size: 15px;
+}
 /*FIM - PÁGINAS SECUNDARIAS*/
