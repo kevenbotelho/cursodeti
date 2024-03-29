@@ -103,6 +103,10 @@ main > h2#nome-do-assunto-secundario-pagina-secundaria{
     color: rgb(7, 156, 129);
     padding: 0px 0px 15px 0px;
 }
+a#link-titulo{
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+}
 /*FIM-TITULOS*/
 
 /*IMAGENS*/
@@ -194,7 +198,8 @@ div img#quiz{
     border-radius: 50%;
 }
 p#teste-de-conhecimento{
-    padding-left: 20px;
+    text-align: center;
+    font-size: 19px;
 }
 /*QUIZ*/
 
@@ -207,14 +212,20 @@ footer{
 footer h1{
     font-size: 20px;
     padding: 0px 0px 7px 0px;
+    text-shadow: 3px 4px 5px rgb(44, 44, 44);
+    
 }
 footer > p{
     padding: 0px 0px 20px 15px;
     font-size: 15px;
+    text-shadow: 3px 4px 5px rgb(44, 44, 44);
+    
 }
 footer > ul > li{
     padding: 0px 0px 20px 15px;
     font-size: 15px;
+    text-shadow: 3px 4px 5px rgb(44, 44, 44);
+    
 }
 /*FOOTER*/
 /*FIM - PÁGINAS SECUNDARIAS*/
