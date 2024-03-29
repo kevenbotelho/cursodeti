@@ -8,7 +8,9 @@
     padding: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 /*PÁGINA PRINCIPAL*/
+/*PRIMORDIAIS*/
 body#body-principal{
     background-color: #292c43;
 }
@@ -23,26 +25,15 @@ main#main-principal{
 header#cabecalho-pagina-principal{
     background-color: #2b5d68;
 }
+/*FIM-PRIMORDIAIS*/
 header > h1#titulo-principal-pagina-principal{
     color: rgb(214, 214, 214);
     text-align: center;
     font-size: 27px;
     padding: 10px 0px 10px 20px;
 }
-header > h1#titulo-principal-pagina-secundaria{
-    color: rgb(214, 214, 214);
-    text-align: center;
-}
-main#main-principal{
-    margin: auto;
-    max-width: 550px;
-    min-width: 270px;
-    border: 1px solid gray;
-    border-top: none;
-    color: white;
-}
 main > div.caixa-de-assuntos{
-    padding: 12px 0px 27px 0px;
+    padding: 15px 0px 30px 0px;
     border: 2px solid #dbdbdb;
 }
 main > div > h1.nome-do-assunto{
@@ -67,6 +58,7 @@ main > div > ol > li > a{
 
 
 /*PÁGINAS SECUNDÁRIAS*/
+/*PRIMORDIAIS*/
 body#body-secundario{
     background-color: #292c43;
 }
@@ -78,22 +70,26 @@ main#main-secundario{
     padding: 10px 0px 0px 0px;
     color: white;
 }
+footer{
+    background-color: #2b5d68;
+    color: white;
+    padding: 20px 0px 10px 20px;
+}
+/*FIM-PRIMORDIAIS*/
+
+/*TITULOS*/
 header > h1#titulo-principal-pagina-secundaria{
     color: rgb(214, 214, 214);
     text-align: center;
     padding: 10px 0px 10px 0px;
     font-size: 27px;
 }
-img#imagem-principal-pagina-secundaria{
-    display: block;
-    margin: auto;
-    border-radius: 20px;
-    border: none;
+h2.topicos-pagina-secundaria{
+    text-align: left;
+    font-size: 25px;
+    padding-bottom: 7px;
+    padding: 0px 20px 10px 20px;
 }
-div.imagem{
-    padding: 20px 0px 0px 0px;
-}
-
 main > h1#nome-do-assunto-pagina-secundaria{
     text-align: center;
     padding-top: 0px;
@@ -107,22 +103,14 @@ main > h2#nome-do-assunto-secundario-pagina-secundaria{
     color: rgb(7, 156, 129);
     padding: 0px 0px 15px 0px;
 }
-p.pagina-secundaria{
-    text-align: justify;
-    text-indent: 0px;
-    padding: 0px 20px 10px 20px;
-    line-height: 1.5em;
-}
-ul > div#imagens-centrais img{
-    width: 150px;
-    display:inline-block;
+/*FIM-TITULOS*/
+
+/*IMAGENS*/
+img#imagem-principal-pagina-secundaria{
+    display: block;
     margin: auto;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-div#imagens-centrais{
-    text-align: center;
-    padding-bottom: 10px;
+    border-radius: 20px;
+    border: none;
 }
 div.imagem{
     text-align: center;
@@ -133,6 +121,13 @@ div.imagem img{
     width: 215px;
     border: 1px solid black;
 }
+ul > div#imagens-centrais img{
+    width: 150px;
+    display:inline-block;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+}
 div.imagem-especial-fluxo{
     text-align: center;
     padding: 0px 0px 10px 0px;
@@ -141,6 +136,25 @@ div.imagem-especial-fluxo > img{
     border-radius: 20px;
     width: 200px;
 }
+
+div#imagens-centrais{
+    text-align: center;
+    padding-bottom: 10px;
+}
+/*FIM-IMAGENS*/
+
+/*PARAGRAFOS*/
+p.pagina-secundaria{
+    text-align: justify;
+    padding: 0px 20px 10px 20px;
+    line-height: 1.5em;
+}
+p.paragrafo-apos-titulo{
+    padding: 0px 20px 0px 20px;;
+}
+/*FIM-PARAGRAFOS*/
+
+/*PARTE BRANCA*/
 ul.pagina-secundaria{
     background-color: white;
     color: black;
@@ -149,21 +163,17 @@ ul.pagina-secundaria{
     border-radius: 20px;
     margin: 20px;
     box-shadow: 2px 2px 5px rgba(28, 27, 27, 0.64);
-
 }
 ul.pagina-secundaria > li{
     padding-bottom: 10px;
     list-style-position: inside;
 }
+/*FIM-PARTE BRANCA*/
 
-h2.topicos-pagina-secundaria{
-    text-align: left;
-    font-size: 25px;
-    padding-bottom: 7px;
-    padding: 0px 20px 10px 20px;
-}
-ul.pagina-secundaria > h3{
-    font-size: 18px;
+
+/*LOGICA*/
+p.exemplo{
+    color: black;
 }
 ul.ul-exemplo{
     font-weight: bold;
@@ -173,16 +183,22 @@ ul.ul-exemplo{
     box-shadow: none;
     border: 1px solid black;
 }
-p.paragrafo-apos-titulo{
-    padding: 0px 20px 0px 20px;
+ul.pagina-secundaria > h3{
+    font-size: 18px;
 }
-p.exemplo{
-    color: black;
-}
+
+/*LOGICA*/
+
+/*QUIZ*/
 div img#quiz{
     border-radius: 50%;
 }
+p#teste-de-conhecimento{
+    padding-left: 20px;
+}
+/*QUIZ*/
 
+/*FOOTER*/
 footer{
     background-color: #2b5d68;
     color: white;
@@ -200,4 +216,6 @@ footer > ul > li{
     padding: 0px 0px 20px 15px;
     font-size: 15px;
 }
+/*FOOTER*/
+
 /*FIM - PÁGINAS SECUNDARIAS*/
