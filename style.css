@@ -16,10 +16,7 @@ body#body-principal{
 }
 main#main-principal{
     margin: auto;
-    max-width: 600px;
-    min-width: 270px;
-    border: 1px solid gray;
-    border-top: none;
+    width: 100%;
     color: white;
 }
 header#cabecalho-pagina-principal{
@@ -29,8 +26,8 @@ header#cabecalho-pagina-principal{
 header > h1#titulo-principal-pagina-principal{
     color: rgb(214, 214, 214);
     text-align: center;
-    font-size: 27px;
-    padding: 10px 0px 10px 20px;
+    font-size: 22px;
+    padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
 }
 main > div.caixa-de-assuntos{
@@ -83,8 +80,8 @@ footer{
 header > h1#titulo-principal-pagina-secundaria{
     color: rgb(214, 214, 214);
     text-align: center;
-    padding: 10px 0px 10px 0px;
-    font-size: 27px;
+    font-size: 22px;
+    padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
 }
 h2.topicos-pagina-secundaria{
@@ -169,9 +166,12 @@ p.paragrafo-apos-titulo{
 ul.pagina-secundaria{
     background-color: white;
     color: black;
+    max-width: 600px;
+    min-width: 280px;
     padding: 20px;
     text-align: justify;
     border-radius: 20px;
+    border: 1px solid black;
     margin: 20px;
     box-shadow: 2px 2px 5px rgba(28, 27, 27, 0.64);
 }
@@ -185,6 +185,7 @@ ul.pagina-secundaria > li{
 /*LOGICA*/
 p.exemplo{
     color: black;
+    padding-bottom: 7px;
 }
 ul.ul-exemplo{
     font-weight: bold;
@@ -193,6 +194,7 @@ ul.ul-exemplo{
     margin: auto;
     box-shadow: none;
     border: 1px solid black;
+    margin-bottom: 10px;
 }
 ul.pagina-secundaria > h3{
     font-size: 18px;
@@ -209,6 +211,7 @@ div img#quiz{
 p#teste-de-conhecimento{
     text-align: center;
     font-size: 19px;
+    font-variant: small-caps;
 }
 /*QUIZ*/
 
