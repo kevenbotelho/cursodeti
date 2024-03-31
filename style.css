@@ -166,8 +166,10 @@ p.paragrafo-apos-titulo{
 ul.pagina-secundaria{
     background-color: white;
     color: black;
-    max-width: 600px;
+    /*
+    max-width: 700px;
     min-width: 280px;
+    */
     padding: 20px;
     text-align: justify;
     border-radius: 20px;
