@@ -16,8 +16,11 @@ body#body-principal{
 }
 main#main-principal{
     margin: auto;
-    width: 100%;
+    max-width: 700px;
+    min-width: 280px;
     color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 header#cabecalho-pagina-principal{
     background-color: #2b5d68;
@@ -32,7 +35,7 @@ header > h1#titulo-principal-pagina-principal{
 }
 main > div.caixa-de-assuntos{
     padding: 15px 0px 30px 0px;
-    border: 2px solid #dbdbdb;
+    border: 1px solid #dbdbdb;
 }
 main > div > h1.nome-do-assunto{
     font-size: 25px;
@@ -52,7 +55,12 @@ main > div > ol > li > a{
     color: white;
     text-decoration: none;
 }
-
+#rede-de-computadores{
+    border-radius: 10px 10px 0px 0px;
+}
+#tecnologias-emergentes{
+    border-radius: 0px 0px 10px 10px;
+}
 /*FIM - PÁGINA PRINCIPAL*/
 
 
@@ -63,13 +71,19 @@ body#body-secundario{
 }
 header#header-secundario{
     background-color: #2b5d68;
+    margin-bottom: 10px;
 }
 main#main-secundario{
     margin: auto;
+    max-width: 700px;
+    min-width: 280px;
     padding: 10px 0px 0px 0px;
     color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
 }
 footer{
+    margin-top: 10px;
     background-color: #2b5d68;
     color: white;
     padding: 20px 0px 10px 20px;
@@ -82,20 +96,17 @@ header > h1#titulo-principal-pagina-secundaria{
     text-align: center;
     font-size: 22px;
     padding: 5px 0px 5px 0px;
-    text-shadow: 1px 2px 5px rgb(71, 71, 71);
 }
 h2.topicos-pagina-secundaria{
     text-align: left;
     font-size: 25px;
     padding-bottom: 7px;
-    padding: 0px 20px 10px 20px;
-    text-shadow: 3px 4px 5px rgb(44, 44, 44);
+    padding: 0px 0px 10px 20px;
 }
 main > h1#nome-do-assunto-pagina-secundaria{
     text-align: center;
     padding-top: 0px;
     font-size: 30px;
-    text-shadow: 3px 4px 5px rgb(44, 44, 44);
 }
 main > h2#nome-do-assunto-secundario-pagina-secundaria{
     margin-top: -3px;
@@ -104,7 +115,6 @@ main > h2#nome-do-assunto-secundario-pagina-secundaria{
     font-family: 'Raleway';
     color: rgb(7, 156, 129);
     padding: 0px 0px 15px 0px;
-    text-shadow: 3px 4px 5px rgb(44, 44, 44);
 }
 a#link-titulo{
     text-decoration: none;
@@ -155,7 +165,6 @@ p.pagina-secundaria{
     text-align: justify;
     padding: 0px 20px 10px 20px;
     line-height: 1.5em;
-    text-shadow: 3px 4px 5px rgb(44, 44, 44);
 }
 p.paragrafo-apos-titulo{
     padding: 0px 20px 0px 20px;;
@@ -175,7 +184,7 @@ ul.pagina-secundaria{
     border-radius: 20px;
     border: 1px solid black;
     margin: 20px;
-    box-shadow: 2px 2px 5px rgba(28, 27, 27, 0.64);
+    box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
 }
 ul.pagina-secundaria > li{
     padding-bottom: 10px;
@@ -199,7 +208,9 @@ ul.ul-exemplo{
     margin-bottom: 10px;
 }
 ul.pagina-secundaria > h3{
+    padding: 10px 0px 10px 0px;
     font-size: 18px;
+    margin-left: -10px;
 }
 
 /*LOGICA*/
@@ -226,19 +237,19 @@ footer{
 footer h1{
     font-size: 20px;
     padding: 0px 0px 7px 0px;
-    text-shadow: 3px 4px 5px rgb(44, 44, 44);
+    text-shadow: 1px 2px 5px rgb(44, 44, 44);
     
 }
 footer > p{
     padding: 0px 0px 20px 15px;
     font-size: 15px;
-    text-shadow: 3px 4px 5px rgb(44, 44, 44);
+    text-shadow: 1px 2px 5px rgb(44, 44, 44);
     
 }
 footer > ul > li{
     padding: 0px 0px 20px 15px;
     font-size: 15px;
-    text-shadow: 3px 4px 5px rgb(44, 44, 44);
+    text-shadow: 1px 2px 5px rgb(44, 44, 44);
     
 }
 /*FOOTER*/
