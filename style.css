@@ -16,11 +16,8 @@ body#body-principal{
 }
 main#main-principal{
     margin: auto;
-    max-width: 700px;
-    min-width: 280px;
+    width: auto;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 header#cabecalho-pagina-principal{
     background-color: #2b5d68;
@@ -71,19 +68,14 @@ body#body-secundario{
 }
 header#header-secundario{
     background-color: #2b5d68;
-    margin-bottom: 10px;
 }
 main#main-secundario{
     margin: auto;
-    max-width: 700px;
-    min-width: 280px;
+    width: auto;
     padding: 10px 0px 0px 0px;
     color: white;
-    border: 1px solid #dbdbdb;
-    border-radius: 10px;
 }
 footer{
-    margin-top: 10px;
     background-color: #2b5d68;
     color: white;
     padding: 20px 0px 10px 20px;
@@ -91,7 +83,7 @@ footer{
 /*FIM-PRIMORDIAIS*/
 
 /*TITULOS*/
-header > h1#titulo-principal-pagina-secundaria{
+header h1#titulo-principal-pagina-secundaria{
     color: rgb(214, 214, 214);
     text-align: center;
     font-size: 22px;
@@ -138,7 +130,7 @@ div.imagem img{
     width: 215px;
     border: 1px solid black;
 }
-ul > div#imagens-centrais img{
+ div#imagens-centrais img{
     width: 150px;
     display:inline-block;
     margin: auto;
@@ -186,8 +178,9 @@ ul.pagina-secundaria{
     margin: 20px;
     box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
 }
-ul.pagina-secundaria > li{
+ul.pagina-secundaria  li{
     padding-bottom: 10px;
+    padding-top: 10px;
     list-style-position: inside;
 }
 /*FIM-PARTE BRANCA*/
@@ -208,13 +201,19 @@ ul.ul-exemplo{
     margin-bottom: 10px;
 }
 ul.pagina-secundaria > h3{
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 5px 0px;
     font-size: 18px;
     margin-left: -10px;
 }
 
 /*LOGICA*/
 
+/*TECNOLOGIAS WEB*/
+ul.lista-dentro-da-lista{
+    padding-left: 20px;
+}
+
+/*FIM-TECNOLOGIAS WEB*/
 /*QUIZ*/
 div img#quiz{
     border-radius: 50px;
@@ -225,6 +224,11 @@ p#teste-de-conhecimento{
     text-align: center;
     font-size: 19px;
     font-variant: small-caps;
+    text-transform: uppercase;
+}
+p#teste-de-conhecimento > a{
+    text-decoration: none;
+    color: #72e75d;
 }
 /*QUIZ*/
 
