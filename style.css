@@ -59,7 +59,10 @@ main > div > ol > li > a{
     border-radius: 0px 0px 10px 10px;
 }
 /*FIM - PÁGINA PRINCIPAL*/
-
+a{
+    color: black;
+    text-decoration: underline 2px;
+}
 
 /*PÁGINAS SECUNDÁRIAS*/
 /*PRIMORDIAIS*/
@@ -214,6 +217,7 @@ ul.lista-dentro-da-lista{
 }
 
 /*FIM-TECNOLOGIAS WEB*/
+
 /*QUIZ*/
 div img#quiz{
     border-radius: 50px;
