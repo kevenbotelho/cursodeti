@@ -195,6 +195,7 @@ p.exemplo{
     padding-bottom: 7px;
 }
 ul.ul-exemplo{
+    text-align: center;
     font-weight: bold;
     background-color: white;
     margin-top: -5px;
