@@ -5,8 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lógica de Programação 02</title>
     <link rel="shortcut icon" href="../../imagens/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../style.css">
 </head>
-<body>
-    
+<body id="body-secundario">
+    <header id="header-secundario">
+        <h1 id="titulo-principal-pagina-secundaria"><a id="link-titulo" href="../../index.html" target="_self">Lógica de Programação - 02</a></h1>
+    </header>
+    <main id="main-secundario">
+        <div class="imagem">
+            <img id="imagem-principal-pagina-secundaria" src="https://cdn.openwebinars.net/media/featured_images/-blog-que-es-pseudocodigo.jpg" alt="">
+        </div>
+        <h1 id="nome-do-assunto-pagina-secundaria">Técnicas de Programação</h1>
+        <h2 class="topicos-pagina-secundaria">Constante</h2>
+        <p class="pagina-secundaria">É um valor fixo, que não se altera ao longo do programa. Por exemplo, você pode definir uma constante chamada "PI" com o valor 3.14159. Mesmo que o programa faça cálculos com esse valor, ele permanecerá constante e não será alterado.</p>
+        <h2 class="topicos-pagina-secundaria">Variável</h2>
+        <p class="pagina-secundaria">Cada variável corresponde a uma posição de memória, cujo conteúdo pode ser alterado ao longo do tempo durante a execução de um programa. embora uma variável possa assumir diferentes valores, ela só pode armazenar um valor a cada  instante.</p>
+        <pre>
+            <span>1</span>  | Algoritmo Volume_Lata_de_Óleo;
+            <span>2</span>  | {Algoritmo para saber o volume da lata de óleo}
+            <span>3</span>  | Constantes PI = 3.14159;
+            <span>4</span>  | Var vol, r, a : Real;
+
+            <span>5</span>  | Início
+            <span>6</span>  |    <abbr title="Serve pro computador escrever algo na tela e o usuário responder">Escreva</abbr>("Informe o raio da lata de óleo: ");
+            <span>7</span>  |    <abbr title="Serve pro computador guardar tal informação pra ser usada mais tarde">Leia</abbr>(r);
+            <span>8</span>  |    Escreva("Informe a altura da lata de óleo");
+            <span>9</span>  |    Leia(a);
+            <span>10</span>|    <abbr title="Essa palavra vai guardar a informação dada a ela">vol</abbr> = (PI * (r^2)* a);
+            <span>11</span>|    Escreva("O resultado final é de: ", <abbr title="Irá mostrar a informação dada a ela que anteriormente foi guardada">vol </abbr>);
+            <span>12</span>|  Fim
+        </pre>
+
+        <div class="botao">
+            <a href="logica-de-programacao-aula-01.html"><button>Aula Anterior</button></a>
+            <a href="logica-de-programacao-aula-03.html"><button>Próxima Aula</button></a>
+        </div>
+    </main>
 </body>
 </html>

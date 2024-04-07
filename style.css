@@ -187,8 +187,9 @@ ul.pagina-secundaria  li{
     list-style-position: inside;
 }
 /*FIM-PARTE BRANCA*/
-
-
+a{
+    color: rgb(94, 222, 220);
+}
 /*LOGICA*/
 p.exemplo{
     color: black;
@@ -209,7 +210,19 @@ ul.pagina-secundaria > h3{
     font-size: 18px;
     margin-left: -10px;
 }
-
+button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(86, 156, 159);
+    color: black;
+    font-size: 10px;
+    margin: 0px 10px 0px 0px;
+}
+div.botao{
+    display: flex;
+    justify-content: center;
+    
+}
 /*LOGICA*/
 
 /*TECNOLOGIAS WEB*/
@@ -227,6 +240,19 @@ p.resumo{
     padding: 10px;
     border-radius: 5px;
     margin: 10px 20px 10px 20px;
+}
+pre{
+    background-color: rgba(37, 37, 37, 0.95);
+    color: rgb(188, 99, 67);
+    padding: 15px 10px 0px 10px;
+}
+span{
+    color: rgba(255, 255, 255, 0.587);
+}
+abbr{
+    color: rgba(38, 241, 227, 0.584);
+    text-decoration: underline;
+    text-decoration-color: rgba(38, 85, 241, 0.898);
 }
 
 /*QUIZ*/
