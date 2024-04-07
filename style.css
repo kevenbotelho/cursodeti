@@ -74,7 +74,7 @@ header#header-secundario{
 }
 main#main-secundario{
     margin: auto;
-    width: auto;
+    width: 100%;
     padding: 10px 0px 0px 0px;
     color: white;
 }
@@ -100,7 +100,7 @@ h2.topicos-pagina-secundaria{
 }
 main > h1#nome-do-assunto-pagina-secundaria{
     text-align: center;
-    padding-top: 0px;
+    padding: 0px 0px 7px 0px;
     font-size: 30px;
 }
 main > h2#nome-do-assunto-secundario-pagina-secundaria{
@@ -221,7 +221,7 @@ button{
 div.botao{
     display: flex;
     justify-content: center;
-    
+    padding-bottom: 5px;
 }
 /*LOGICA*/
 
@@ -245,6 +245,8 @@ pre{
     background-color: rgba(37, 37, 37, 0.95);
     color: rgb(188, 99, 67);
     padding: 15px 10px 0px 10px;
+    /*dvi  dvw lvi lvw svi*/
+    font-size: 3vmin;
 }
 span{
     color: rgba(255, 255, 255, 0.587);
@@ -254,7 +256,19 @@ abbr{
     text-decoration: underline;
     text-decoration-color: rgba(38, 85, 241, 0.898);
 }
-
+div.branco{
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
+}
+ul.lista-dentro-da-lista > li{
+    line-height: 30px;
+}
 /*QUIZ*/
 div img#quiz{
     border-radius: 50px;
