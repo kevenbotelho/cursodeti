@@ -74,7 +74,8 @@ header#header-secundario{
 }
 main#main-secundario{
     margin: auto;
-    width: 100%;
+    max-width: 700px;
+    min-width: none;
     padding: 10px 0px 0px 0px;
     color: white;
 }
@@ -125,12 +126,14 @@ img#imagem-principal-pagina-secundaria{
     border: none;
 }
 div.imagem{
-    text-align: center;
-    padding: 0px 0px 10px 0px;
+    max-width: 300px;
+    min-width: 50px;
+    margin: auto;
+    padding: 0px 5px 10px 5px;
 }
 div.imagem img{
     border-radius: 20px;
-    width: 215px;
+    width: 100%;
     border: 1px solid black;
 }
  div#imagens-centrais img{
@@ -271,8 +274,10 @@ ul.lista-dentro-da-lista > li{
 }
 /*QUIZ*/
 div img#quiz{
+    max-width: 200px;
+    min-width: 100px;
+    margin-left: 42px;
     border-radius: 50px;
-    width: 180px;
     background-color: red;
 }
 p#teste-de-conhecimento{
