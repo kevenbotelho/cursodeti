@@ -309,6 +309,7 @@ footer > ul > li{
     padding: 0px 0px 20px 15px;
     font-size: 15px;
     text-shadow: 1px 2px 5px rgb(44, 44, 44);
+    list-style-type: none;
     
 }
 /*FOOTER*/
