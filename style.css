@@ -74,7 +74,7 @@ header#header-secundario{
 }
 main#main-secundario{
     margin: auto;
-    max-width: 700px;
+    max-width: 1000px;
     min-width: none;
     padding: 10px 0px 0px 0px;
     color: white;
@@ -165,7 +165,8 @@ p.pagina-secundaria{
     line-height: 1.5em;
 }
 p.paragrafo-apos-titulo{
-    padding: 0px 20px 0px 20px;;
+    padding: 0px 20px 0px 20px;
+    margin-top: -10px;
 }
 /*FIM-PARAGRAFOS*/
 
@@ -250,9 +251,6 @@ pre{
     padding: 15px 10px 0px 10px;
     /*dvi  dvw lvi lvw svi*/
     font-size: 3vmin;
-}
-span{
-    color: rgba(255, 255, 255, 0.587);
 }
 abbr{
     color: rgba(38, 241, 227, 0.584);
