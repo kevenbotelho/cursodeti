@@ -244,12 +244,6 @@ p.resumo{
     border-radius: 5px;
 }
 /*FIM-TECNOLOGIAS WEB*/
-.resumo-2{
-    background-color: rgb(172, 172, 172);
-    padding: 10px;
-    border-radius: 5px;
-    margin: 10px 20px 10px 20px;
-}
 abbr{
     color: rgba(38, 241, 227, 0.584);
     text-decoration: underline;
