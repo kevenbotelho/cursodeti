@@ -6,6 +6,21 @@
     <title>Lógica de Programação</title>
     <link rel="shortcut icon" href="../../imagens/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../../style.css">
+    <style>
+        ul.lista-dentro-da-lista{
+            padding-left: 20px;
+        }
+        
+        pre{
+            background-color: rgba(37, 37, 37, 0.95);
+            color: rgb(188, 99, 67);
+            padding: 15px 10px 0px 10px;
+            border-radius: 20px;
+            /*dvi  dvw lvi lvw svi*/
+            font-size: 3vmin;
+            margin: 20px;
+        }
+    </style>
 </head>
 <body id="body-secundario">
     <header id="header-secundario">
@@ -38,34 +53,30 @@
         <h2 class="topicos-pagina-secundaria" style="padding-top: 20px; margin-bottom: -20px;">Tipos de Variáveis</h2>
         <ul class="pagina-secundaria">
             <li>Numéricos</li>
-            <li>Caracteres: </li>
-            <li>AlfaNuméricos</li>
-            <li>Lógicas</li>
+                <ul class="lista-dentro-da-lista">
+                    <li>Inteiro</li>
+                        <ul class="lista-dentro-da-lista">
+                            <li>São usadas para armazenar números inteiros, ou seja, números sem parte fracionária.</li>
+                            <li>Podem ser positivos, negativos ou zero.</li>
+                            <li>Exemplos: -5, 0, 10, 1000.</li>
+                        </ul>
+                    <li>Real</li>
+                        <ul class="lista-dentro-da-lista">
+                            <li>Também conhecidas como números de ponto flutuante ou números decimais.</li>
+                            <li>Permitem representar números com parte fracionária.</li>
+                            <li>Exemplos: 3.14, -0.5, 1000.99.</li>
+                        </ul>
+                        <p class="resumo" style="text-align: center;"> O ponto "." é usado pra representar a virgula, o ponto decimal</p>
+                </ul>
+                <li>Caracteres </li>
+                <li>AlfaNuméricos</li>
+                <li>Lógicas</li>
         </ul>
-        <h2 class="topicos-pagina-secundaria" style="padding-top: 20px; margin-bottom: -20px;">Tipos de Variáveis</h2>
-        <div class="branco">
-            <p>A variável numérica possui dois tipos</p>
-            <ul class="lista-dentro-da-lista">
-                <li>Inteiro</li>
-                <ul class="lista-dentro-da-lista">
-                    <li>São usadas para armazenar números inteiros, ou seja, números sem parte fracionária.</li>
-                    <li>Podem ser positivos, negativos ou zero.</li>
-                    <li>Exemplos: -5, 0, 10, 1000.</li>
-                </ul>
-                <li>Real</li>
-                <ul class="lista-dentro-da-lista">
-                    <li>Também conhecidas como números de ponto flutuante ou números decimais.</li>
-                    <li>Permitem representar números com parte fracionária.</li>
-                    <li>Exemplos: 3.14, -0.5, 1000.99.</li>
-                </ul>
-            </ul>
-            <p class="resumo" style="text-align: center;"> O ponto "." é usado pra representar a virgula, o ponto decimal</p>
-        </div>
         <h2 class="topicos-pagina-secundaria">Como Fazer um Pseudocódigo</h2>
         <ul class="pagina-secundaria">
-            <li>Comece com <span style="text-transform: uppercase; color: black; "><strong>Algoritmo Nome_do_Algoritmo;</strong></span></li>
-            <p class="resumo"> Não se esqueça que ao todo final de linha de comando tem que usar o ";". Ele serve pra dizer que aquele comando já foi finalizado</p>
-            <li>Explique para que serve o algoritmo dentro de chaves, como <strong><span style="text-transform: uppercase; color: black; ">{Explique para que serve o algoritmo} </span></strong></li>
+            <li>Comece com <span style="text-transform: uppercase; white-space: nowrap; color: black; "><strong>Algoritmo Nome_do_Algoritmo;</strong></span></li>
+            <p class="resumo"> Não se esqueça que ao todo final de linha de comando tem que usar o ";" . Ele serve pra dizer que aquele comando já foi finalizado</p>
+            <li>Explique para que serve o algoritmo dentro de chaves, como <strong><span style="text-transform: uppercase; white-space: nowrap; color: black; ">{Explique para que serve o algoritmo}</span></strong></li>
             <p class="resumo">Lembre-se que a parte da explicação <strong>NÃO</strong> é linha de código, então não leva ";" no final</p>
         </ul>
         <div class="botao">

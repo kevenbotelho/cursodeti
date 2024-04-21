@@ -230,9 +230,7 @@ div.botao{
 /*LOGICA*/
 
 /*TECNOLOGIAS WEB*/
-ul.lista-dentro-da-lista{
-    padding-left: 20px;
-}
+
 p.resumo{
     background-color: rgb(172, 172, 172);
     padding: 10px;
@@ -244,13 +242,6 @@ p.resumo{
     padding: 10px;
     border-radius: 5px;
     margin: 10px 20px 10px 20px;
-}
-pre{
-    background-color: rgba(37, 37, 37, 0.95);
-    color: rgb(188, 99, 67);
-    padding: 15px 10px 0px 10px;
-    /*dvi  dvw lvi lvw svi*/
-    font-size: 3vmin;
 }
 abbr{
     color: rgba(38, 241, 227, 0.584);
