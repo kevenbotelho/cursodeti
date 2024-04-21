@@ -168,6 +168,14 @@ p.paragrafo-apos-titulo{
     padding: 0px 20px 0px 20px;
     margin-top: -10px;
 }
+cite > p > a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
 /*FIM-PARAGRAFOS*/
 
 /*PARTE BRANCA*/
@@ -230,7 +238,6 @@ div.botao{
 /*LOGICA*/
 
 /*TECNOLOGIAS WEB*/
-
 p.resumo{
     background-color: rgb(172, 172, 172);
     padding: 10px;
@@ -248,7 +255,7 @@ abbr{
     text-decoration: underline;
     text-decoration-color: rgba(38, 85, 241, 0.898);
 }
-div.branco{
+.branco{
     background-color: #ffffff;
     color: black;
     padding: 20px;
