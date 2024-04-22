@@ -44,7 +44,7 @@ main > div > ol > li.lista-de-assunto{
     text-align: center;
     font-size: 13px;
     list-style-position: inside;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px 30px 0px;
     text-shadow: 3px 3px 4px rgb(44, 44, 44);
 }
 main > div > ol > li > a{
@@ -126,7 +126,7 @@ img#imagem-principal-pagina-secundaria{
     border: none;
 }
 div.imagem{
-    max-width: 340px;
+    max-width: 480px;
     min-width: 50px;
     margin: auto;
     padding: 0px 5px 10px 5px;
@@ -170,10 +170,8 @@ p.paragrafo-apos-titulo{
 }
 cite > p > a{
     text-decoration: none;
-    display: block;
     text-align: center;
-    margin-top: -20px;
-    padding-bottom: 10px;
+    display: block;
     font-size: 12px;
 }
 /*FIM-PARAGRAFOS*/
