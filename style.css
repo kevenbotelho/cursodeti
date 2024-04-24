@@ -124,12 +124,14 @@ img#imagem-principal-pagina-secundaria{
     margin: auto;
     border-radius: 20px;
     border: none;
+    text-align: center;
 }
 div.imagem{
     max-width: 480px;
     min-width: 50px;
     padding: 0px 5px 10px 5px;
     margin:auto;
+    text-align: center;
 }
 div.imagem img{
     border-radius: 20px;
