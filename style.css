@@ -128,16 +128,12 @@ img#imagem-principal-pagina-secundaria{
 div.imagem{
     max-width: 480px;
     min-width: 50px;
-    margin: auto;
     padding: 0px 5px 10px 5px;
-    text-align: center;
 }
 div.imagem img{
     border-radius: 20px;
     width: 100%;
     border: 1px solid black;
-    margin: auto;
-    text-align: center;
 }
  div#imagens-centrais img{
     width: 150px;
@@ -267,7 +263,7 @@ ul.lista-dentro-da-lista > li{
 div img#quiz{
     max-width: 200px;
     min-width: 100px;
-    margin-left: 42px;
+    margin: auto;
     border-radius: 50px;
     background-color: red;
 }
