@@ -130,11 +130,14 @@ div.imagem{
     min-width: 50px;
     margin: auto;
     padding: 0px 5px 10px 5px;
+    text-align: center;
 }
 div.imagem img{
     border-radius: 20px;
     width: 100%;
     border: 1px solid black;
+    margin: auto;
+    text-align: center;
 }
  div#imagens-centrais img{
     width: 150px;
