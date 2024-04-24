@@ -267,6 +267,7 @@ div img#quiz{
     max-width: 200px;
     min-width: 100px;
     margin: auto;
+    text-align: center;
     border-radius: 50px;
     background-color: red;
 }
