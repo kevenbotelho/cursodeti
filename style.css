@@ -122,6 +122,8 @@ a#link-titulo{
 img#imagem-principal-pagina-secundaria{
     display: block;
     margin: auto;
+    max-width: 480px;
+    min-width: none;
     border-radius: 20px;
     border: none;
     text-align: center;
