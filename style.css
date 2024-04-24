@@ -30,16 +30,16 @@ header > h1#titulo-principal-pagina-principal{
     padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
 }
-main > div.caixa-de-assuntos{
+main > section.caixa-de-assuntos{
     padding: 15px 0px 30px 0px;
     border: 1px solid #dbdbdb;
 }
-main > div > h1.nome-do-assunto{
+main > section > h1.nome-do-assunto{
     color: white;
     text-align: center;
     padding: 0px 0px 12px 0px;
 }
-main > div > ol > li.lista-de-assunto{
+main > section > ol > li.lista-de-assunto{
     font-family: monospace;
     text-align: center;
     font-size: 13px;
@@ -47,7 +47,7 @@ main > div > ol > li.lista-de-assunto{
     padding: 5px 0px 30px 0px;
     text-shadow: 3px 3px 4px rgb(44, 44, 44);
 }
-main > div > ol > li > a{
+main > section > ol > li > a{
     font-size: 15px;
     color: white;
     text-decoration: none;
@@ -129,7 +129,7 @@ img#imagem-principal-pagina-secundaria{
     text-align: center;
 }
 div.imagem{
-    max-width: 480px;
+    max-width: 320px;
     min-width: 50px;
     padding: 0px 5px 10px 5px;
     margin:auto;
@@ -140,8 +140,17 @@ div.imagem img{
     width: 100%;
     border: 1px solid black;
 }
+div#imagens-centrais{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
  div#imagens-centrais img{
-    width: 150px;
+    max-width: 150px;
+    min-width: none;
     display:inline-block;
     margin: auto;
     border-radius: 50%;
@@ -156,10 +165,6 @@ div.imagem-especial-fluxo > img{
     width: 200px;
 }
 
-div#imagens-centrais{
-    text-align: center;
-    padding-bottom: 10px;
-}
 /*FIM-IMAGENS*/
 
 /*PARAGRAFOS*/
@@ -271,7 +276,7 @@ div img#quiz{
     margin: auto;
     text-align: center;
     border-radius: 50px;
-    background-color: red;
+    margin-right: 10px;
 }
 p#teste-de-conhecimento{
     text-align: center;
