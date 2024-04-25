@@ -98,6 +98,10 @@ h2.topicos-pagina-secundaria{
     font-size: 25px;
     padding-bottom: 7px;
     padding: 0px 0px 10px 20px;
+    background-image: linear-gradient(to right, gray, white);
+    border-radius: 10px;
+    padding: 0px 0px 0px 30px;
+    margin-bottom: 10px;
 }
 main > h1#nome-do-assunto-pagina-secundaria{
     text-align: center;
@@ -105,7 +109,7 @@ main > h1#nome-do-assunto-pagina-secundaria{
     font-size: 30px;
 }
 main > h2#nome-do-assunto-secundario-pagina-secundaria{
-    margin-top: -3px;
+    margin-top: -10px;
     text-align: center;
     font-size: 17px;
     font-family: 'Raleway';
@@ -172,16 +176,6 @@ p.pagina-secundaria{
     text-align: justify;
     padding: 0px 20px 10px 20px;
     line-height: 1.5em;
-}
-p.paragrafo-apos-titulo{
-    padding: 0px 20px 0px 20px;
-    margin-top: -10px;
-}
-cite > p > a{
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    font-size: 12px;
 }
 /*FIM-PARAGRAFOS*/
 
@@ -257,14 +251,6 @@ div.botao{
     padding-bottom: 5px;
 }
 /*LOGICA*/
-
-/*TECNOLOGIAS WEB*/
-p.resumo{
-    background-color: rgb(172, 172, 172);
-    padding: 10px;
-    border-radius: 5px;
-}
-/*FIM-TECNOLOGIAS WEB*/
 abbr{
     color: rgba(38, 241, 227, 0.584);
     text-decoration: underline;
