@@ -26,7 +26,6 @@ header#cabecalho-pagina-principal{
 header > h1#titulo-principal-pagina-principal{
     color: rgb(214, 214, 214);
     text-align: center;
-    font-size: 22px;
     padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
 }
@@ -90,8 +89,8 @@ footer{
 header h1#titulo-principal-pagina-secundaria{
     color: rgb(214, 214, 214);
     text-align: center;
-    font-size: 22px;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px px 0px;
+    text-shadow: 1px 2px 5px rgb(71, 71, 71);
 }
 h2.topicos-pagina-secundaria{
     text-align: left;
@@ -117,6 +116,7 @@ main > h2#nome-do-assunto-secundario-pagina-secundaria{
     padding: 0px 0px 15px 0px;
 }
 a#link-titulo{
+    font-size: 30px;
     text-decoration: none;
     color: rgb(214, 214, 214);
 }
