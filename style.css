@@ -8,7 +8,6 @@ a{
     color: black;
     text-decoration: underline 2px;
 }
-
 /*PÁGINAS SECUNDÁRIAS*/
 /*PRIMORDIAIS*/
 body#body-secundario{
@@ -106,15 +105,6 @@ div#imagens-centrais{
     border-radius: 50%;
     border: 1px solid black;
 }
-div.imagem-especial-fluxo{
-    text-align: center;
-    padding: 0px 0px 10px 0px;
-}
-div.imagem-especial-fluxo > img{
-    border-radius: 20px;
-    width: 200px;
-}
-
 /*FIM-IMAGENS*/
 
 /*PARAGRAFOS*/
@@ -122,6 +112,7 @@ p.pagina-secundaria{
     text-align: justify;
     padding: 0px 20px 10px 20px;
     line-height: 1.5em;
+    font-size: .875rem;
 }
 /*FIM-PARAGRAFOS*/
 
