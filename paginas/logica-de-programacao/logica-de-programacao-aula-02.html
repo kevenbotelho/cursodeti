@@ -12,13 +12,21 @@
         }
         
         pre{
+            max-width: 1000px;
+            min-width: none;
+            padding: 40px;
             background-color: rgba(37, 37, 37, 0.95);
             color: rgb(188, 99, 67);
-            padding: 15px 10px 0px 10px;
-            border-radius: 20px;
-            /*dvi  dvw lvi lvw svi*/
-            font-size: 3vmin;
             margin: 20px;
+            border-radius: 20px;
+            white-space: pre-line;
+            /*dvi  dvw lvi lvw svi*/
+        }
+        pre p{
+            font-family: monospace;
+            margin-bottom: -40px;
+            font-size: 20px;
+            display: inline-block;
         }
     </style>
 </head>
@@ -28,57 +36,64 @@
     </header>
     <main id="main-secundario">
         <div class="imagem">
-            <img id="imagem-principal-pagina-secundaria" src="https://cdn.openwebinars.net/media/featured_images/-blog-que-es-pseudocodigo.jpg" alt="">
+            <img id="imagem-principal-pagina-secundaria" src="https://cursos.univesp.br/courses/3163/files/1813929/preview?verifier=juJeX5bxN957uG04ozBiuSNIHhBCTiLAycbbykS0" alt="">
         </div>
         <h1 id="nome-do-assunto-pagina-secundaria">Técnicas de Programação</h1>
-        <h2 class="topicos-pagina-secundaria">Constante</h2>
-        <p class="pagina-secundaria">É um valor fixo, que não se altera ao longo do programa. Por exemplo, você pode definir uma constante chamada "PI" com o valor 3.14159. Mesmo que o programa faça cálculos com esse valor, ele permanecerá constante e não será alterado.</p>
-        <h2 class="topicos-pagina-secundaria">Variável</h2>
-        <p class="pagina-secundaria">Cada variável corresponde a uma posição de memória, cujo conteúdo pode ser alterado ao longo do tempo durante a execução de um programa. embora uma variável possa assumir diferentes valores, ela só pode armazenar um valor a cada  instante.</p>
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">Constante</h2>
+            <p class="pagina-secundaria">É um valor fixo, que não se altera ao longo do programa. Por exemplo, você pode definir uma constante chamada "PI" com o valor 3.14159. Mesmo que o programa faça cálculos com esse valor, ele permanecerá constante e não será alterado.</p>
+        </div>
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">Variável</h2>
+            <p class="pagina-secundaria">Cada variável corresponde a uma posição de memória, cujo conteúdo pode ser alterado ao longo do tempo durante a execução de um programa. embora uma variável possa assumir diferentes valores, ela só pode armazenar um valor a cada  instante.</p>
+        </div>
         <pre>
-            <span>1</span>  | Algoritmo Volume_Lata_de_Óleo;
-            <span>2</span>  | {Algoritmo para saber o volume da lata de óleo}
-            <span>3</span>  | Constantes PI = 3.14159;
-            <span>4</span>  | Var vol, r, a : Real;
-
-            <span>5</span>  | Início
-            <span>6</span>  |    <abbr title="Serve pro computador escrever algo na tela e o usuário responder">Escreva</abbr>("Informe o raio da lata de óleo: ");
-            <span>7</span>  |    <abbr title="Serve pro computador guardar tal informação pra ser usada mais tarde">Leia</abbr>(r);
-            <span>8</span>  |    Escreva("Informe a altura da lata de óleo");
-            <span>9</span>  |    Leia(a);
-            <span>10</span>|    <abbr title="Essa palavra vai guardar a informação dada a ela">vol</abbr> = (PI * (r^2)* a);
-            <span>11</span>|    Escreva("O resultado final é de: ", <abbr title="Irá mostrar a informação dada a ela que anteriormente foi guardada">vol </abbr>);
-            <span>12</span>|  Fim
+                <p>1  | Algoritmo Volume_Lata_de_Óleo;</p>
+                <p>2  | {Algoritmo para saber o volume da lata de óleo}</p>
+                <p>3  | Constantes PI = 3.14159;</p>
+                <p>4  | Var vol, r, a : Real;</p>
+                <p>5  | Início</p>
+                <p>6  |    <abbr title="Serve pro computador escrever algo na tela e o usuário responder">Escreva</abbr>("Informe o raio da lata de óleo: ");</p>
+                <p>7  |    <abbr title="Serve pro computador guardar tal informação pra ser usada mais tarde">Leia</abbr>(r);</p>
+                <p>8  |    Escreva("Informe a altura da lata de óleo");</p>
+                <p>9  |    Leia(a);</p>
+                <p>10 |    <abbr title="Essa palavra vai guardar a informação dada a ela">vol</abbr> = (PI * (r^2)* a);</p>
+                <p>11 |    Escreva("O resultado final é de: ", <abbr title="Irá mostrar a informação dada a ela que anteriormente foi guardada">vol </abbr>);</p>
+                <p style="padding-bottom: 30px;">12 |  Fim</p>
+            </div>
         </pre>
-        <h2 class="topicos-pagina-secundaria" style="padding-top: 20px; margin-bottom: -20px;">Tipos de Variáveis</h2>
-        <ul class="pagina-secundaria">
-            <li>Numéricos</li>
-                <ul class="lista-dentro-da-lista">
-                    <li>Inteiro</li>
-                        <ul class="lista-dentro-da-lista">
-                            <li>São usadas para armazenar números inteiros, ou seja, números sem parte fracionária.</li>
-                            <li>Podem ser positivos, negativos ou zero.</li>
-                            <li>Exemplos: -5, 0, 10, 1000.</li>
-                        </ul>
-                    <li>Real</li>
-                        <ul class="lista-dentro-da-lista">
-                            <li>Também conhecidas como números de ponto flutuante ou números decimais.</li>
-                            <li>Permitem representar números com parte fracionária.</li>
-                            <li>Exemplos: 3.14, -0.5, 1000.99.</li>
-                        </ul>
-                        <p class="resumo" style="text-align: center;"> O ponto "." é usado pra representar a virgula, o ponto decimal</p>
-                </ul>
-                <li>Caracteres </li>
-                <li>AlfaNuméricos</li>
-                <li>Lógicas</li>
-        </ul>
-        <h2 class="topicos-pagina-secundaria">Como Fazer um Pseudocódigo</h2>
-        <ul class="pagina-secundaria">
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">Tipos de Variáveis</h2>
+            <ul>
+                <li>Numéricos</li>
+                    <ul class="lista-dentro-da-lista">
+                        <li>Inteiro</li>
+                            <ul class="lista-dentro-da-lista">
+                                <li>São usadas para armazenar números inteiros, ou seja, números sem parte fracionária.</li>
+                                <li>Podem ser positivos, negativos ou zero.</li>
+                                <li>Exemplos: -5, 0, 10, 1000.</li>
+                            </ul>
+                        <li>Real</li>
+                            <ul class="lista-dentro-da-lista">
+                                <li>Também conhecidas como números de ponto flutuante ou números decimais.</li>
+                                <li>Permitem representar números com parte fracionária.</li>
+                                <li>Exemplos: 3.14, -0.5, 1000.99.</li>
+                            </ul>
+                            <p class="resumo" style="text-align: center;"> O ponto "." é usado pra representar a virgula, o ponto decimal</p>
+                    </ul>
+                    <li>Caracteres </li>
+                    <li>AlfaNuméricos</li>
+                    <li>Lógicas</li>
+            </ul>
+        </div>
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">Como Fazer um Pseudocódigo</h2>
             <li>Comece com <span style="text-transform: uppercase; white-space: nowrap; color: black; "><strong>Algoritmo Nome_do_Algoritmo;</strong></span></li>
-            <p class="resumo"> Não se esqueça que ao todo final de linha de comando tem que usar o ";" . Ele serve pra dizer que aquele comando já foi finalizado</p>
-            <li>Explique para que serve o algoritmo dentro de chaves, como <strong><span style="text-transform: uppercase; white-space: nowrap; color: black; ">{Explique para que serve o algoritmo}</span></strong></li>
-            <p class="resumo">Lembre-se que a parte da explicação <strong>NÃO</strong> é linha de código, então não leva ";" no final</p>
-        </ul>
+            <p class="pagina-secundaria"> Não se esqueça que ao todo final de linha de comando tem que usar o ";" . Ele serve pra dizer que aquele comando já foi finalizado</p>
+            <li>Explique para que serve o algoritmo dentro de chaves, como <strong><span style="text-transform: uppercase;  color: black;">{Explique para que serve o algoritmo}</span></strong>.</li>
+            <p class="pagina-secundaria">O "algoritmo dentro de chaves" é uma forma de comentário no pseudocódigo, utilizado para explicar o propósito ou a função de determinada parte do código. Esses comentários são ignorados pelo interpretador do pseudocódigo e servem apenas para facilitar a compreensão do algoritmo pelos programadores.</p>
+            <p class="pagina-secundaria">Lembre-se que a parte da explicação <strong>NÃO</strong> é linha de código, então não leva ";" no final</p>
+        </div>
         <div class="botao">
             <a href="logica-de-programacao-aula-01.html"><button>Aula Anterior</button></a>
             <a href="logica-de-programacao-aula-03.html"><button>Próxima Aula</button></a>

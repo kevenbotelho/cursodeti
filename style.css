@@ -43,6 +43,7 @@ h2.topicos-pagina-secundaria{
     padding-bottom: 7px;
     padding: 0px 0px 10px 20px;
     background-image: linear-gradient(to right, gray, white);
+    border: 1px solid black;
     border-radius: 10px;
     padding: 0px 0px 0px 30px;
     margin-bottom: 10px;
@@ -131,7 +132,8 @@ ul.pagina-secundaria{
     margin: 20px;
     box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
 }
-ul.pagina-secundaria  li{
+li{
+    font-size: .875rem;
     padding-bottom: 10px;
     padding-top: 10px;
     list-style-position: inside;
@@ -192,9 +194,6 @@ abbr{
     color: rgba(38, 241, 227, 0.584);
     text-decoration: underline;
     text-decoration-color: rgba(38, 85, 241, 0.898);
-}
-ul.lista-dentro-da-lista > li{
-    line-height: 30px;
 }
 /*QUIZ*/
 div img#quiz{
