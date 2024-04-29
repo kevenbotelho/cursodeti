@@ -25,7 +25,7 @@
         pre p{
             font-family: monospace;
             margin-bottom: -40px;
-            font-size: 20px;
+            font-size: 100%;
             display: inline-block;
         }
     </style>
@@ -38,61 +38,98 @@
         <div class="imagem">
             <img id="imagem-principal-pagina-secundaria" src="https://cursos.univesp.br/courses/3163/files/1813929/preview?verifier=juJeX5bxN957uG04ozBiuSNIHhBCTiLAycbbykS0" alt="">
         </div>
-        <h1 id="nome-do-assunto-pagina-secundaria">Técnicas de Programação</h1>
+        <h1 id="nome-do-assunto-pagina-secundaria">TÉCNICAS DE PROGRAMAÇÃO</h1>
+        <p class="pagina-secundaria" style="padding:0px 30px 0px 30px;" >Antes de começarmos a falar sobre programação, precisamos entender duas coisas importantes: constantes e variáveis. Uma constante é um valor que nunca muda, como o número PI, que sempre é o mesmo. Já uma variável pode mudar, como quando guardamos o resultado de uma conta. Vamos explorar esses conceitos básicos antes de irmos mais fundo na programação.</p>
         <div class="branco">
             <h2 class="topicos-pagina-secundaria">Constante</h2>
+            <div class="imagem">
+                <img style="border: none; width: 200px;" src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/06/numero-pi.jpg" alt="">
+            </div>
             <p class="pagina-secundaria">É um valor fixo, que não se altera ao longo do programa. Por exemplo, você pode definir uma constante chamada "PI" com o valor 3.14159. Mesmo que o programa faça cálculos com esse valor, ele permanecerá constante e não será alterado.</p>
         </div>
         <div class="branco">
             <h2 class="topicos-pagina-secundaria">Variável</h2>
+            <div class="imagem">
+                <img style="border: none;margin-left: -20px; width: 350px;" src="https://tecnologiaeinformacao.netlify.app/assets/imgs_posts/java-history-ptbr/7-representation-1.png" alt="">
+            </div>
             <p class="pagina-secundaria">Cada variável corresponde a uma posição de memória, cujo conteúdo pode ser alterado ao longo do tempo durante a execução de um programa. embora uma variável possa assumir diferentes valores, ela só pode armazenar um valor a cada  instante.</p>
         </div>
-        <pre>
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">Tipos de Variáveis</h2>
+            <ul>
+                <li>Numéricos</li>
+                <div class="imagem">
+                    <img src="../gestao-aplicada-a-informatica/fotos/aula-01/error-300px.jpg" alt="">
+                </div>
+                    <ul class="lista-dentro-da-lista">
+                        <li>Inteiro</li>
+                            <p class="pagina-secundaria">
+                                Variáveis do tipo inteiro são utilizadas para armazenar números inteiros, ou seja, números que não possuem parte fracionária. Em Pascal, essas variáveis são chamadas de 'Integer'. Elas podem representar números positivos, negativos ou zero. Exemplos comuns de números inteiros incluem -5, 0, 10 e 1000.
+                            </p>
+                        <li>Real</li>
+                            <p class="pagina-secundaria">
+                                Os números reais, também chamados de números de ponto flutuante ou números decimais, são um tipo de variável usado em programação para representar valores com parte fracionária. Em Pascal, esse tipo de variável é denominado 'Real'. 
+                            </p>
+                            <p class="pagina-secundaria">
+                                Os números reais podem ser positivos, negativos ou zero, e podem incluir frações decimais. Por exemplo, 3.14, -0.5 e 1000.99 são todos exemplos de números reais. No sistema de escrita comum, o ponto "." é utilizado para separar a parte inteira da parte decimal de um número real.</p>
+                    </ul>
+                    <hr class="divisao-de-conteudo">
+                    <li>Caracteres </li>
+                    <div class="imagem">
+                        <img src="../gestao-aplicada-a-informatica/fotos/aula-01/error-300px.jpg" alt="">
+                    </div>
+                    <p class="pagina-secundaria">Imagine que você queira guardar uma letra ou um símbolo, como uma letra do alfabeto, um número de telefone, ou um caractere especial, como '@' ou '!'. Em Pascal, usamos o tipo de variável 'char' para isso. Por exemplo, podemos criar uma variável chamada 'letra' e guardar nela a letra 'A'.</p>
+                    <hr class="divisao-de-conteudo">
+                    <li>AlfaNuméricos</li>
+                    <div class="imagem">
+                        <img src="../gestao-aplicada-a-informatica/fotos/aula-01/error-300px.jpg" alt="">
+                    </div>
+                    <p class="pagina-secundaria">
+                        Já os alfanuméricos são uma mistura de letras e números. Por exemplo, um nome ou um endereço de e-mail. Em Pascal, podemos usar uma sequência de caracteres para guardar essas informações, geralmente utilizando o tipo de variável 'string'.
+                    </p>
+                    <hr class="divisao-de-conteudo">
+                    <li>Lógicas</li>
+                    <div class="imagem">
+                        <img src="../gestao-aplicada-a-informatica/fotos/aula-01/error-300px.jpg" alt="">
+                    </div>
+                    <p class="pagina-secundaria">
+                        Elas servem para guardar informações que podem ser verdadeiras ou falsas, como sim ou não, 0 ou 1. Em Pascal, usamos o tipo de variável 'boolean' para isso. Por exemplo, podemos criar uma variável chamada 'chovendo' e guardar nela 'true' se estiver chovendo ou 'false' se não estiver.
+                    </p>
+            </ul>
+        </div>
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">Como Fazer um Pseudocódigo</h2>
+            <div class="imagem">
+                <img style="border: none;" src="https://img.freepik.com/vetores-gratis/trabalhador-com-duvidas_1012-193.jpg" alt="">
+            </div>
+            <p class="pagina-secundaria">
+                Comece com <span style="text-transform: uppercase; white-space: nowrap; color: black; "><strong>Algoritmo Nome_do_Algoritmo;</strong></span>
+            </p>
+            <p class="pagina-secundaria">
+                Não se esqueça que ao todo final de linha de comando tem que usar o ";" . Ele serve pra dizer que aquele comando já foi finalizado
+            </p>
+            <p class="pagina-secundaria">
+                Explique para que serve o algoritmo dentro de chaves, como <strong><span style="text-transform: uppercase;  color: black;">{Explique para que serve o algoritmo}</span></strong>.
+            </p>
+            <p class="pagina-secundaria">O "algoritmo dentro de chaves" é uma forma de comentário no pseudocódigo, utilizado para explicar o propósito ou a função de determinada parte do código. Esses comentários são ignorados pelo interpretador do pseudocódigo e servem apenas para facilitar a compreensão do algoritmo pelos programadores.</p>
+            <p class="pagina-secundaria">Lembre-se que a parte da explicação <strong>NÃO</strong> é linha de código, então não leva ";" no final.</p>
+        </div>
+        <div class="branco">
+            <h2 style="text-align: center;">Exemplo de algoritmo</h2>
+            <pre>
                 <p>1  | Algoritmo Volume_Lata_de_Óleo;</p>
                 <p>2  | {Algoritmo para saber o volume da lata de óleo}</p>
                 <p>3  | Constantes PI = 3.14159;</p>
                 <p>4  | Var vol, r, a : Real;</p>
                 <p>5  | Início</p>
-                <p>6  |    <abbr title="Serve pro computador escrever algo na tela e o usuário responder">Escreva</abbr>("Informe o raio da lata de óleo: ");</p>
-                <p>7  |    <abbr title="Serve pro computador guardar tal informação pra ser usada mais tarde">Leia</abbr>(r);</p>
+                <p>6  | <abbr title="Serve pro computador escrever algo na tela e o usuário responder">Escreva</abbr>("Informe o raio da lata de óleo: ");</p>
+                <p>7  |    <abbr title="Serve pro computador guardar tal informação pra ser usada mais tarde">Leia</abbr> (r);</p>
                 <p>8  |    Escreva("Informe a altura da lata de óleo");</p>
                 <p>9  |    Leia(a);</p>
                 <p>10 |    <abbr title="Essa palavra vai guardar a informação dada a ela">vol</abbr> = (PI * (r^2)* a);</p>
                 <p>11 |    Escreva("O resultado final é de: ", <abbr title="Irá mostrar a informação dada a ela que anteriormente foi guardada">vol </abbr>);</p>
                 <p style="padding-bottom: 30px;">12 |  Fim</p>
-            </div>
-        </pre>
-        <div class="branco">
-            <h2 class="topicos-pagina-secundaria">Tipos de Variáveis</h2>
-            <ul>
-                <li>Numéricos</li>
-                    <ul class="lista-dentro-da-lista">
-                        <li>Inteiro</li>
-                            <ul class="lista-dentro-da-lista">
-                                <li>São usadas para armazenar números inteiros, ou seja, números sem parte fracionária.</li>
-                                <li>Podem ser positivos, negativos ou zero.</li>
-                                <li>Exemplos: -5, 0, 10, 1000.</li>
-                            </ul>
-                        <li>Real</li>
-                            <ul class="lista-dentro-da-lista">
-                                <li>Também conhecidas como números de ponto flutuante ou números decimais.</li>
-                                <li>Permitem representar números com parte fracionária.</li>
-                                <li>Exemplos: 3.14, -0.5, 1000.99.</li>
-                            </ul>
-                            <p class="resumo" style="text-align: center;"> O ponto "." é usado pra representar a virgula, o ponto decimal</p>
-                    </ul>
-                    <li>Caracteres </li>
-                    <li>AlfaNuméricos</li>
-                    <li>Lógicas</li>
-            </ul>
-        </div>
-        <div class="branco">
-            <h2 class="topicos-pagina-secundaria">Como Fazer um Pseudocódigo</h2>
-            <li>Comece com <span style="text-transform: uppercase; white-space: nowrap; color: black; "><strong>Algoritmo Nome_do_Algoritmo;</strong></span></li>
-            <p class="pagina-secundaria"> Não se esqueça que ao todo final de linha de comando tem que usar o ";" . Ele serve pra dizer que aquele comando já foi finalizado</p>
-            <li>Explique para que serve o algoritmo dentro de chaves, como <strong><span style="text-transform: uppercase;  color: black;">{Explique para que serve o algoritmo}</span></strong>.</li>
-            <p class="pagina-secundaria">O "algoritmo dentro de chaves" é uma forma de comentário no pseudocódigo, utilizado para explicar o propósito ou a função de determinada parte do código. Esses comentários são ignorados pelo interpretador do pseudocódigo e servem apenas para facilitar a compreensão do algoritmo pelos programadores.</p>
-            <p class="pagina-secundaria">Lembre-se que a parte da explicação <strong>NÃO</strong> é linha de código, então não leva ";" no final</p>
+            </pre>
         </div>
         <div class="botao">
             <a href="logica-de-programacao-aula-01.html"><button>Aula Anterior</button></a>
