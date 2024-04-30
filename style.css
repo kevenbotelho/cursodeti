@@ -88,7 +88,7 @@ div.imagem{
 div.imagem img{
     border-radius: 20px;
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid black
 }
 div#imagens-centrais{
     text-align: center;
