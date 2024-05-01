@@ -133,6 +133,7 @@ ul.pagina-secundaria{
     box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
 }
 li{
+    font-weight: bolder;
     font-size: .875rem;
     padding-bottom: 10px;
     padding-top: 10px;
