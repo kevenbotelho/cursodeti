@@ -12,9 +12,13 @@ a{
 /*PRIMORDIAIS*/
 body#body-secundario{
     background-color: #292c43;
+    padding-top: 60px;
 }
 header#header-secundario{
     background-color: #2b5d68;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 main#main-secundario{
     margin: auto;
@@ -232,6 +236,7 @@ footer > p{
     
 }
 footer > ul > li{
+    font-weight: normal;
     padding: 0px 0px 20px 15px;
     font-size: 15px;
     text-shadow: 1px 2px 5px rgb(44, 44, 44);
