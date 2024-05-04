@@ -8,67 +8,63 @@
     <title>ClassRecap</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagens/favicon/favicon.ico" type="image/x-icon">
-    <style>
-        body#body-principal{
-            background-color: #292c43;
-        }
-        main#main-principal{
-            margin: auto;
-            width: auto;
-            color: rgb(255, 255, 255);
-        }
-        header#cabecalho-pagina-principal{
-            background-color: #2b5d68;
-        }
-        /*FIM-PRIMORDIAIS*/
-        header > h1#titulo-principal-pagina-principal{
-            color: rgb(214, 214, 214);
-            text-align: center;
-            padding: 5px 0px 5px 0px;
-            text-shadow: 1px 2px 5px rgb(71, 71, 71);
-        }
-        main > section.caixa-de-assuntos{
-            padding: 20px 0px 30px 0px;
-            border: 1px solid #dbdbdb;
-        }
-        main > section > h1.nome-do-assunto{
-            color: white;
-            text-align: center;
-            padding: 0px 0px 12px 0px;
-            text-transform: uppercase;
-            font-size: 20px;
-        }
-        main > section > ol > li.lista-de-assunto{
-            font-family: monospace;
-            text-align: center;
-            font-size: 13px;
-            font-weight: normal;
-            list-style-position: inside;
-            padding: 5px 0px 30px 0px;
-            text-shadow: 3px 3px 4px rgb(44, 44, 44);
-        }
-        main > section > ol > li > a{
-            font-size: 15px;
-            color: white;
-            text-decoration: none;
-        }
-        #rede-de-computadores{
-            border-radius: 10px 10px 0px 0px;
-        }
-        #tecnologias-emergentes{
-            border-radius: 0px 0px 10px 10px;
-        }
-    </style>
 </head>
+<style>
+main{
+    margin: auto;
+    width: auto;
+    color: rgb(255, 255, 255);
+}
+/*FIM-PRIMORDIAIS*/
+header > h1#titulo-principal-pagina-principal{
+    color: rgb(214, 214, 214);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    text-shadow: 1px 2px 5px rgb(71, 71, 71);
+}
+main > section.caixa-de-assuntos{
+    padding: 20px 0px 30px 0px;
+    border: 1px solid #dbdbdb;
+}
+main > section > h2.nome-do-assunto{
+    color: white;
+    text-align: center;
+    padding: 0px 0px 12px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+main > section > ol > li.lista-de-assunto{
+    font-family: monospace;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    list-style-position: inside;
+    padding: 5px 0px 30px 0px;
+    text-shadow: 3px 3px 4px rgb(44, 44, 44);
+}
+main > section > ol > li > a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+#tecnologias-emergentes{
+    border-radius: 0px 0px 10px 10px;
+}
+footer#rodape-principal{
+    margin-left: -10px;
+}
+/*PAGINA PRINCIPAL*/
+
+</style>
 <body id="body-principal">
-    <header id="cabecalho-pagina-principal">
+    <header>
         <h1 id="titulo-principal-pagina-principal">
             <a href="index.html" id="link-titulo">ClassRecap</a>
         </h1>
     </header>
-    <main id="main-principal">
-        <section class="caixa-de-assuntos" id="rede-de-computadores">
-            <h1 class="nome-do-assunto">Redes de Computadores 01</h1>
+    <main>
+        <section class="caixa-de-assuntos">
+            <h2 class="nome-do-assunto">Redes de Computadores 01</h2>
             <ol start="1">
                 <li class="lista-de-assunto">
                     <a href="paginas/redes-de-computadores/redes-de-computadores-01.html">REDES DE COMPUTADORES &#x1F7E2;</a>
@@ -79,15 +75,15 @@
             </ol>
         </section>
         <section class="caixa-de-assuntos">
-            <h1 class="nome-do-assunto">Redes de computadores 02</h1>
+            <h2 class="nome-do-assunto">Redes de computadores 02</h2>
             <ol start="1">
                 <li class="lista-de-assunto">
                     <a href="paginas/redes-de-computadores/periodo-2/redes-de-computadores-periodo2-01.html">REDES DE COMPUTADORES &#x1F534;</a>
                 </li>
             </ol>
         </section>
-        <section class="caixa-de-assuntos" id="logica-de-programacao">
-            <h1 class="nome-do-assunto">Lógica de programação</h1>
+        <section class="caixa-de-assuntos">
+            <h2 class="nome-do-assunto">Lógica de programação</h2>
             <ol start="1">
                 <li class="lista-de-assunto">
                     <a href="paginas/logica-de-programacao/logica-de-programacao-aula-01.html">LÓGICA DE PROGRAMAÇÃO &#x1F7E2;</a>
@@ -106,8 +102,8 @@
                 </li>
             </ol>
         </section>
-        <section class="caixa-de-assuntos" id="tecnologias-web">
-            <h1 class="nome-do-assunto">Tecnologias WEB</h1>
+        <section class="caixa-de-assuntos">
+            <h2 class="nome-do-assunto">Tecnologias WEB</h2>
             <ol start="1">
                 <li class="lista-de-assunto">
                     <a href="paginas/tecnologias-web/tecnologias-web-aula-01.html">TENDÊNCIAS DA WEB 3.0 &#x1F7E2;</a>
@@ -120,8 +116,8 @@
                 </li>
             </ol>
         </section>
-        <section class="caixa-de-assuntos" id="gestao">
-            <h1 class="nome-do-assunto" >Gestão aplicada a Informática</h1>
+        <section class="caixa-de-assuntos">
+            <h2 class="nome-do-assunto" >Gestão aplicada a Informática</h2>
             <ol start="1">
                 <li class="lista-de-assunto">
                     <a href="paginas/gestao-aplicada-a-informatica/introdução.html">INTRODUÇÃO - TRELLO &#x1F7E2;</a>
@@ -131,8 +127,8 @@
                 </li>
             </ol>
         </section>
-        <section class="caixa-de-assuntos" id="informatica">
-            <h1 class="nome-do-assunto">Informática</h1>
+        <section class="caixa-de-assuntos">
+            <h2 class="nome-do-assunto">Informática</h2>
             <ol start="1">
                 <li class="lista-de-assunto">
                     <a href="paginas/informatica/informatica-aula-01.html">INFORMÁTICA - INTRODUÇÃO &#x1F534;</a>
@@ -154,8 +150,8 @@
                 </li>
             </ol>
         </section>
-        <section class="caixa-de-assuntos" id="manutencao-de-computadores">
-            <h1 class="nome-do-assunto">Manutenção de computadores</h1>
+        <section class="caixa-de-assuntos">
+            <h2 class="nome-do-assunto">Manutenção de computadores</h2>
             <ol start="1">
                 <li class="lista-de-assunto">
                     <a href="paginas/manutencao-de-computadores/manutencao-de-computadores-aula-01.html">PRÁTICAS CONTEMPORÂNEAS &#x1F7E2;</a>
@@ -180,8 +176,8 @@
                 </li>
             </ol>
         </section>
-        <section class="caixa-de-assuntos" id="tecnologias-emergentes">
-            <h1 class="nome-do-assunto" >Tecnologias Emergentes</h1>
+        <section class="caixa-de-assuntos">
+            <h2 class="nome-do-assunto">Tecnologias Emergentes</h2>
             <ol start="1">
                 <li class="lista-de-assunto">
                     <a href="paginas/tecnologias-emergentes/tecnologia-emergente-aula-01.html">INTELIGÊNCIA ARTIFICIAL &#x1F7E1;</a>
@@ -201,5 +197,8 @@
             </ol>
         </section>
     </main>
+    <footer id="rodape-principal">
+        <p>&copy; 2024 ClassRecap. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
