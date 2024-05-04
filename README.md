@@ -1,2 +1,2 @@
 # cursodeti
- Resumo do curso de ti- CeS
+ Resumo do curso de ti- PCS
