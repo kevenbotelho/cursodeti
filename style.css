@@ -4,6 +4,17 @@
     padding: 0px;
     font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
 }
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+thead, tbody{
+    
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
 /*PAGINA PRINCIPAL*/
 body{
     background-color: #292c43;
@@ -57,7 +68,7 @@ main > section > ol > li > a{
     border-radius: 0px 0px 10px 10px;
 }
 footer#rodape-principal{
-    margin-left: -10px;
+    text-align: center;
 }
 /*PAGINA PRINCIPAL*/
 
