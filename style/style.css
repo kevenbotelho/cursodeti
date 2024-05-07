@@ -1,0 +1,309 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+thead, tbody{
+    
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
+/*PAGINA PRINCIPAL*/
+body{
+    background-color: #292c43;
+    padding-top: 50px;
+}
+header{
+    background-color: #2b5d68;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+main{
+    margin: auto;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+/*FIM-PRIMORDIAIS*/
+header > h1#titulo-principal-pagina-principal{
+    color: rgb(214, 214, 214);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    text-shadow: 1px 2px 5px rgb(71, 71, 71);
+}
+main > section.caixa-de-assuntos{
+    padding: 20px 0px 30px 0px;
+    border: 1px solid #dbdbdb;
+}
+main > section > h2.nome-do-assunto{
+    color: white;
+    text-align: center;
+    padding: 0px 0px 12px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+main > section > ol > li.lista-de-assunto{
+    font-family: monospace;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    list-style-position: inside;
+    padding: 5px 0px 30px 0px;
+    text-shadow: 3px 3px 4px rgb(44, 44, 44);
+}
+main > section > ol > li > a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+#tecnologias-emergentes{
+    border-radius: 0px 0px 10px 10px;
+}
+footer#rodape-principal{
+    text-align: center;
+}
+/*PAGINA PRINCIPAL*/
+
+a{
+    color: black;
+    text-decoration: underline 2px;
+}
+/*PÁGINAS SECUNDÁRIAS*/
+/*PRIMORDIAIS*/
+body#body-secundario{
+    background-color: #292c43;
+    padding-top: 60px;
+}
+main#main-secundario{
+    margin: auto;
+    max-width: 800px;
+    min-width: none;
+    padding: 10px 0px 0px 0px;
+    color: white;
+}
+footer{
+    background-color: #2b5d68;
+    color: white;
+    padding: 20px 0px 10px 20px;
+}
+/*FIM-PRIMORDIAIS*/
+
+/*TITULOS*/
+header h1#titulo-principal-pagina-secundaria{
+    color: rgb(214, 214, 214);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    text-shadow: 1px 2px 5px rgb(71, 71, 71);
+}
+h2.topicos-pagina-secundaria{
+    text-align: left;
+    font-size: 25px;
+    padding-bottom: 7px;
+    padding: 0px 0px 10px 20px;
+    background-image: linear-gradient(to right, gray, white);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0px 0px 0px 30px;
+    margin-bottom: 10px;
+}
+#nome-do-assunto-pagina-secundaria{
+    text-align: center;
+    padding: 0px 0px 7px 0px;
+    font-size: 30px;
+}
+main > h2#nome-do-assunto-secundario-pagina-secundaria{
+    margin-top: -10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Raleway';
+    color: rgb(7, 156, 129);
+    padding: 0px 0px 15px 0px;
+}
+a#link-titulo{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+}
+/*FIM-TITULOS*/
+
+/*IMAGENS*/
+img#imagem-principal-pagina-secundaria{
+    display: block;
+    margin: auto;
+    max-width: 480px;
+    min-width: none;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+div.imagem{
+    max-width: 320px;
+    min-width: 50px;
+    padding: 0px 5px 10px 5px;
+    margin:auto;
+    text-align: center;
+}
+div.imagem img{
+    border-radius: 20px;
+    width: 100%;
+    border: 1px solid black
+}
+div#imagens-centrais{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border: 1px dashed black;
+    border-radius: 10px;
+}
+ div#imagens-centrais img{
+    max-width: 150px;
+    min-width: none;
+    display:inline-block;
+    margin: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+/*FIM-IMAGENS*/
+
+/*PARAGRAFOS*/
+p.pagina-secundaria{
+    text-align: justify;
+    padding: 0px 20px 10px 20px;
+    line-height: 1.5em;
+    font-size: .875rem;
+}
+/*FIM-PARAGRAFOS*/
+
+/*PARTE BRANCA*/
+ul.pagina-secundaria{
+    background-color: #ffffff;
+    color: black;
+    /*
+    max-width: 700px;
+    min-width: 280px;
+    */
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
+}
+li{
+    font-weight: bolder;
+    font-size: .875rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style-position: inside;
+}
+.branco{
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
+}
+/*FIM-PARTE BRANCA*/
+hr.divisao-de-conteudo{
+    margin: 10px 0px 10px 0px;
+}
+a{
+    color: rgb(56, 129, 128);
+    text-decoration: none;
+}
+/*LOGICA*/
+ul.ul-exemplo{
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    margin-top: -5px;
+    margin: auto;
+    box-shadow: none;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+ul.pagina-secundaria > h3{
+    padding: 20px 0px 5px 0px;
+    font-size: 18px;
+    margin-left: -10px;
+}
+button{
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(86, 156, 159);
+    color: black;
+    font-size: 10px;
+    margin: 0px 10px 0px 0px;
+}
+div.botao{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+/*LOGICA*/
+abbr{
+    color: rgba(38, 241, 227, 0.584);
+    text-decoration: underline;
+    text-decoration-color: rgba(38, 85, 241, 0.898);
+}
+/*QUIZ*/
+div img#quiz{
+    max-width: 200px;
+    min-width: 100px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+p#teste-de-conhecimento{
+    text-align: center;
+    font-size: 19px;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
+p#teste-de-conhecimento > a{
+    text-decoration: none;
+    color: #72e75d;
+}
+/*QUIZ*/
+
+/*FOOTER*/
+footer{
+    background-color: #2b5d68;
+    color: white;
+    padding: 20px 0px 10px 20px;
+}
+footer h1{
+    font-size: 20px;
+    padding: 0px 0px 7px 0px;
+    text-shadow: 1px 2px 5px rgb(44, 44, 44);
+    
+}
+footer  p{
+    padding: 0px 0px 20px 15px;
+    font-size: 15px;
+    text-shadow: 1px 2px 5px rgb(44, 44, 44);
+    
+}
+footer  ul > li{
+    font-weight: normal;
+    padding: 0px 0px 20px 15px;
+    font-size: 15px;
+    text-shadow: 1px 2px 5px rgb(44, 44, 44);
+    list-style-type: none;
+    
+}
+/*FOOTER*/
+/*FIM - PÁGINAS SECUNDARIAS*/
