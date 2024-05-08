@@ -3,20 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes de Computadores</title>
-    <link rel="shortcut icon" href="../../imagens/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../../../style.css">
+    <title>Tecnologias Web</title>
+    <link rel="shortcut icon" href="../../../imagens/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../../style/style.css">
 </head>
 <body id="body-secundario">
     <header id="header-secundario">
         <h1 id="titulo-principal-pagina-secundaria">
-            <a id="link-titulo" href="../../index.html" target="_self">Redes de Computadores - 01</a>
+            <a id="link-titulo" href="/" target="_self">Tecnologias Web - 01</a>
         </h1>
     </header>
     <main id="main-secundario">
+        <div class="imagem">
+            <img src="../../gestao-aplicada-a-informatica/fotos/error-300px.jpg" alt="">
+        </div>
+        <h1 id="nome-do-assunto-pagina-secundaria">FRAMEWORKS</h1>
+        <h2 id="nome-do-assunto-secundario-pagina-secundaria">Desenvolvimento Simplificado para Web</h2>
+        <p style="padding:0px 30px 0px 30px;"  class="pagina-secundaria">Frameworks são ferramentas poderosas que simplificam e aceleram o desenvolvimento de aplicações web interativas e responsivas. Eles oferecem uma estrutura pré-definida, componentes reutilizáveis e funcionalidades prontas para uso. Em outras palavras, são como conjuntos de ferramentas que permitem aos desenvolvedores criar sites e aplicativos web de forma mais eficiente, concentrando-se no design e na funcionalidade, em vez de lidar com detalhes técnicos complexos.</p>
+
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">React, Angular e Vue.js</h2>
+            <li>React</li>
+            <p class="pagina-secundaria">Uma biblioteca de interface do usuário amplamente adotada por grandes empresas como Facebook e Netflix. Sua arquitetura baseada em Virtual DOM oferece um desempenho excepcional, mas pode apresentar uma curva de aprendizado íngreme devido a conceitos como JSX e configuração inicial complexa.</p>
+            <li>Angular</li>
+            <p class="pagina-secundaria">Um framework completo projetado para criar aplicativos escaláveis e modulares, com suporte integrado para TypeScript. Embora tenha uma curva de aprendizado mais íngreme e um tamanho de pacote maior, oferece uma arquitetura robusta e recursos poderosos.</p>
+            <li>Vue.js</li>
+            <p class="pagina-secundaria">Conhecido por sua simplicidade e fácil adoção, o Vue.js tem uma curva de aprendizado mais suave. Seu núcleo menor e sua flexibilidade o tornam uma ótima escolha para projetos de todos os tamanhos, embora sua documentação e ecossistema ainda possam estar em desenvolvimento.</p>
+        </div>
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">Data Binding, Props e State: Conceitos Fundamentais</h2>
+
+            <li>Data Binding</li>
+            <p class="pagina-secundaria">Estabelece uma conexão entre os dados da aplicação e a interface do usuário, garantindo que as atualizações em um lado sejam refletidas no outro. React, Angular e Vue.js abordam o data binding de maneiras diferentes, com destaque para unidirecional (React), bidirecional (Angular) e bidirecional por padrão (Vue.js).</p>
+            <li>Props e State</li>
+            <p class="pagina-secundaria">Componentes fundamentais para construir aplicações interativas e dinâmicas. O state representa os dados mutáveis de um componente, enquanto as props são dados imutáveis passados de um componente pai para um filho, permitindo a comunicação entre eles.</p>
+        </div>
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">Data Binding, Props e State: Conceitos Fundamentais</h2>
+
+            <li>Data Binding</li>
+            <p class="pagina-secundaria">Estabelece uma conexão entre os dados da aplicação e a interface do usuário, garantindo que as atualizações em um lado sejam refletidas no outro. React, Angular e Vue.js abordam o data binding de maneiras diferentes, com destaque para unidirecional (React), bidirecional (Angular) e bidirecional por padrão (Vue.js).</p>
+            <li>Props e State</li>
+            <p class="pagina-secundaria">Componentes fundamentais para construir aplicações interativas e dinâmicas. O state representa os dados mutáveis de um componente, enquanto as props são dados imutáveis passados de um componente pai para um filho, permitindo a comunicação entre eles.</p>
+        </div>
+        <div class="branco">
+            <h2 class="topicos-pagina-secundaria">Essenciais Front-End</h2>
+            <li>Sintaxe JSX</li>
+            <p class="pagina-secundaria">JSX é uma extensão da sintaxe do JavaScript usada pelo React. Ela permite escrever códigos que se parecem com HTML, facilitando a criação de componentes React. Por exemplo, em vez de escrever React.createElement('div', null, 'Hello World'), podemos simplesmente escrever <span style="color: rgb(143, 1, 1);">&lt;div&gt;</span>Hello World<span style="color: rgb(143, 1, 1);">&lt;/div&gt;</span>. Isso torna o código mais legível e fácil de entender, especialmente para aqueles acostumados com HTML.</p>
+
+            <li>Virtual DOM</li>
+            <p class="pagina-secundaria">O Virtual DOM é um conceito usado pelo React para melhorar o desempenho das aplicações web. Ele é uma representação virtual da estrutura da árvore de elementos da página. Quando ocorre uma atualização no estado da aplicação, o React compara o Virtual DOM com o DOM real e atualiza apenas as partes que foram modificadas, em vez de recriar toda a estrutura do DOM. Isso resulta em atualizações mais rápidas e eficientes da interface do usuário.</p>
+
+            <li>Vuex</li>
+            <p class="pagina-secundaria">Vuex é um padrão de gerenciamento de estado para aplicações Vue.js. Ele funciona como uma "central" globalizada para o estado da aplicação, facilitando o compartilhamento de dados entre componentes. O Vuex utiliza conceitos como store, state, mutations, actions e getters para organizar e gerenciar o estado da aplicação de forma eficiente, especialmente em aplicações grandes e complexas.</p>
+
+            <li>Two-Way Binding</li>
+            <p class="pagina-secundaria">Two-Way Binding é uma técnica de data binding que permite sincronizar automaticamente os dados do modelo com a interface do usuário e vice-versa. Ou seja, quando os dados do modelo são alterados, a interface do usuário é atualizada automaticamente, e quando a interface do usuário é alterada (por exemplo, por meio de um formulário), os dados do modelo são atualizados automaticamente. Isso torna a criação de interfaces interativas e responsivas mais simples e intuitiva.</p>
+
+            <li>React Router</li>
+            <p class="pagina-secundaria">React Router é uma biblioteca de roteamento para aplicações React. Ela permite definir rotas na aplicação e associar cada rota a um componente específico. Isso facilita a navegação entre diferentes partes da aplicação, tornando-a mais organizada e fácil de usar. Com o React Router, é possível criar aplicações de página única (SPAs) com navegação fluida e intuitiva.</p>
+
+            <li>Diretiva ngModel</li>
+            <p class="pagina-secundaria">A diretiva ngModel é uma das funcionalidades mais utilizadas do Angular. Ela permite criar uma ligação bidirecional entre os dados do modelo e os elementos de formulário na interface do usuário. Isso significa que qualquer alteração feita nos elementos de formulário é automaticamente refletida nos dados do modelo e vice-versa. Essa funcionalidade simplifica o desenvolvimento de formulários em aplicações Angular, tornando o código mais limpo e fácil de manter.</p>
+
+            <li>TypeScript</li>
+            <p class="pagina-secundaria">TypeScript é um superconjunto tipado do JavaScript que adiciona tipagem estática opcional ao JavaScript. Ele permite aos desenvolvedores escrever código JavaScript mais seguro e escalável, detectando erros em tempo de compilação e fornecendo ferramentas avançadas de autocompletar e refatoração. O TypeScript é amplamente utilizado em projetos Angular, mas também pode ser adotado em projetos React e Vue.js para melhorar a qualidade e a manutenibilidade do código.</p>
+
+
+
+
+
+
+        </div>
     </main>
     <div class="botao">
-        <a href="../../index.html"><button>Página Principal</button></a>
+        <a href="/"><button>Página Principal</button></a>
         <a href="#"><button>Próxima Aula</button></a>
     </div>
     <footer>
