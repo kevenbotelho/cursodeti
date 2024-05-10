@@ -190,6 +190,7 @@ div#imagens-centrais{
 }
 cite{
     display: none;
+    font-size: 10px;
     color: #72e75d;
 }
 div.imagem:hover cite{
