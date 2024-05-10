@@ -5,20 +5,29 @@
     font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
 }
 table{
+    max-width: 650px;
+    background-color: gray;
+    color: black;
     border-collapse: collapse;
     margin: auto;
 }
-thead, tbody{
-    
+tbody{
+    background-color: white;
 }
 th, td{
     border: 1px solid black;
-    padding: 5px;
+    padding: 10px;
+}
+div.tabela{
+    overflow: auto;
+}
+td.numero{
+    text-align: right;
 }
 /*PAGINA PRINCIPAL*/
 body{
     background-color: #292c43;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 header{
     background-color: #2b5d68;
@@ -33,6 +42,10 @@ main{
     color: rgb(255, 255, 255);
 }
 /*FIM-PRIMORDIAIS*/
+header#header-principal{
+    letter-spacing: 5px;
+    font-size: 25px;
+}
 header > h1#titulo-principal-pagina-principal{
     color: rgb(214, 214, 214);
     text-align: center;
@@ -63,6 +76,9 @@ main > section > ol > li > a{
     font-size: 15px;
     color: white;
     text-decoration: none;
+}
+#redes-de-computadores{
+    border-top: none;
 }
 #tecnologias-emergentes{
     border-radius: 0px 0px 10px 10px;
@@ -171,6 +187,13 @@ div#imagens-centrais{
     margin: auto;
     border-radius: 50%;
     border: 1px solid black;
+}
+cite{
+    display: none;
+    color: #72e75d;
+}
+div.imagem:hover cite{
+    display: block;
 }
 /*FIM-IMAGENS*/
 
