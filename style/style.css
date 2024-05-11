@@ -43,7 +43,7 @@ main{
 }
 /*FIM-PRIMORDIAIS*/
 header#header-principal{
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     font-size: 20px;
 }
 header > h1#titulo-principal-pagina-principal{
@@ -127,7 +127,7 @@ h2.topicos-pagina-secundaria{
     background-image: linear-gradient(to right, gray, white);
     border: 1px solid black;
     border-radius: 10px;
-    padding: 0px 0px 0px 30px;
+    padding: 0px 30px 0px 30px;
     margin-bottom: 10px;
 }
 #nome-do-assunto-pagina-secundaria{
