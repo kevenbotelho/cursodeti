@@ -44,7 +44,7 @@ main{
 /*FIM-PRIMORDIAIS*/
 header#header-principal{
     letter-spacing: 3px;
-    font-size: 20px;
+    font-size: 23px;
 }
 header > h1#titulo-principal-pagina-principal{
     color: rgb(214, 214, 214);
