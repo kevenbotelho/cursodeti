@@ -3,23 +3,25 @@
     padding: 0;
     font-family: 'Times New Roman', Times, serif;
 }
-body{
+html{
     background: black url(https://solvimm.com/wp-content/uploads/2018/08/o-que-e-big-data-capa.png) no-repeat right 10% center ;
     background-size: cover;
     background-attachment: fixed;
 }
+body{
+    
+}
 main{
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.646);
     color: white;
     text-align: justify;
-    line-height: 25px;
+    line-height: 30px;
     padding: 30px 30px 20px 30px;
-
+    font-size: 22px;
 }
 h1{
     text-align: center;
-    padding: 5px 10px 10px 10px;
+    padding: 5px 10px 15px 10px;
 }
 p{
     padding-bottom: 10px;
