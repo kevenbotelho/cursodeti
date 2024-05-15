@@ -1,0 +1,46 @@
+@charset "UTF-8";
+body{
+    margin-top: -60px;
+    margin-bottom: -20px;
+    color: black;
+}
+header{
+    position: static;
+    background-color: white;
+    color: black;
+    border: none;
+    padding-bottom: 15px;
+}
+header h1 a{
+    color: black !important;
+    text-shadow: none;
+}
+#header-principal{
+    display: none;
+}
+#header-principal:first-of-type{
+    display: block;
+}
+main{
+    background-color: white;
+    border: none;
+}
+div.branco{
+    border: none;
+    box-shadow: none;
+}
+h1, p{
+    color: black;
+}
+h2.topicos-pagina-secundaria{
+    background-image: linear-gradient(white, white);
+}
+aside{
+    display: none;
+}
+div.botao{
+    display: none;
+}
+footer{
+    display: none;
+}
