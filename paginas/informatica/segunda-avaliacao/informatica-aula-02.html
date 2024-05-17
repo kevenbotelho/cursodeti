@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Avançado - ClassRecap</title>
+    <link rel="shortcut icon" href="../../../imagens/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../../style/style.css">
+</head>
+<body id="body-secundario">
+    <header>
+        <h1 id="titulo-principal-pagina-secundaria"><a id="link-titulo" href="../../../index.html" target="_self">Informática - 02</a></h1>
+    </header>
+<main id="main-secundario">
+    <div class="imagem">
+        <img id="imagem-principal-pagina-secundaria" src="" alt="">
+    </div>
+    <h1 id="nome-do-assunto-pagina-secundaria">EXCEL AVANÇADO</h1>
+    <h2 id="nome-do-assunto-secundario-pagina-secundaria">Guia Explicativo</h2>
+    <p class="pagina-secundaria">
+        Vamos explorar algumas funções avançadas do Excel que são extremamente úteis. Aqui, explicaremos cada função e sua utilidade de forma simples.
+        </p>
+    <div class="branco">
+        <h2 class="topicos-pagina-secundaria"></h2>
+        
+        <p class="pagina-secundaria">
+            <h2 class="topicos-pagina-secundaria">Função SE</h2>
+            Para que serve: A função SE é usada para fazer um teste lógico e retornar um valor se o teste for verdadeiro e outro valor se o teste for falso.
+            
+            Fórmula: SE(teste; valor_se_verdadeiro; valor_se_falso)
+            
+            Exemplo: Se você quer saber se um aluno passou ou não com base em sua nota, use: SE(F2>7; "Passou"; "Não Passou").
+            
+            <h2 class="topicos-pagina-secundaria">Função E</h2>
+            Para que serve: A função E é usada dentro da função SE para testar várias condições ao mesmo tempo e retornar verdadeiro se todas forem verdadeiras.
+            
+            Fórmula: =SE(E(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)
+            
+            Exemplo: Para saber se um aluno passou em todas as matérias, use: SE(E(F2>7; G2>7; H2>7); "Passou"; "Não Passou").
+            
+            <h2 class="topicos-pagina-secundaria">Função OU</h2>
+            Para que serve: A função OU é usada dentro da função SE para testar várias condições ao mesmo tempo e retornar verdadeiro se pelo menos uma for verdadeira.
+            
+            Fórmula: =SE(OU(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)
+            
+            Exemplo: Para saber se um aluno passou em pelo menos uma matéria, use: SE(OU(F2>7; G2>7; H2>7); "Passou"; "Não Passou").
+            
+            <h2 class="topicos-pagina-secundaria">Função CONT.VALORES</h2>
+            Para que serve: Conta o número de células que contêm valores (não vazias).
+            
+            Fórmula: =CONT.VALORES(Lista-de-células)
+            
+            Exemplo: Para contar quantas notas foram lançadas, use: CONT.VALORES(B2:B10).
+            
+            <h2 class="topicos-pagina-secundaria">Função CONTAR.VAZIO</h2>
+            Para que serve: Conta o número de células vazias em um intervalo.
+            
+            Fórmula: =CONTAR.VAZIO(Lista-de-células)
+            
+            Exemplo: Para contar quantas células estão vazias em uma lista de notas, use: CONTAR.VAZIO(B2:B10).
+            
+            <h2 class="topicos-pagina-secundaria">Função CONT.SE</h2>
+            Para que serve: Conta o número de células que atendem a uma determinada condição.
+            
+            Fórmula: =CONT.SE(Lista-de-células; Critério)
+            
+            Exemplo: Para contar quantas notas são maiores que 7, use: CONT.SE(B2:B10; ">7").
+            
+            <h2 class="topicos-pagina-secundaria">Função SOMASE</h2>
+            Para que serve: Soma os valores de células que atendem a uma condição específica.
+            
+            Fórmula: =SOMASE(Lista-de-células; Condição; Lista-de-células-com-Valores)
+            
+            Exemplo: Para somar os valores das notas acima de 7, use: SOMASE(B2:B10; ">7"; B2:B10).
+            
+            <h2 class="topicos-pagina-secundaria">Função PROCV</h2>
+            Para que serve: Procura um valor na primeira coluna de uma tabela e retorna um valor na mesma linha de uma coluna especificada.
+            
+            Fórmula: =PROCV(valor_procurado; matriz_tabela; num_índice_coluna; [intervalo])
+            
+            Exemplo: Para encontrar a nota de um aluno específico, use: PROCV("Marcelo Lima"; A2:B10; 2; FALSO).
+            
+            <h2 class="topicos-pagina-secundaria">Função CLASSIFICAR</h2>
+            Para que serve: Organiza os dados em ordem crescente ou decrescente.
+            
+            Passos:
+            
+            Selecione o intervalo de dados.
+            Vá em "Dados" > "Classificar".
+            Escolha a coluna e a ordem (ascendente ou descendente).
+            Função CONCATENAR
+            Para que serve: Junta dois ou mais valores de texto em um único valor.
+            
+            Fórmula: =CONCATENAR(Texto1; Texto2; ...)
+            
+            Exemplo: Para juntar o primeiro nome e o sobrenome de uma lista de alunos, use: CONCATENAR(A2; " "; B2).
+            
+            <h2 class="topicos-pagina-secundaria">Funções de Data e Hora</h2>
+            =AGORA(): Retorna a data e hora atuais.
+            =DIATRABALHOTOTAL(Data_inicial; Data_final): Conta os dias úteis entre duas datas.
+            =MÊS(Data): Retorna o mês de uma data.
+            =ANO(Data): Retorna o ano de uma data.
+            =HORA(Horário): Retorna a hora de um horário.
+            =MINUTO(Horário): Retorna o minuto de um horário.
+            =SEGUNDO(Horário): Retorna o segundo de um horário.
+            <h3>Funções Financeiras</h3>
+            =XTIR(Valores): Retorna a taxa interna de retorno de um investimento.
+            <h3>Funções Estatísticas</h3>
+            =MÉDIASE(Intervalo; Critério): Calcula a média de células que atendem a uma condição.
+            =MED(Intervalo): Retorna a mediana de um intervalo de números.
+            =MODO(Intervalo): Retorna o valor mais frequente em um intervalo de números.
+            =SOMARPRODUTO(Intervalo1; Intervalo2): Multiplica os valores correspondentes em dois intervalos e retorna a soma desses produtos.
+            <h3>Funções Matemáticas</h3>
+            =MULT(Números): Multiplica uma série de números.
+            =POTÊNCIA(Base; Expoente): Calcula a potência de um número.
+            =FATORIAL(Número): Retorna o fatorial de um número.</p>
+    </div>
+    <div class="botao">
+        <a href=""><button>Aula Anterior</button></a>
+        <a href=""><button>Próxima Aula</button></a>
+    </div>
+</main>
+<footer>
+    <h1>PROJETO DESENVOLVIDO</h1>
+    <p>Site e Quiz para estudo e aprendizagem</p>
+    <h1>EQUIPE</h1>
+    <ul>
+        <li type="none">Gerente de Requisitos - Site: Paulo Henrique</li>
+        <li type="none">Design - Site/Quiz: Kathleen Botelho</li>
+        <li type="none">Desenvolvedor - Site: Keven Botelho</li>
+        <li type="none">Desenvolvedor de Questões - Site: Paulo Rodrigues</li>
+        <li type="none">Desenvolvedor de Formulário - Quiz: Kathleen Botelho</li>
+    </ul>
+</footer>
+</body>
+</html>
