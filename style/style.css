@@ -131,6 +131,7 @@ h2.topicos-pagina-secundaria{
     margin-bottom: 10px;
 }
 #nome-do-assunto-pagina-secundaria{
+    text-transform: capitalize;
     text-align: center;
     padding: 0px 0px 7px 0px;
     font-size: 30px;
