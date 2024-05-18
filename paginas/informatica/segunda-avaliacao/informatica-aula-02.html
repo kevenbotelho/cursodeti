@@ -20,82 +20,90 @@
     <p class="pagina-secundaria">
         Vamos explorar algumas funções avançadas do Excel que são extremamente úteis. Aqui, explicaremos cada função e sua utilidade de forma simples.
         </p>
-    <div class="branco">
-        <h2 class="topicos-pagina-secundaria"></h2>
-        
+    <section class="branco">
+        <h2 class="topicos-pagina-secundaria">Funções</h2>
+        <div class="imagem">
+            <img src="https://mestresdoexcel.com.br/wp-content/uploads/2019/12/Funcoes-Basicas-do-Excel.jpeg" alt="">
+        </div>
         <p class="pagina-secundaria">
-            <h2 class="topicos-pagina-secundaria">Função SE</h2>
-            Para que serve: A função SE é usada para fazer um teste lógico e retornar um valor se o teste for verdadeiro e outro valor se o teste for falso.
+            <li>Função SE</li>
+            <p class="pagina-secundaria">A função SE é usada para fazer um teste lógico e retornar um valor se o teste for verdadeiro e outro valor se o teste for falso.</p>
             
-            Fórmula: SE(teste; valor_se_verdadeiro; valor_se_falso)
+            <p class="pagina-secundaria">Fórmula: SE(teste; valor_se_verdadeiro; valor_se_falso)</p>
             
-            Exemplo: Se você quer saber se um aluno passou ou não com base em sua nota, use: SE(F2>7; "Passou"; "Não Passou").
+            <p class="pagina-secundaria">Exemplo: Se você quer saber se um aluno passou ou não com base em sua nota, use: SE(F2>7; "Passou"; "Não Passou").</p>
+            <hr class="divisao-de-conteudo">
+            <li>Função E</li>
+            <p class="pagina-secundaria">A função E é usada dentro da função SE para testar várias condições ao mesmo tempo e retornar verdadeiro se todas forem verdadeiras.</p>
             
-            <h2 class="topicos-pagina-secundaria">Função E</h2>
-            Para que serve: A função E é usada dentro da função SE para testar várias condições ao mesmo tempo e retornar verdadeiro se todas forem verdadeiras.
+            <p class="pagina-secundaria">Fórmula: =SE(E(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)</p>
             
-            Fórmula: =SE(E(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)
+            <p class="pagina-secundaria">Exemplo: Para saber se um aluno passou em todas as matérias, use: SE(E(F2>7; G2>7; H2>7); "Passou"; "Não Passou").</p>
+            <hr class="divisao-de-conteudo">
+            <li>Função OU</li>
+            <p class="pagina-secundaria">A função OU é usada dentro da função SE para testar várias condições ao mesmo tempo e retornar verdadeiro se pelo menos uma for verdadeira.</p>
             
-            Exemplo: Para saber se um aluno passou em todas as matérias, use: SE(E(F2>7; G2>7; H2>7); "Passou"; "Não Passou").
+            <p class="pagina-secundaria">Fórmula: =SE(OU(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)</p>
             
-            <h2 class="topicos-pagina-secundaria">Função OU</h2>
-            Para que serve: A função OU é usada dentro da função SE para testar várias condições ao mesmo tempo e retornar verdadeiro se pelo menos uma for verdadeira.
+            <p class="pagina-secundaria">Exemplo: Para saber se um aluno passou em pelo menos uma matéria, use: SE(OU(F2>7; G2>7; H2>7); "Passou"; "Não Passou").</p>
+            <hr class="divisao-de-conteudo">
+            <li>Função CONT.VALORES</li>
+            <p class="pagina-secundaria">Para que serve: Conta o número de células que contêm valores (não vazias).</p>
             
-            Fórmula: =SE(OU(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)
+            <p class="pagina-secundaria">Fórmula: =CONT.VALORES(Lista-de-células)</p>
             
-            Exemplo: Para saber se um aluno passou em pelo menos uma matéria, use: SE(OU(F2>7; G2>7; H2>7); "Passou"; "Não Passou").
+            <p class="pagina-secundaria">Exemplo: Para contar quantas notas foram lançadas, use: CONT.VALORES(B2:B10).</p>
+            <hr class="divisao-de-conteudo">
+            <li>Função CONTAR.VAZIO</li>
+            <p class="pagina-secundaria">Para que serve: Conta o número de células vazias em um intervalo.</p>
             
-            <h2 class="topicos-pagina-secundaria">Função CONT.VALORES</h2>
-            Para que serve: Conta o número de células que contêm valores (não vazias).
+            <p class="pagina-secundaria">Fórmula: =CONTAR.VAZIO(Lista-de-células)</p>
             
-            Fórmula: =CONT.VALORES(Lista-de-células)
+            <p class="pagina-secundaria">Exemplo: Para contar quantas células estão vazias em uma lista de notas, use: CONTAR.VAZIO(B2:B10).</p>
+            <hr class="divisao-de-conteudo">
+            <li>Função CONT.SE</li>
+            <p class="pagina-secundaria">Para que serve: Conta o número de células que atendem a uma determinada condição.</p>
             
-            Exemplo: Para contar quantas notas foram lançadas, use: CONT.VALORES(B2:B10).
+            <p class="pagina-secundaria">Fórmula: =CONT.SE(Lista-de-células; Critério)</p>
             
-            <h2 class="topicos-pagina-secundaria">Função CONTAR.VAZIO</h2>
-            Para que serve: Conta o número de células vazias em um intervalo.
+            <p class="pagina-secundaria">Exemplo: Para contar quantas notas são maiores que 7, use: CONT.SE(B2:B10; ">7").</p>
+            <hr class="divisao-de-conteudo">
+            <li>Função SOMASE</li>
+            <p class="pagina-secundaria">Para que serve: Soma os valores de células que atendem a uma condição específica.</p>
             
-            Fórmula: =CONTAR.VAZIO(Lista-de-células)
+            <p class="pagina-secundaria">Fórmula: =SOMASE(Lista-de-células; Condição; Lista-de-células-com-Valores)</p>
             
-            Exemplo: Para contar quantas células estão vazias em uma lista de notas, use: CONTAR.VAZIO(B2:B10).
+            <p class="pagina-secundaria">Exemplo: Para somar os valores das notas acima de 7, use: SOMASE(B2:B10; ">7"; B2:B10).</p>
+            <hr class="divisao-de-conteudo">
+            <li>Função PROCV</li>
+            <div class="imagem">
+                <img src="https://kondado.com.br/blog/wp-content/uploads/2024/01/xBLOG-Como-usar-a-funcao-PROCV-no-Excel-.png.pagespeed.ic.7RWikqgPwU.png" alt="">
+            </div>
+            <p class="pagina-secundaria">Para que serve: Procura um valor na primeira coluna de uma tabela e retorna um valor na mesma linha de uma coluna especificada.</p>
             
-            <h2 class="topicos-pagina-secundaria">Função CONT.SE</h2>
-            Para que serve: Conta o número de células que atendem a uma determinada condição.
+            <p class="pagina-secundaria">Fórmula: =PROCV(valor_procurado; matriz_tabela; num_índice_coluna; [intervalo])</p>
             
-            Fórmula: =CONT.SE(Lista-de-células; Critério)
+            <p class="pagina-secundaria">Exemplo: Para encontrar a nota de um aluno específico, use: PROCV("Marcelo Lima"; A2:B10; 2; FALSO).</p>
+            <hr class="divisao-de-conteudo">
+            <li>Função CLASSIFICAR</li>
+            <p class="pagina-secundaria">Para que serve: Organiza os dados em ordem crescente ou decrescente.</p>
             
-            Exemplo: Para contar quantas notas são maiores que 7, use: CONT.SE(B2:B10; ">7").
+            <p class="pagina-secundaria">
+                Passos:
+                
+                Selecione o intervalo de dados.
+                Vá em "Dados" > "Classificar".
+                Escolha a coluna e a ordem (ascendente ou descendente).
+                Função CONCATENAR
+                Para que serve: Junta dois ou mais valores de texto em um único valor.
+            </p>
             
-            <h2 class="topicos-pagina-secundaria">Função SOMASE</h2>
-            Para que serve: Soma os valores de células que atendem a uma condição específica.
+            <p class="pagina-secundaria">Fórmula: =CONCATENAR(Texto1; Texto2; ...)</p>
             
-            Fórmula: =SOMASE(Lista-de-células; Condição; Lista-de-células-com-Valores)
-            
-            Exemplo: Para somar os valores das notas acima de 7, use: SOMASE(B2:B10; ">7"; B2:B10).
-            
-            <h2 class="topicos-pagina-secundaria">Função PROCV</h2>
-            Para que serve: Procura um valor na primeira coluna de uma tabela e retorna um valor na mesma linha de uma coluna especificada.
-            
-            Fórmula: =PROCV(valor_procurado; matriz_tabela; num_índice_coluna; [intervalo])
-            
-            Exemplo: Para encontrar a nota de um aluno específico, use: PROCV("Marcelo Lima"; A2:B10; 2; FALSO).
-            
-            <h2 class="topicos-pagina-secundaria">Função CLASSIFICAR</h2>
-            Para que serve: Organiza os dados em ordem crescente ou decrescente.
-            
-            Passos:
-            
-            Selecione o intervalo de dados.
-            Vá em "Dados" > "Classificar".
-            Escolha a coluna e a ordem (ascendente ou descendente).
-            Função CONCATENAR
-            Para que serve: Junta dois ou mais valores de texto em um único valor.
-            
-            Fórmula: =CONCATENAR(Texto1; Texto2; ...)
-            
-            Exemplo: Para juntar o primeiro nome e o sobrenome de uma lista de alunos, use: CONCATENAR(A2; " "; B2).
-            
-            <h2 class="topicos-pagina-secundaria">Funções de Data e Hora</h2>
+            <p class="pagina-secundaria">Exemplo: Para juntar o primeiro nome e o sobrenome de uma lista de alunos, use: CONCATENAR(A2; " "; B2).</p>
+        </section>
+    <section class="branco">
+        <h2 class="topicos-pagina-secundaria">Funções de Data e Hora</h2>
             =AGORA(): Retorna a data e hora atuais.
             =DIATRABALHOTOTAL(Data_inicial; Data_final): Conta os dias úteis entre duas datas.
             =MÊS(Data): Retorna o mês de uma data.
@@ -114,9 +122,9 @@
             =MULT(Números): Multiplica uma série de números.
             =POTÊNCIA(Base; Expoente): Calcula a potência de um número.
             =FATORIAL(Número): Retorna o fatorial de um número.</p>
-    </div>
+    </section>
     <div class="botao">
-        <a href=""><button>Aula Anterior</button></a>
+        <a href="informatica-aula-01.html" target="_parent"><button>Aula Anterior</button></a>
         <a href=""><button>Próxima Aula</button></a>
     </div>
 </main>

@@ -2,32 +2,14 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
-}
-table{
-    max-width: 650px;
-    background-color: gray;
-    color: black;
-    border-collapse: collapse;
-    margin: auto;
-}
-tbody{
-    background-color: white;
-}
-th, td{
-    border: 1px solid black;
-    padding: 10px;
-}
-div.tabela{
-    overflow: auto;
-}
-td.numero{
-    text-align: right;
 }
 /*PAGINA PRINCIPAL*/
 body{
     background-color: #292c43;
     padding-top: 80px;
+    border: 1px solid #dbdbdb;
 }
 header{
     background-color: #2b5d68;
@@ -68,6 +50,7 @@ main#principal li.lista-de-assunto{
     text-align: center;
     font-size: 13px;
     font-weight: normal;
+    text-transform: uppercase;
     list-style-position: inside;
     padding: 5px 0px 30px 0px;
     text-shadow: 3px 3px 4px rgb(44, 44, 44);
@@ -87,11 +70,6 @@ footer#rodape-principal{
     text-align: center;
 }
 /*PAGINA PRINCIPAL*/
-
-a{
-    color: black;
-    text-decoration: underline 2px;
-}
 /*PÁGINAS SECUNDÁRIAS*/
 /*PRIMORDIAIS*/
 body#body-secundario{
@@ -114,7 +92,6 @@ footer{
 
 /*TITULOS*/
 header h1#titulo-principal-pagina-secundaria{
-    color: rgb(214, 214, 214);
     text-align: center;
     padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
@@ -272,7 +249,7 @@ button{
     font-size: 10px;
     margin: 0px 10px 0px 0px;
 }
-div.botao{
+div.botao, aside.botao{
     display: flex;
     justify-content: center;
     padding-bottom: 5px;
@@ -283,6 +260,29 @@ abbr{
     text-decoration: underline;
     text-decoration-color: rgba(38, 85, 241, 0.898);
 }
+/*Logica*/
+/*tabelas*/
+table{
+    max-width: 650px;
+    background-color: gray;
+    color: black;
+    border-collapse: collapse;
+    margin: auto;
+}
+tbody{
+    background-color: white;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+div.tabela{
+    overflow: auto;
+}
+td.numero{
+    text-align: right;
+}
+/*tabela*/
 /*QUIZ*/
 div img#quiz{
     max-width: 200px;
@@ -332,3 +332,5 @@ footer  ul > li{
 }
 /*FOOTER*/
 /*FIM - PÁGINAS SECUNDARIAS*/
+
+/*MEDIA QUERY*/

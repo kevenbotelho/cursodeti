@@ -18,15 +18,15 @@
     <h1 id="nome-do-assunto-pagina-secundaria"></h1>
     <h2 id="nome-do-assunto-secundario-pagina-secundaria"></h2>
     <p class="pagina-secundaria"></p>
-    <div class="branco">
+    <section class="branco">
         <h2 class="topicos-pagina-secundaria"></h2>
         
         <p class="pagina-secundaria"></p>
-    </div>
-    <div class="botao">
+    </section>
+    <aside class="botao">
         <a href=""><button>Aula Anterior</button></a>
         <a href=""><button>Próxima Aula</button></a>
-    </div>
+    </aside>
 </main>
 <footer>
     <h1>PROJETO DESENVOLVIDO</h1>
