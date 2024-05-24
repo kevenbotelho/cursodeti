@@ -99,12 +99,16 @@ header h1#titulo-principal-pagina-secundaria{
 h2.topicos-pagina-secundaria{
     text-align: left;
     font-size: 25px;
-    padding-bottom: 7px;
-    padding: 0px 0px 10px 20px;
     background-image: linear-gradient(to right, gray, white);
     border: 1px solid black;
     border-radius: 10px;
     padding: 0px 30px 0px 30px;
+    margin-bottom: 10px;
+}
+h3.subtopicos-pagina-secundaria{
+    text-align: left;
+    font-size: 15px;
+    padding: 10px 30px 0px 10px;
     margin-bottom: 10px;
 }
 #nome-do-assunto-pagina-secundaria{
@@ -186,20 +190,6 @@ p.pagina-secundaria{
 /*FIM-PARAGRAFOS*/
 
 /*PARTE BRANCA*/
-ul.pagina-secundaria{
-    background-color: #ffffff;
-    color: black;
-    /*
-    max-width: 700px;
-    min-width: 280px;
-    */
-    padding: 20px;
-    text-align: justify;
-    border-radius: 20px;
-    border: 1px solid black;
-    margin: 20px;
-    box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
-}
 li{
     font-weight: bolder;
     font-size: .875rem;
@@ -207,7 +197,7 @@ li{
     padding-top: 10px;
     list-style-position: inside;
 }
-.branco{
+section.branco{
     background-color: #ffffff;
     color: black;
     padding: 20px;
