@@ -111,6 +111,12 @@ h3.subtopicos-pagina-secundaria{
     padding: 10px 30px 0px 10px;
     margin-bottom: 10px;
 }
+h4.sub-subtopicos-pagina-secundaria{
+    text-align: left;
+    font-size: 13px;
+    padding: 10px 30px 0px 20px;
+    margin-bottom: 10px;
+}
 #nome-do-assunto-pagina-secundaria{
     text-transform: capitalize;
     text-align: center;
@@ -258,6 +264,12 @@ table{
     color: black;
     border-collapse: collapse;
     margin: auto;
+}
+caption{
+    background-color: gray;
+    border: 1px solid;
+    font-weight:bold;
+    font-size: 17px;
 }
 tbody{
     background-color: white;
