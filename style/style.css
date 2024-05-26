@@ -95,6 +95,7 @@ header h1#titulo-principal-pagina-secundaria{
     text-align: center;
     padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
+    word-wrap: normal;
 }
 h2.topicos-pagina-secundaria{
     text-align: left;

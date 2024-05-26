@@ -6,6 +6,64 @@
     <title>Comunicação de Dados - ClassRecap</title>
     <link rel="shortcut icon" href="../../../imagens/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../../../style/style.css">
+    <style>
+        @media screen and (max-width: 447px)  {
+            *{
+                text-orientation: upright;
+            }
+            body#body-secundario{
+                padding-top: 110px;
+            }
+            section.branco{
+                margin: 5px;
+                border-radius: 0;
+                transition: 0.8s;
+            }
+        }
+        @media screen and (max-width: 305px)  {
+            body#body-secundario{
+                padding-top: 160px;
+                border: 0;
+            }
+            h1#nome-do-assunto-pagina-secundaria{
+            font-size: 95%;
+            }
+            h2.topicos-pagina-secundaria{
+                font-size: 70% !important;
+            }
+            section.branco{
+                margin: 5px;
+                border-radius: 0;
+                transition: 0.8s;
+            }
+            footer ul  li{
+                font-size: 90%;
+            }
+        }
+        @media screen and (max-width: 264px)  {
+            header a{
+                font-size: 67% !important;
+            }
+            h2.topicos-pagina-secundaria{
+                font-size: 15px ;
+                padding-left: 20px;
+            }
+            h3{
+                font-size: 10px !important;
+            }
+            section.branco{
+                margin: 0;
+                border-radius: 0;
+                transition: 0.8s;
+            }
+            p{
+                font-size: 70% !important;
+            } 
+            footer > h1{
+                font-size: 14px;
+            }
+        }
+    </style>
 </head>
 <body id="body-secundario">
     <header id="header-secundario">
@@ -178,7 +236,7 @@
                     <p class="pagina-secundaria"><b>NFC (Near Field Communication)</b>: É usado para transferir dados entre dispositivos que estão muito próximos um do outro, geralmente a alguns centímetros de distância. Por exemplo, você pode usar o NFC para fazer pagamentos com o seu celular em um terminal de pagamento sem fio.</p>
                     <p class="pagina-secundaria">Essas tecnologias WPAN tornam mais fácil conectar e usar nossos dispositivos pessoais de forma conveniente, sem a bagunça de cabos.</p>
                 <hr class="divisao-de-conteudo">
-                <div style="width: 200px;" class="imagem">
+                <div class="imagem">
                     <img src="../imagens/periodo1/aula-1/roteador.png" alt="Modem de Internet">
                 </div>
                 <h3 class="subtopicos-pagina-secundaria">WLAN</h3>
