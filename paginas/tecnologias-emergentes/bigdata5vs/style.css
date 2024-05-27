@@ -4,12 +4,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 html{
+    
+}
+body{
     background: black url(https://solvimm.com/wp-content/uploads/2018/08/o-que-e-big-data-capa.png) no-repeat right 10% center ;
     background-size: cover;
     background-attachment: fixed;
-}
-body{
-    
 }
 main{
     background-color: rgba(0, 0, 0, 0.646);
