@@ -5,77 +5,13 @@
     box-sizing: border-box;
     font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
 }
-/*PAGINA PRINCIPAL*/
-body{
-    background-color: #292c43;
-    padding-top: 80px;
-    border: 1px solid #dbdbdb;
-}
-header{
-    background-color: #2b5d68;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    border-bottom: 1px solid #dbdbdb;
-}
-main{
-    margin: auto;
-    width: 100%;
-    color: rgb(255, 255, 255);
-}
-/*FIM-PRIMORDIAIS*/
-header#header-principal{
-    letter-spacing: 3px;
-    font-size: 23px;
-}
-header > h1#titulo-principal-pagina-principal{
-    color: rgb(214, 214, 214);
-    text-align: center;
-    padding: 5px 0px 5px 0px;
-    text-shadow: 1px 2px 5px rgb(71, 71, 71);
-}
-main > section.caixa-de-assuntos{
-    padding: 20px 0px 30px 0px;
-    border: 1px solid #dbdbdb;
-}
-main > section > h2.nome-do-assunto{
-    color: white;
-    text-align: center;
-    padding: 0px 0px 12px 0px;
-    text-transform: uppercase;
-    font-size: 20px;
-}
-main#principal li.lista-de-assunto{
-    font-family: monospace;
-    text-align: center;
-    font-size: 13px;
-    font-weight: normal;
-    text-transform: uppercase;
-    list-style-position: inside;
-    padding: 5px 0px 30px 0px;
-    text-shadow: 3px 3px 4px rgb(44, 44, 44);
-}
-main#principal li > a{
-    font-size: 15px;
-    color: white;
-    text-decoration: none;
-}
-#redes-de-computadores{
-    border-top: none;
-}
-#tecnologias-emergentes{
-    border-radius: 0px 0px 10px 10px;
-}
-footer#rodape-principal{
-    text-align: center;
-}
-/*PAGINA PRINCIPAL*/
-/*PÁGINAS SECUNDÁRIAS*/
+
 /*PRIMORDIAIS*/
 body#body-secundario{
     background-color: #292c43;
     padding-top: 60px;
 }
+
 main#main-secundario{
     margin: auto;
     max-width: 800px;
@@ -86,11 +22,18 @@ main#main-secundario{
 footer{
     background-color: #2b5d68;
     color: white;
-    padding: 20px 0px 10px 20px;
+    padding: 20px 0px 10px 00px;
 }
 /*FIM-PRIMORDIAIS*/
 
 /*TITULOS*/
+header#header-secundario{
+    background-color: #2b5d68;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #dbdbdb;
+}
 header h1#titulo-principal-pagina-secundaria{
     text-align: center;
     padding: 5px 0px 5px 0px;
@@ -153,7 +96,7 @@ div.imagem{
     max-width: 320px;
     min-width: 50px;
     padding: 0px 5px 10px 5px;
-    margin:auto;
+    margin: auto;
     text-align: center;
 }
 div.imagem img{
@@ -182,9 +125,6 @@ cite{
     font-size: 10px;
     color: #72e75d;
 }
-div.imagem:hover cite{
-    display: block;
-}
 /*FIM-IMAGENS*/
 
 /*PARAGRAFOS*/
@@ -211,7 +151,7 @@ section.branco{
     text-align: justify;
     border-radius: 20px;
     border: 1px solid black;
-    margin: 20px;
+    margin: 10px;
     box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
 }
 /*FIM-PARTE BRANCA*/

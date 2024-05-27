@@ -1,0 +1,64 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+}
+body#body-principal{
+    background-color: #292c43;
+    padding-top: 80px;
+    overflow-x: hidden;
+}
+
+header#header-principal{
+    background-color: #2b5d68;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #dbdbdb;
+    letter-spacing: 3px;
+    font-size: 23px;
+}
+header > h1#titulo-principal-pagina-principal{
+    color: rgb(214, 214, 214);
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    text-shadow: 1px 2px 5px rgb(71, 71, 71);
+}
+main > section.caixa-de-assuntos{
+    padding: 20px 0px 30px 0px;
+    border-bottom: 1px solid #dbdbdb;
+}
+main > section > h2.nome-do-assunto{
+    color: white;
+    text-align: center;
+    padding: 0px 0px 12px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+main#principal li.lista-de-assunto{
+    font-family: monospace;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    list-style-position: inside;
+    padding: 5px 0px 30px 0px;
+    text-shadow: 3px 3px 4px rgb(44, 44, 44);
+    color: white;
+}
+main#principal li > a{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+#redes-de-computadores{
+    border-top: none;
+}
+footer#rodape-principal{
+    text-align: center;
+    background-color: #2b5d68;
+    color: white;
+    padding: 10px 0px 10px 0px;
+}
