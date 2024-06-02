@@ -2,8 +2,11 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
     box-sizing: border-box;
     font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+    background-color: black !important;
+    color: white !important;
 }
 
 /*PRIMORDIAIS*/
@@ -184,7 +187,13 @@ button{
     background-color: rgb(86, 156, 159);
     color: black;
     font-size: 10px;
-    margin: 0px 10px 0px 0px;
+    margin: 10px 10px 0px 10px;
+    border: 1px solid white;
+    display: inline-block;
+    cursor: pointer;
+}
+div.botao{
+    justify-content: center;
 }
 div.botao, aside.botao{
     display: flex;
@@ -276,4 +285,17 @@ footer  ul > li{
 /*FOOTER*/
 /*FIM - PÁGINAS SECUNDARIAS*/
 
-/*MEDIA QUERY*/
+/*Saiba mais*/
+details.detalhes{
+    background-color: rgba(255, 255, 255, 0.122);
+    padding: 10px;
+    margin: 5px 20px 15px 20px;
+    text-align: center;
+}
+details.detalhes > summary{
+    text-transform: capitalize;
+    padding-bottom: 3px;
+}
+details.detalhes:hover{
+    cursor: pointer;
+}
