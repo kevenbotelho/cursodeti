@@ -17,7 +17,7 @@
     </style>
 </head>
 <body id="body-secundario">
-    <header>
+    <header id="header-secundario">
         <h1 id="titulo-principal-pagina-secundaria"><a id="link-titulo" href="../../../index.html" target="_self">Informática - 02</a></h1>
     </header>
 <main id="main-secundario">
@@ -38,22 +38,25 @@
         <h3 class="subtopicos-pagina-secundaria">Como funciona a função SE?</h3>
         <p class="pagina-secundaria">A fórmula tem três partes principais:</p>
 
-        <p class="pagina-secundaria">Condição: o que você quer verificar (por exemplo, se um número é maior que 10).</pm>
-        <p class="pagina-secundaria">Resultado se Verdadeiro: o que o Excel deve fazer se a condição for verdadeira.</pm>
-        <p class="pagina-secundaria">Resultado se Falso: o que o Excel deve fazer se a condição for falsa.</pm>
-        A estrutura da fórmula é assim:
-        <span><!--=SE(condição;resultado_se_verdadeiro, resultado_se_falso)--></span>
+        <h4 class="sub-subtopicos-pagina-secundaria">Condição</h4>
+        <p class="pagina-secundaria">O que você quer verificar (por exemplo, se um número é maior que 10).</p>
+        <h4 class="sub-subtopicos-pagina-secundaria">Resultado se Verdadeiro</h4>
+        <p class="pagina-secundaria">O que o Excel deve fazer se a condição for verdadeira.</p>
+        <h4 class="sub-subtopicos-pagina-secundaria">Resultado se Falso</h4>
+        <p class="pagina-secundaria">O que o Excel deve fazer se a condição for falsa.</p>
+        <p class="pagina-secundaria">A estrutura da fórmula é assim:
+        <span>=SE(condição;resultado_se_verdadeiro ; resultado_se_falso)</span></p>
 
         <h3 class="subtopicos-pagina-secundaria">Exemplo</h3>
         <p class="pagina-secundaria">Como verificar se um aluno passou?</p>
         <p class="pagina-secundaria">Vamos dizer que você tem a nota de um aluno na célula A1 e quer saber se ele passou.Consideramos que a nota para passar é 7 ou mais.</p>
         <ul>
             <li>Condição: A nota é maior ou igual a 7.</li>
-            <li>Resultado se Verdadeiro: "Passou".</li>
-            <li>Resultado se Falso: "Não Passou".</li>
+            <li>Resultado se Verdadeiro: "APROVADO".</li>
+            <li>Resultado se Falso: "REPROVADO".</li>
         </ul>
-        <p class="pagina-secundaria">A fórmula fica assim:</p>
-    
+        <p class="pagina-secundaria">A fórmula fica assim:
+        <span>=SE(F1>=7;"APROVADO";"REPROVADO")</span></p>
     </section>
 
     <section class="branco">
@@ -67,7 +70,12 @@
             <span>=SE(E(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)</span></p>
         
         <p class="pagina-secundaria">Exemplo: <br> Para saber se um aluno passou em todas as matérias, use: 
-        <span>SE(E(F2>7; G2>7; H2>7); "Passou"; "Não Passou")</span></p>
+        <span>=SE(E(E3>=7;E4>=7;E5>=7);"APROVADO";"REPROVADO")</span>
+        <div class="imagem">
+            <img src="imagens/Captura de tela 2024-06-02 182617.png" alt="">
+        </div>
+        </p>
+        
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função OU</h2>
