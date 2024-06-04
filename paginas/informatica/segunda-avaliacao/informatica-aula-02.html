@@ -13,6 +13,13 @@
         text-align: center;
         background-color: rgba(181, 241, 183, 0.818);
         font-weight: bolder;
+        padding: 5px;
+        }
+        li{
+            font-weight: normal;
+        }
+        h3.subtopicos-pagina-secundaria{
+            padding-left: 20px;
         }
     </style>
 </head>
@@ -22,7 +29,7 @@
     </header>
 <main id="main-secundario">
     <div class="imagem">
-        <img id="imagem-principal-pagina-secundaria" src="https://mestresdoexcel.com.br/wp-content/uploads/2019/12/Funcoes-Basicas-do-Excel.jpeg" alt="">
+        <img id="imagem-principal-pagina-secundaria" src="imagens/principal.jpg" alt="">
     </div>
     <h1 id="nome-do-assunto-pagina-secundaria">FUNÇÕES DO EXCEL </h1>
     <h2 id="nome-do-assunto-secundario-pagina-secundaria">Guia Explicativo</h2>
@@ -33,11 +40,10 @@
         <div class="imagem">
             <img src="imagens/se.png" alt="">
         </div>
-        <p class="pagina-secundaria">A função SE no Excel permite que você diga ao Excel para fazer algo se uma condição for verdadeira e outra coisa se for falsa. É como se você estivesse dizendo: "Se isso acontecer, faça isso; senão, faça aquilo".</p>
+        <p class="pagina-secundaria">A função SE no Excel permite que você diga ao Excel para fazer algo se uma condição for verdadeira e outra coisa se for falsa. <br> É como se você estivesse dizendo: "Se isso acontecer, faça isso; senão, faça aquilo".</p>
 
         <h3 class="subtopicos-pagina-secundaria">Como funciona a função SE?</h3>
         <p class="pagina-secundaria">A fórmula tem três partes principais:</p>
-
         <h4 class="sub-subtopicos-pagina-secundaria">Condição</h4>
         <p class="pagina-secundaria">O que você quer verificar (por exemplo, se um número é maior que 10).</p>
         <h4 class="sub-subtopicos-pagina-secundaria">Resultado se Verdadeiro</h4>
@@ -49,14 +55,14 @@
 
         <h3 class="subtopicos-pagina-secundaria">Exemplo</h3>
         <p class="pagina-secundaria">Como verificar se um aluno passou?</p>
-        <p class="pagina-secundaria">Vamos dizer que você tem a nota de um aluno na célula A1 e quer saber se ele passou.Consideramos que a nota para passar é 7 ou mais.</p>
+        <p class="pagina-secundaria">Vamos dizer que você tem a média de um aluno na célula E3 e quer saber se ele passou. Consideramos que a média para passar é 7 ou mais.</p>
         <ul>
-            <li>Condição: A nota é maior ou igual a 7.</li>
+            <li>Condição: A média é maior ou igual a 7.</li>
             <li>Resultado se Verdadeiro: "APROVADO".</li>
             <li>Resultado se Falso: "REPROVADO".</li>
         </ul>
         <p class="pagina-secundaria">A fórmula fica assim:
-        <span>=SE(F1>=7;"APROVADO";"REPROVADO")</span></p>
+        <span>=SE ( E3 >= 7 ; "APROVADO" ; "REPROVADO" )</span></p>
     </section>
 
     <section class="branco">
@@ -125,7 +131,7 @@
         </div>
         <p class="pagina-secundaria">Conta o número de células que atendem a uma determinada condição.</p>
         
-        <p class="pagina-secundaria">Fórmula:<span> =CONT.SE(Lista-de-células; Critério)</span></p>
+        <p class="pagina-secundaria">Fórmula<span> =CONT.SE(Lista-de-células; Critério)</span></p>
         
         <p class="pagina-secundaria">Exemplo: Para contar quantas notas são maiores que 7, use: <span>CONT.SE(B2:B10; ">7")</span></p>
     </section>
@@ -136,7 +142,7 @@
         </div>
         <p class="pagina-secundaria">Soma os valores de células que atendem a uma condição específica.</p>
         
-        <p class="pagina-secundaria">Fórmula: <span>=SOMASE(Lista-de-células; Condição; Lista-de-células-com-Valores)</span></p>
+        <p class="pagina-secundaria">Fórmula<span>=SOMASE(Lista-de-células; Condição; Lista-de-células-com-Valores)</span></p>
         
         <p class="pagina-secundaria">Exemplo: Para somar os valores das notas acima de 7, use: <span>SOMASE(B2:B10; ">7"; B2:B10)</span></p>
     </section>
@@ -147,9 +153,10 @@
         </div>
         <p class="pagina-secundaria">Procura um valor na primeira coluna de uma tabela e retorna um valor na mesma linha de uma coluna especificada.</p>
         
-        <p class="pagina-secundaria">Fórmula: =PROCV(valor_procurado; matriz_tabela; num_índice_coluna; [intervalo])</p>
+        <p class="pagina-secundaria">Fórmula<span>=PROCV (valor_procurado ; matriz_tabela ; num_índice_coluna ; [intervalo] )</span><p>
         
-        <p class="pagina-secundaria">Exemplo: Para encontrar a nota de um aluno específico, use: PROCV("Marcelo Lima"; A2:B10; 2; FALSO).</p>
+        <p class="pagina-secundaria">Exemplo: Para encontrar a nota de um aluno específico, use <span>=PROCV("Marcelo Lima"; A2:B10; 2; FALSO)</span></p>
+        <h3 class="subtopicos-pagina-secundaria">Matriz</h3>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função CLASSIFICAR</h2>
@@ -170,9 +177,9 @@
         <div class="imagem">
             <img src="../../gestao-aplicada-a-informatica/fotos/error-300px.jpg" alt="">
         </div>
-        <p class="pagina-secundaria">Fórmula: =CONCATENAR(Texto1; Texto2; ...)</p>
+        <p class="pagina-secundaria">Fórmula <span>=CONCATENAR(Texto1; Texto2; ...)</span></p>
         
-        <p class="pagina-secundaria">Exemplo: Para juntar o primeiro nome e o sobrenome de uma lista de alunos, use: CONCATENAR(A2; " "; B2).</p>
+        <p class="pagina-secundaria">Exemplo: Para juntar o primeiro nome e o sobrenome de uma lista de alunos, use: <span>=CONCATENAR(A2; " "; B2).</span></p>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Funções de Data e Hora</h2>
