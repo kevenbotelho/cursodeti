@@ -38,6 +38,7 @@ header#header-secundario{
     width: 100%;
     top: 0;
     border-bottom: 1px solid #dbdbdb;
+    z-index: 1;
 }
 header h1#titulo-principal-pagina-secundaria{
     text-align: center;

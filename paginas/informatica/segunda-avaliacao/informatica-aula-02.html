@@ -7,13 +7,12 @@
     <link rel="shortcut icon" href="../../../imagens/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../../../style/style.css">
     <style>
-        span{
-        display: block;
-        word-wrap: break-word;
-        text-align: center;
-        background-color: rgba(181, 241, 183, 0.818);
-        font-weight: bolder;
-        padding: 5px;
+        div.formula{
+            word-wrap: break-word;
+            text-align: center;
+            background-color: rgba(181, 241, 183, 0.818);
+            font-weight: bolder;
+            padding: 5px;
         }
         li{
             font-weight: normal;
@@ -33,8 +32,8 @@
     </div>
     <h1 id="nome-do-assunto-pagina-secundaria">FUNÇÕES DO EXCEL </h1>
     <h2 id="nome-do-assunto-secundario-pagina-secundaria">Guia Explicativo</h2>
+    <a href="https://docs.google.com/spreadsheets/u/0/d/1MuA7rTygtQcUTlVsOQ6LXr-FoatpxdUTrC02x_qWEUU/htmlview?pli=1#gid=1599773228">LINK</a>
     <p class="pagina-secundaria">Vamos explorar algumas funções avançadas do Excel que são extremamente úteis. Aqui, explicaremos cada função e sua utilidade de forma simples.</p>
-
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função SE</h2>
         <div class="imagem">
@@ -50,8 +49,8 @@
         <p class="pagina-secundaria">O que o Excel deve fazer se a condição for verdadeira.</p>
         <h4 class="sub-subtopicos-pagina-secundaria">Resultado se Falso</h4>
         <p class="pagina-secundaria">O que o Excel deve fazer se a condição for falsa.</p>
-        <p class="pagina-secundaria">A estrutura da fórmula é assim:
-        <span>=SE(condição;resultado_se_verdadeiro ; resultado_se_falso)</span></p>
+        <p class="pagina-secundaria">A estrutura da fórmula é assim:</p>
+        <div class="formula">=SE(condição;resultado_se_verdadeiro ; resultado_se_falso)</div>
 
         <h3 class="subtopicos-pagina-secundaria">Exemplo</h3>
         <p class="pagina-secundaria">Como verificar se um aluno passou?</p>
@@ -61,8 +60,8 @@
             <li>Resultado se Verdadeiro: "APROVADO".</li>
             <li>Resultado se Falso: "REPROVADO".</li>
         </ul>
-        <p class="pagina-secundaria">A fórmula fica assim:
-        <span>=SE ( E3 >= 7 ; "APROVADO" ; "REPROVADO" )</span></p>
+        <p class="pagina-secundaria">A fórmula fica assim:</p>
+        <div class="formula">=SE ( E3 >= 7 ; "APROVADO" ; "REPROVADO" )</div>
     </section>
 
     <section class="branco">
@@ -72,16 +71,10 @@
             <img src="imagens/e.png" alt="">
         </div>
         
-        <p class="pagina-secundaria">Fórmula
-            <span>=SE(E(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)</span></p>
-        
-        <p class="pagina-secundaria">Exemplo: <br> Para saber se um aluno passou em todas as matérias, use: 
-        <span>=SE(E(E3>=7;E4>=7;E5>=7);"APROVADO";"REPROVADO")</span>
-        <div class="imagem">
-            <img src="imagens/Captura de tela 2024-06-02 182617.png" alt="">
-        </div>
-        </p>
-        
+        <p class="pagina-secundaria">Fórmula</p>
+        <div class="formula">=SE(E(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)</div>
+        <p class="pagina-secundaria">Exemplo: <br> Para saber se um aluno passou em todas as matérias, use:</p>
+        <div class="formula">=SE(E(E3>=7;E4>=7;E5>=7);"APROVADO";"REPROVADO")</div>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função OU</h2>
@@ -89,12 +82,10 @@
         <div class="imagem">
             <img src="imagens/ou.png" alt="">
         </div>
-        <p class="pagina-secundaria">Fórmula
-            <span>=SE(OU(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)</span></p>
-        
-        <p class="pagina-secundaria">Exemplo: Para saber se um aluno passou em pelo menos uma matéria, use: 
-            <span>SE(OU(F2>7; G2>7; H2>7); "Passou"; "Não Passou")</span>
-        </p>
+        <p class="pagina-secundaria">Fórmula</p>
+        <div class="formula">=SE(OU(Cond1; Cond2; Cond3); valor_se_verdadeiro; valor_se_falso)</div>
+        <p class="pagina-secundaria">Exemplo: Para saber se um aluno passou em pelo menos uma matéria, use:</p>
+        <div class="formula">SE(OU(F2>7; G2>7; H2>7); "Passou"; "Não Passou")</div>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função CONT.VALORES</h2>
@@ -103,13 +94,11 @@
         </div>
         <p class="pagina-secundaria">Conta o número de células que contêm valores (não vazias).</p>
         
-        <p class="pagina-secundaria">Fórmula
-            <span>=CONT.VALORES(Lista-de-células)</span>
-        </p>
+        <p class="pagina-secundaria">Fórmula</p>
+        <div class="formula">=CONT.VALORES(Lista-de-células)</div>
         
-        <p class="pagina-secundaria">Exemplo: Para saber quantas notas foram lançadas, use-a. <br> Lembrando que ela só diz quantas células estão preenchidas com algo.
-            <span>CONT.VALORES(B2:B10)</span>
-        </p>
+        <p class="pagina-secundaria">Exemplo: Para saber quantas notas foram lançadas, use-a. <br> Lembrando que ela só diz quantas células estão preenchidas com algo.</p>
+        <div class="formula">CONT.VALORES(B2:B10)</div>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função CONTAR.VAZIO</h2>
@@ -118,11 +107,11 @@
         </div>
         <p class="pagina-secundaria">Conta o número de células vazias em um intervalo.</p>
         
-        <p class="pagina-secundaria">Fórmula
-            <span>=CONTAR.VAZIO(Lista-de-células)</span>
-        </p>
+        <p class="pagina-secundaria">Fórmula</p>
+        <div class="formula">=CONTAR.VAZIO(Lista-de-células)</div>
         
-        <p class="pagina-secundaria">Exemplo: Para contar quantas células estão vazias em uma lista de notas, use: <span>CONTAR.VAZIO(B2:B10)</span></p>
+        <p class="pagina-secundaria">Exemplo: Para contar quantas células estão vazias em uma lista de notas, use: </p>
+        <div class="formula">CONTAR.VAZIO(B2:B10)</div>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função CONT.SE</h2>
@@ -131,9 +120,11 @@
         </div>
         <p class="pagina-secundaria">Conta o número de células que atendem a uma determinada condição.</p>
         
-        <p class="pagina-secundaria">Fórmula<span> =CONT.SE(Lista-de-células; Critério)</span></p>
+        <p class="pagina-secundaria">Fórmula</p>
+        <div class="formula"> =CONT.SE(Lista-de-células; Critério)</div>
         
-        <p class="pagina-secundaria">Exemplo: Para contar quantas notas são maiores que 7, use: <span>CONT.SE(B2:B10; ">7")</span></p>
+        <p class="pagina-secundaria">Exemplo: Para contar quantas notas são maiores que 7, use: </p>
+        <div class="formula">CONT.SE(B2:B10; ">7")</div>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função SOMASE</h2>
@@ -142,9 +133,11 @@
         </div>
         <p class="pagina-secundaria">Soma os valores de células que atendem a uma condição específica.</p>
         
-        <p class="pagina-secundaria">Fórmula<span>=SOMASE(Lista-de-células; Condição; Lista-de-células-com-Valores)</span></p>
+        <p class="pagina-secundaria">Fórmula</p>
+        <div class="formula">=SOMASE(Lista-de-células; Condição; Lista-de-células-com-Valores)</div>
         
-        <p class="pagina-secundaria">Exemplo: Para somar os valores das notas acima de 7, use: <span>SOMASE(B2:B10; ">7"; B2:B10)</span></p>
+        <p class="pagina-secundaria">Exemplo: Para somar os valores das notas acima de 7, use: </p>
+        <div class="formula">SOMASE(B2:B10; ">7"; B2:B10)</div>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função PROCV</h2>
@@ -153,10 +146,11 @@
         </div>
         <p class="pagina-secundaria">Procura um valor na primeira coluna de uma tabela e retorna um valor na mesma linha de uma coluna especificada.</p>
         
-        <p class="pagina-secundaria">Fórmula<span>=PROCV (valor_procurado ; matriz_tabela ; num_índice_coluna ; [intervalo] )</span><p>
+        <p class="pagina-secundaria">Fórmula</p>
+        <div class="formula">=PROCV (valor_procurado ; matriz_tabela ; num_índice_coluna ; [intervalo] )</div>
         
-        <p class="pagina-secundaria">Exemplo: Para encontrar a nota de um aluno específico, use <span>=PROCV("Marcelo Lima"; A2:B10; 2; FALSO)</span></p>
-        <h3 class="subtopicos-pagina-secundaria">Matriz</h3>
+        <p class="pagina-secundaria">Exemplo: Para encontrar a nota de um aluno específico, use 
+        <div class="formula">=PROCV("Marcelo Lima"; A2:B10; 2; FALSO)</div></p>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função CLASSIFICAR</h2>
@@ -165,11 +159,11 @@
         </div>
         <p class="pagina-secundaria">Organiza os dados em ordem crescente ou decrescente.</p>
         
-        <p class="pagina-secundaria">
-            Selecione o intervalo de dados. <br>
-            Vá em "Dados" > "Classificar". <br>
-            Escolha a coluna e a ordem (ascendente ou descendente).
-        </p>
+        <ul>
+            <li>Selecione o intervalo de dados.</li> 
+            <li>Vá em "Dados" > "Classificar".</li>
+            <li>Escolha a coluna e a ordem (ascendente ou descendente).</li>
+        </ul>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Função CONCATENAR</h2>
@@ -177,15 +171,19 @@
         <div class="imagem">
             <img src="../../gestao-aplicada-a-informatica/fotos/error-300px.jpg" alt="">
         </div>
-        <p class="pagina-secundaria">Fórmula <span>=CONCATENAR(Texto1; Texto2; ...)</span></p>
+        <p class="pagina-secundaria">Fórmula</p>
+        <div class="formula">=CONCATENAR(Texto1; Texto2; ...)</div>
         
-        <p class="pagina-secundaria">Exemplo: Para juntar o primeiro nome e o sobrenome de uma lista de alunos, use: <span>=CONCATENAR(A2; " "; B2).</span></p>
+        <p class="pagina-secundaria">Exemplo: Para juntar o primeiro nome e o sobrenome de uma lista de alunos, use: </p>
+        <div class="formula">=CONCATENAR(A2; " "; B2).</div>
     </section>
     <section class="branco">
         <h2 class="topicos-pagina-secundaria">Funções de Data e Hora</h2>
 
         <h3 class="subtopicos-pagina-secundaria">=AGORA()</h3>
         <p class="pagina-secundaria">Retorna a data e hora atuais.</p> 
+        <h4 class="sub-subtopicos-pagina-secundaria">Data e Hora Atual</h4>
+        <p class="pagina-secundaria" id="datetime"></p>
         <div class="imagem">
             <img src="../../gestao-aplicada-a-informatica/fotos/error-300px.jpg" alt="">
         </div>
@@ -272,6 +270,19 @@
         <a href="informatica-aula-01.html" target="_parent"><button>Aula Anterior</button></a>
         <a href=""><button>Próxima Aula</button></a>
     </div>
+    <script>
+        function displayDateTime() {
+            const now = new Date();
+            const date = now.toLocaleDateString();
+            const time = now.toLocaleTimeString();
+            const dateTimeString = `${date} ${time}`;
+            
+            document.getElementById('datetime').innerText = dateTimeString;
+        }
+
+        // Exibe a data e hora atual ao carregar a página
+        displayDateTime();
+    </script>
 </main>
 <footer>
     <h1>PROJETO DESENVOLVIDO</h1>
