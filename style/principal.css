@@ -53,6 +53,9 @@ main#principal li > a{
     color: white;
     text-decoration: none;
 }
+main#principal li a.incompleto{
+    display: none;
+}
 #redes-de-computadores{
     border-top: none;
 }

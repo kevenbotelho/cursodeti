@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@media screen and (min-width: 306px) and (max-width: 536px){
+    body#body-secundario{
+        padding-top: 110px;
+    }
+}
+@media screen and (min-width: 239px) and (max-width: 305px){
+    body#body-secundario{
+        padding-top: 160px;
+    }
+    main#main-secundario h1#nome-do-assunto-pagina-secundaria{
+        font-size: 9vw;
+    }
+    main#main-secundario section.branco h2.topicos-pagina-secundaria{
+        font-size: 7vw;
+    }
+}
+@media screen and (min-width: 100px) and (max-width: 238px){
+    header#header-secundario h1 a{
+        font-size: 12vw;
+    }
+    body#body-secundario{
+        padding-top: 160px;
+    }
+    main#main-secundario h1#nome-do-assunto-pagina-secundaria{
+        font-size: 9vw;
+    }
+    main#main-secundario section.branco h2.topicos-pagina-secundaria{
+        font-size: 5vw;
+        padding-left: 17px !important;
+    }
+    main#main-secundario section.branco p{
+        font-size: 7vw;
+        word-wrap: break-word;
+        padding-left: 0px !important;
+    }
+}
