@@ -289,13 +289,14 @@ footer  ul > li{
 /*FIM - PÁGINAS SECUNDARIAS*/
 
 section.countain-video{
-    background-color: #4599accf;
+    background-color: #29433490;
     padding: 5px;
     margin: 0px -20px -20px -20px;
 }
-section.countain-video > h3.subtopico-video{
+section.countain-video > h3.topico-video{
     font-size: 17px;
-    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: -15px;
 }
 div.video{
     position: relative;
