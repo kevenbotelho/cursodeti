@@ -288,6 +288,28 @@ footer  ul > li{
 /*FOOTER*/
 /*FIM - PÁGINAS SECUNDARIAS*/
 
+section.countain-video{
+    background-color: #4599accf;
+    padding: 5px;
+    margin: 0px -20px -20px -20px;
+}
+section.countain-video > h3.subtopico-video{
+    font-size: 17px;
+    padding-bottom: 5px;
+}
+div.video{
+    position: relative;
+    padding-bottom: 56.5%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 87%;
+    height: 87%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
 /*Saiba mais*/
 details.detalhes{
     background-color: rgba(255, 255, 255, 0.122);
