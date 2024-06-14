@@ -52,7 +52,42 @@
             <h3 class="subtopicos-pagina-secundaria">Componentes</h3>
             <p class="pagina-secundaria">Partes independentes e reutilizáveis da interface de usuário. React, por exemplo, utiliza componentes para construir interfaces.</p>
         </section>
+        <section class="branco">
+            <h2>Bibliotecas</h2>
+            <section class="branco">
+                <h2 class="topicos-pagina-secundaria">Sem Math.js</h2>
+                <pre>
+                    // Função para calcular a média
+function calcularMedia(lista) {
+    let soma = 0;
+    for (let num of lista) {
+        soma += num;
+    }
+    return soma / lista.length;
+}
 
+// Função para calcular o desvio padrão
+function calcularDesvioPadrao(lista) {
+    let media = calcularMedia(lista);
+    let somaDiferencasQuadradas = 0;
+    for (let num of lista) {
+        somaDiferencasQuadradas += Math.pow(num - media, 2);
+    }
+    let desvioPadrao = Math.sqrt(somaDiferencasQuadradas / lista.length);
+    return desvioPadrao;
+}
+
+// Exemplo de uso
+let numeros = [5, 7, 2, 10, 8];
+let media = calcularMedia(numeros);
+let desvioPadrao = calcularDesvioPadrao(numeros);
+
+console.log('Média:', media);
+console.log('Desvio Padrão:', desvioPadrao);
+
+                </pre>
+            </section>
+        </section>
         <section class="branco">
             <h2 class="topicos-pagina-secundaria">Princípios Básicos de Frameworks</h2>
             <h3 class="subtopicos-pagina-secundaria">Reutilização</h3>

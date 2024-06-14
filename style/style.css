@@ -147,7 +147,6 @@ p.pagina-secundaria{
     line-height: 1.7em;
     font-size: .875rem;
 }
-/*FIM-PARAGRAFOS*/
 
 /*PARTE BRANCA*/
 li{
@@ -331,4 +330,27 @@ details.detalhes > summary{
 }
 details.detalhes:hover{
     cursor: pointer;
+}
+
+/*pre-code*/
+ul.lista-dentro-da-lista{
+    padding-left: 20px;
+}
+
+pre{
+    max-width: 1000px;
+    min-width: none;
+    padding: 40px;
+    background-color: rgba(37, 37, 37, 0.95);
+    color: rgb(188, 99, 67);
+    margin: 20px;
+    border-radius: 20px;
+    white-space: pre-line;
+    /*dvi  dvw lvi lvw svi*/
+}
+pre p{
+    font-family: monospace;
+    margin-bottom: -40px;
+    font-size: 100%;
+    display: inline-block;
 }
