@@ -75,7 +75,7 @@ h5.nivel-cinco{
     margin-bottom: 10px;
 }
 #nome-do-assunto-pagina-secundaria{
-    text-transform: capitalize;
+    text-transform: uppercase;
     text-align: center;
     padding: 0px 0px 7px 0px;
     font-size: 30px;
