@@ -7,13 +7,8 @@
     <link rel="shortcut icon" href="../../../imagens/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../../../style/style.css">
     <style>
-        body{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
         menu{
-            overflow-x: scroll;
+            overflow-x: auto;
             overflow-y: hidden;
             white-space: nowrap;
             height: 43px;
@@ -24,6 +19,9 @@
             overflow-x: scroll;
             overflow-y: hidden;
         }
+        li::-webkit-scrollbar {
+    width: 1px; /* Largura da barra de rolagem vertical */
+}
         li{
             display: inline-block;
             margin: 2px 0px 0px 20px;
