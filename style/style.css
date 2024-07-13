@@ -58,7 +58,7 @@ h2.topicos-pagina-secundaria{
 h3.subtopicos-pagina-secundaria{
     text-align: left;
     font-size: 15px;
-    padding: 10px 30px 0px 20px;
+    padding: 10px 0px 0px 10px;
     margin-bottom: 10px;
 }
 h4.sub-subtopicos-pagina-secundaria{
@@ -353,4 +353,31 @@ pre p{
     margin-bottom: -40px;
     font-size: 100%;
     display: inline-block;
+}
+
+/*FAQ*/
+.faq {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.faq h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.pergunta {
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    padding: 15px;
+    text-align: left;
+    cursor: default;
+    margin: 10px 20px 0px 20px;
+    font-size: 18px;
+}
+
+.resposta {
+    max-width: 600px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 5px 20px 20px 20px;
 }
