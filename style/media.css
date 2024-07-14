@@ -35,3 +35,10 @@
         padding-left: 0px !important;
     }
 }
+@media screen and (min-width: 500px){
+    h1::after{
+        content: 'ola';
+    }
+}
+    
+}
