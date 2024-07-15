@@ -26,15 +26,9 @@ header > h1#titulo-principal-pagina-principal{
     padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
 }
-main{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 main > section.caixa-de-assuntos{
     padding: 20px 0px 30px 0px;
     border-bottom: 1px solid #dbdbdb;
-    flex: auto;
 
 }
 main > section > h2.nome-do-assunto{
@@ -70,5 +64,5 @@ footer#rodape-principal{
     text-align: center;
     background-color: #2b5d68;
     color: white;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px;
 }
