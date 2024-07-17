@@ -84,9 +84,22 @@ main::after{
 section.countain-video{
     display: none;
 }
-blockquote{
+section.faq{
+    display: none;
     padding: 1pc;
 }
 cite{
+    padding: 5px;
+}
+iframe{
+    display: none;
+}
+nav::after{
+    display: block;
+    content: 'Volume\A O volume refere-se à quantidade massiva de dados gerados\A\A Velocidade\A A velocidade diz respeito à rapidez com que os dados são gerados e movimentados\A\A Variedade\A A variedade indica os diferentes tipos de dados\A\A Veracidade\A A veracidade é sobre a confiabilidade dos dados;\A\A Valor\A E o valor refere-se à extração de insights valiosos dos dados.';
+    white-space: pre-wrap;
+
+    border: 1px solid black;
+ 
     padding: 5px;
 }
