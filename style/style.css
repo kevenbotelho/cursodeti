@@ -171,7 +171,7 @@ hr.divisao-de-conteudo{
     margin: 10px 0px 10px 0px;
 }
 a{
-    color: rgb(56, 129, 128);
+    color: rgb(169, 255, 254);
     text-decoration: none;
 }
 /*LOGICA*/
@@ -192,7 +192,7 @@ ul.pagina-secundaria > h3{
 }
 button{
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px;
     background-color: rgb(86, 156, 159);
     color: black;
     font-size: 10px;
