@@ -164,3 +164,9 @@ TECNOLOGIAS EMERGENTES-AULA 4 - BIG DATE
                 <li type="disc" class="lista-de-assunto"><a href=""></a></li>
             </ol>
         </div>
+
+
+
+        <meta name="description" content="Resumo do curso Técnico em Informática da Escola Presidente Costa e Silva - 2024 ClassRecap">
+    <meta name="keywords" content="classrecap, cursos, programação, resumo de informatica, informatica, tecnologias web, tecnologias emergentes">
+    <meta name="robots" content="index, follow">
