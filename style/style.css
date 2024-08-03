@@ -77,10 +77,6 @@ nav#barra-de-navegação li{
     font-size: 0.7em;
     text-transform: uppercase;
 }
-nav#barra-de-navegação h2{
-    font-size: 1.05em;
-    display: none;
-}
 
 h2.topicos-pagina-secundaria{
     text-align: left;

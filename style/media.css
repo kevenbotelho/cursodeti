@@ -9,6 +9,7 @@
     color: white !important;
     border: 1px solid red !important;
     */
+    border: none !important;
 }
 
 /*PRIMORDIAIS*/
@@ -78,7 +79,6 @@ nav#barra-de-navegação li{
 }
 nav#barra-de-navegação h2{
     font-size: 1.05em;
-    display: none;
 }
 
 h2.topicos-pagina-secundaria{
