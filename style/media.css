@@ -1,29 +1,10 @@
 @charset "UTF-8";
-*{
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;/*
-    background-color: black !important;
-    color: white !important;
-    border: 1px solid red !important;
-    */
-    border: none !important;
-}
+@media screen and (min-width: 992px) {
 
 /*PRIMORDIAIS*/
 
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden; 
-}
-body#body-secundario{
-    background-color: #292c43;
-    padding-top: 60px;
-    overflow: hidden;
+body, html{
+    overflow-y: hidden !important;
 }
 
 main#main-secundario{
@@ -33,42 +14,26 @@ main#main-secundario{
     padding: 10px 0px 0px 0px;
     color: white;
     height: 100vh;
-}
-footer{
-    background-color: #2b5d68;
-    color: white;
-    padding: 20px 0px 10px 00px;
+    
+
+    -ms-overflow-style: none;  /* IE e Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 /*FIM-PRIMORDIAIS*/
 
-/*TITULOS*/
-header#header-secundario{
-    background-color: #2b5d68;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    border-bottom: 1px solid #dbdbdb;
-    z-index: 1;
-}
-header h1#titulo-principal-pagina-secundaria{
-    text-align: center;
-    padding: 5px 0px 5px 0px;
-    text-shadow: 1px 2px 5px rgb(71, 71, 71);
-    word-wrap: normal;
-}
 nav#barra-de-navegação{
     display: block;
     background-color: #2f324a;
     color: #dbdbdb;
 
-    padding: 1.4em 1.2em;
+    padding: 1.7em 1.2em;
 
-    margin: -15px 0px;
+    margin: -10px 0px;
 
     border-right: 1px solid;
 
-    width: 30%;
-    height: 102vh;
+    width: 23%;
+    height: 100vh;
     
     float:left;
 
@@ -78,342 +43,9 @@ nav#barra-de-navegação li{
     text-transform: uppercase;
 }
 nav#barra-de-navegação h2{
-    font-size: 1.05em;
+    font-size: 1.4em;
 }
-
-h2.topicos-pagina-secundaria{
-    text-align: left;
-    font-size: 25px;
-    background-image: linear-gradient(to right, gray, white);
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 0px 30px 0px 30px;
-    margin-bottom: 10px;
+nav#barra-de-navegação ul{
+    padding: 0px 0px 20px 0px;
 }
-h3.subtopicos-pagina-secundaria{
-    text-align: left;
-    font-size: 15px;
-    padding: 10px 0px 0px 10px;
-    margin-bottom: 10px;
-}
-h4.sub-subtopicos-pagina-secundaria{
-    text-align: left;
-    font-size: 13px;
-    padding: 10px 30px 0px 20px;
-    margin-bottom: 10px;
-}
-h5.nivel-cinco{
-    text-align: left;
-    font-size: 11px;
-    padding: 10px 30px 0px 20px;
-    list-style-type: disc;
-    margin-bottom: 10px;
-}
-#nome-do-assunto-pagina-secundaria{
-    text-transform: uppercase;
-    text-align: center;
-    padding: 0px 0px 7px 0px;
-    font-size: 30px;
-}
-main > h2#nome-do-assunto-secundario-pagina-secundaria{
-    margin-top: -10px;
-    text-align: center;
-    font-size: 17px;
-    font-family: 'Raleway';
-    color: rgb(7, 156, 129);
-    padding: 0px 0px 15px 0px;
-}
-a#link-titulo{
-    font-size: 30px;
-    text-decoration: none;
-    color: rgb(214, 214, 214);
-}
-/*FIM-TITULOS*/
-
-/*IMAGENS*/
-img#imagem-principal-pagina-secundaria{
-    display: block;
-    margin: auto;
-    max-width: 480px;
-    min-width: none;
-    border-radius: 20px;
-    border: none;
-    text-align: center;
-}
-div.imagem{
-    max-width: 320px;
-    min-width: 50px;
-    padding: 0px 5px 10px 5px;
-    margin: auto;
-    text-align: center;
-}
-div.imagem img{
-    border-radius: 20px;
-    width: 100%;
-    border: 1px solid black
-}
-div#imagens-centrais{
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    border: 1px dashed black;
-    border-radius: 10px;
-}
- div#imagens-centrais img{
-    max-width: 150px;
-    min-width: none;
-    display:inline-block;
-    margin: auto;
-    border-radius: 50%;
-    border: 1px solid black;
-}
-cite{
-    display: none;
-    font-size: 10px;
-    color: #72e75d;
-}
-/*FIM-IMAGENS*/
-
-/*PARAGRAFOS*/
-p.pagina-secundaria{
-    text-align: justify;
-    padding: 0px 20px 10px 20px;
-    line-height: 1.7em;
-    font-size: .875rem;
-}
-
-/*PARTE BRANCA*/
-li{
-    font-weight: bolder;
-    font-size: .875rem;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    list-style-position: inside;
-}
-section.branco{
-    background-color: #ffffff;
-    color: black;
-    padding: 20px;
-    text-align: justify;
-    border-radius: 20px;
-    border: 1px solid black;
-    margin: 20px;
-    box-shadow: 1px 1px 5px rgba(28, 27, 27, 0.64);
-}
-/*FIM-PARTE BRANCA*/
-hr.divisao-de-conteudo{
-    margin: 10px 0px 10px 0px;
-}
-a{
-    color: rgb(169, 255, 254);
-    text-decoration: none;
-}
-/*LOGICA*/
-ul.ul-exemplo{
-    text-align: center;
-    font-weight: bold;
-    background-color: white;
-    margin-top: -5px;
-    margin: auto;
-    box-shadow: none;
-    border: 1px solid black;
-    margin-bottom: 10px;
-}
-ul.pagina-secundaria > h3{
-    padding: 20px 0px 5px 0px;
-    font-size: 18px;
-    margin-left: -10px;
-}
-button{
-    border-radius: 5px;
-    padding: 15px;
-    background-color: rgb(86, 156, 159);
-    color: black;
-    font-size: 10px;
-    margin: 10px 10px 0px 10px;
-    border: 1px solid white;
-    display: inline-block;
-    cursor: pointer;
-}
-div.botao{
-    justify-content: center;
-}
-div.botao, aside.botao{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5px;
-}
-/*LOGICA*/
-abbr{
-    color: rgba(38, 241, 227, 0.584);
-    text-decoration: underline;
-    text-decoration-color: rgba(38, 85, 241, 0.898);
-}
-/*Logica*/
-/*tabelas*/
-table{
-    max-width: 650px;
-    background-color: gray;
-    color: black;
-    border-collapse: collapse;
-    margin: auto;
-}
-caption{
-    background-color: gray;
-    border: 1px solid;
-    font-weight:bold;
-    font-size: 17px;
-}
-tbody{
-    background-color: white;
-}
-th, td{
-    border: 1px solid black;
-    padding: 10px;
-}
-div.tabela{
-    overflow: auto;
-}
-td.numero{
-    text-align: right;
-}
-/*tabela*/
-/*QUIZ*/
-div img#quiz{
-    max-width: 200px;
-    min-width: 100px;
-    margin: auto;
-    text-align: center;
-    border-radius: 50px;
-    margin-right: 10px;
-}
-p#teste-de-conhecimento{
-    text-align: center;
-    font-size: 19px;
-    font-variant: small-caps;
-    text-transform: uppercase;
-}
-p#teste-de-conhecimento > a{
-    text-decoration: none;
-    color: #72e75d;
-}
-/*QUIZ*/
-
-/*FOOTER*/
-footer{
-    background-color: #2b5d68;
-    color: white;
-    padding: 20px 0px 10px 20px;
-}
-footer h1{
-    font-size: 20px;
-    padding: 0px 0px 7px 0px;
-    text-shadow: 1px 2px 5px rgb(44, 44, 44);
-    
-}
-footer  p{
-    padding: 0px 0px 20px 15px;
-    font-size: 15px;
-    text-shadow: 1px 2px 5px rgb(44, 44, 44);
-    
-}
-footer  ul > li{
-    font-weight: normal;
-    padding: 0px 0px 20px 15px;
-    font-size: 15px;
-    text-shadow: 1px 2px 5px rgb(44, 44, 44);
-    list-style-type: none;
-    
-}
-/*FOOTER*/
-/*FIM - PÁGINAS SECUNDARIAS*/
-
-section.countain-video{
-    background-color: #ffffff90;
-    padding: 5px;
-    margin: 0px -20px -20px -20px;
-}
-section.countain-video > h3.topico-video{
-    font-size: 17px;
-    text-align: center;
-    margin-bottom: -15px;
-}
-div.video{
-    position: relative;
-    padding-bottom: 56.5%;
-}
-div.video > iframe{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 87%;
-    height: 87%;
-    transform: translate(-50%, -50%);
-    border-radius: 20px;
-}
-/*Saiba mais*/
-details.detalhes{
-    background-color: rgba(255, 255, 255, 0.122);
-    padding: 10px;
-    margin: 5px 20px 15px 20px;
-    text-align: center;
-}
-details.detalhes > summary{
-    text-transform: capitalize;
-    padding-bottom: 3px;
-}
-details.detalhes:hover{
-    cursor: pointer;
-}
-
-/*pre-code*/
-ul.lista-dentro-da-lista{
-    padding-left: 20px;
-}
-
-pre{
-    max-width: 1000px;
-    min-width: none;
-    padding: 40px;
-    background-color: rgba(37, 37, 37, 0.95);
-    color: rgb(188, 99, 67);
-    margin: 20px;
-    border-radius: 20px;
-    white-space: pre-line;
-    /*dvi  dvw lvi lvw svi*/
-}
-pre p{
-    font-family: monospace;
-    margin-bottom: -40px;
-    font-size: 100%;
-    display: inline-block;
-}
-
-/*FAQ*/
-.faq {
-    max-width: 600px;
-    margin: 0 auto;
-}
-.faq h2{
-    text-align: center;
-    padding-bottom: 10px;
-}
-.pergunta {
-    background-color: #f1f1f1;
-    color: black;
-    border: none;
-    padding: 15px;
-    text-align: left;
-    cursor: default;
-    margin: 10px 20px 0px 20px;
-    font-size: 18px;
-}
-
-.resposta {
-
-    max-width: 600px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin: 5px 20px 20px 20px;
 }
