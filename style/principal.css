@@ -7,18 +7,17 @@
 }
 body#body-principal{
     background-color: #292c43;
-    padding-top: 80px;
     overflow-x: hidden;
+
 }
 
 header#header-principal{
     background-color: #2b5d68;
-    position: fixed;
     width: 100%;
-    top: 0;
     border-bottom: 1px solid #dbdbdb;
     letter-spacing: 3px;
     font-size: 23px;
+
 }
 header > h1#titulo-principal-pagina-principal{
     color: rgb(214, 214, 214);
@@ -26,10 +25,28 @@ header > h1#titulo-principal-pagina-principal{
     padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
 }
+main{
+    padding: 0px 20px;
+    display: flex;
+    flex-flow: column nowrap;
+}
 main > section.caixa-de-assuntos{
-    padding: 20px 0px 30px 0px;
-    border-bottom: 1px solid #dbdbdb;
+    padding: 20px 10px 30px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
 
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    align-items: center;
+}
+main > section > div.imagem{
+    
+    max-width: 2000px;
+
+}
+main > section > div.imagem > img{
+    width: 100%;
 }
 main > section > h2.nome-do-assunto{
     color: white;
@@ -56,9 +73,6 @@ main#principal li > a{
 }
 main#principal li a.incompleto{
     display: none;
-}
-#redes-de-computadores{
-    border-top: none;
 }
 footer#rodape-principal{
     text-align: center;
