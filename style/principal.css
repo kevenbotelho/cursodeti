@@ -40,10 +40,11 @@ main > section.caixa-de-assuntos{
     flex-flow: row-reverse nowrap;
     align-items: center;
     justify-content: center;
+
+
 }
 main > section > div.imagem{
     max-width: 300px;
-
 }
 main > section > div.imagem > img{
     width: 100%;
@@ -54,7 +55,7 @@ main > section > h2.nome-do-assunto{
     padding: 0px 0px 12px 0px;
     text-transform: uppercase;
     font-size: 20px;
-}
+}/*
 main#principal li.lista-de-assunto{
     font-family: monospace;
     text-align: center;
@@ -73,10 +74,34 @@ main#principal li > a{
 }
 main#principal li a.incompleto{
     display: none;
-}
+}*/
 footer#rodape-principal{
     text-align: center;
     background-color: #2b5d68;
     color: white;
     padding: 10px 0px;
+}
+
+
+
+
+@media screen and (min-width: 992px){
+    main{
+        padding: 20px;
+        display: flex;
+        flex-flow: row wrap;
+        
+    }
+    main > section.caixa-de-assuntos{
+        padding: 20px 10px 30px 10px;
+        margin: 10px;
+
+        border: 1px solid #dbdbdb;
+        border-radius: 20px;
+
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        align-items: center;
+        justify-content: center;
+    }
 }
