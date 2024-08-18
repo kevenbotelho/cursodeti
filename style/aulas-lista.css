@@ -3,59 +3,62 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
     font-family: 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;
+}
+button/*reset*/{
+    border: 0;
+    
 }
 body#body-principal{
     background-color: #292c43;
-    overflow-x: hidden;
+    padding-top: 40px;
 }
 
-header#header-principal{
+header{
     background-color: #2b5d68;
+    position: fixed;
     width: 100%;
+    top: 0;
     border-bottom: 1px solid #dbdbdb;
-    letter-spacing: 3px;
-    font-size: 23px;
-
+    z-index: 1;
 }
-header > h1#titulo-principal-pagina-principal{
-    color: rgb(214, 214, 214);
+header h1{
     text-align: center;
     padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
+    word-wrap: normal;
+}
+header h1 a {
+    color: #dbdbdb;
 }
 main{
     padding: 20px;
-    display: flex;
-    flex-flow: column nowrap;
 }
 main section.caixa-de-assuntos{
+    max-width: 600px;
+    margin: auto;
     padding: 20px 10px 30px 10px;
     margin-bottom: 10px;
+
+
     border: 1px solid #dbdbdb;
-    border-radius: 20px;
+    border-radius: 10px;
     
 
     display: flex;
-    flex-flow: row-reverse nowrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
 
-
-}
-main section  div.imagem{
-    max-width: 300px;
-}
-main section  div.imagem > img{
-    width: 100%;
 }
 main section  h2.nome-do-assunto{
     color: white;
     text-align: center;
-    padding: 0px 0px 12px 0px;
+    padding: 0px 0px 20px 0px;
     text-transform: uppercase;
     font-size: 20px;
-}/*
+}
 main#principal li.lista-de-assunto{
     font-family: monospace;
     text-align: center;
@@ -63,7 +66,7 @@ main#principal li.lista-de-assunto{
     font-weight: normal;
     text-transform: uppercase;
     list-style-position: inside;
-    padding: 5px 0px 30px 0px;
+    padding: 15px 0px 30px 0px;
     text-shadow: 3px 3px 4px rgb(44, 44, 44);
     color: white;
 }
@@ -72,43 +75,18 @@ main#principal li > a{
     color: white;
     text-decoration: none;
 }
-main#principal li a.incompleto{
-    display: none;
-}*/
+main#principal button{
+    width: 50px;
+}
+main#principal button span{
+    
+}
 footer#rodape-principal{
     text-align: center;
     background-color: #2b5d68;
     color: white;
     padding: 10px 0px;
 }
-a{
-    color: inherit;
-    text-decoration: none;
-}
 
 
 
-@media screen and (min-width: 992px){
-    main{
-        padding: 20px;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-    }
-    main section.caixa-de-assuntos{
-        padding: 20px 10px ;
-        margin: 10px;
-
-        width: 30vw;
-        height: 95%;
-
-        border: 1px solid #dbdbdb;
-        border-radius: 20px;
-
-        display: flex;
-        flex-flow: row-reverse nowrap;
-        align-items: center;
-        
-        justify-content: center;
-    }
-}
