@@ -55,6 +55,24 @@ header h1#titulo-principal-pagina-secundaria{
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
     word-wrap: normal;
 }
+nav#celular{
+    border-bottom: 2px solid #dbdbdb;
+}
+nav#celular ul{
+    overflow: auto;
+    white-space: nowrap;
+}
+nav#celular ul li{
+    display: inline-block;
+    padding: 10px 15px;
+    border-right: 1px solid black;
+    
+}
+nav#celular ul{
+    scrollbar-width: none;
+}
+
+
 nav#barra-de-navegação{
     display: none;
     background-color: #2f324a;

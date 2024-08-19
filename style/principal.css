@@ -43,6 +43,20 @@ main section.caixa-de-assuntos{
 
 
 }
+main section.caixa-de-assuntos.estiloum:hover{
+    transform: scale(1.02, 1.03);
+    transition: 400ms;
+    box-shadow: 2px 2px 2px rgba(66, 66, 66, 0.526);
+    border: 2px solid rgb(218, 51, 51);
+}
+main section.caixa-de-assuntos.estilodois:hover{
+    transform: scale(1.02, 1.03);
+    transition: 400ms;
+    box-shadow: 2px 2px 2px rgba(66, 66, 66, 0.526);
+    border: 2px solid rgb(218, 207, 51);
+    
+    
+}
 main section  div.imagem{
     max-width: 300px;
 }
@@ -111,5 +125,20 @@ a{
         align-items: center;
         
         justify-content: center;
+    }
+}
+
+
+
+
+
+
+/*telas menores de 400px*/
+@media screen and (max-width:400px){
+    img{
+        display: none;
+    }
+    *{
+        font-size: 80% !important;
     }
 }

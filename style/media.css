@@ -20,7 +20,7 @@ main#main-secundario{
     scrollbar-width: none;  /* Firefox */
 }
 /*FIM-PRIMORDIAIS*/
-
+nav#celular{display: none;}
 nav#barra-de-navegação{
     display: block;
     background-color: #2f324a;
