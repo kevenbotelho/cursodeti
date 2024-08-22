@@ -64,9 +64,14 @@ nav#celular ul{
 }
 nav#celular ul li{
     display: inline-block;
-    padding: 10px 15px;
     border-right: 1px solid black;
     
+}
+nav#celular ul li a{
+    padding: 10px 15px;
+}
+nav#celular ul li a:hover{
+    color: #76b1af;
 }
 nav#celular ul{
     scrollbar-width: none;
