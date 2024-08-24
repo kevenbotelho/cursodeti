@@ -21,7 +21,7 @@ html, body {
 }
 body#body-secundario{
     background-color: #292c43;
-    padding-top: 60px;
+    padding-top: 50px;
     overflow: auto;
 }
 
@@ -61,20 +61,20 @@ nav#celular{
 nav#celular ul{
     overflow: auto;
     white-space: nowrap;
+    scrollbar-width: none;
 }
 nav#celular ul li{
     display: inline-block;
     border-right: 1px solid black;
+
     
 }
 nav#celular ul li a{
     padding: 10px 15px;
 }
-nav#celular ul li a:hover{
+nav#celular ul li:hover , a:hover{
     color: #76b1af;
-}
-nav#celular ul{
-    scrollbar-width: none;
+    text-decoration: none !important;
 }
 
 
