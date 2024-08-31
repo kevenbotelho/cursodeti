@@ -132,7 +132,7 @@ h5.nivel-cinco{
 #nome-do-assunto-pagina-secundaria{
     text-transform: uppercase;
     text-align: center;
-    padding: 0px 0px 7px 0px;
+    padding: 0px 5px 7px 5px;
     font-size: 30px;
 }
 main > h2#nome-do-assunto-secundario-pagina-secundaria{
@@ -400,7 +400,6 @@ pre{
     color: rgb(188, 99, 67);
     margin: 20px;
     border-radius: 20px;
-    white-space: pre-line;
     /*dvi  dvw lvi lvw svi*/
 }
 pre p{

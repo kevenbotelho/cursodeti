@@ -1,51 +1,65 @@
 @charset "UTF-8";
 @media screen and (min-width: 992px) {
 
-/*PRIMORDIAIS*/
+    /*PRIMORDIAIS*/
 
-body, html{
-    overflow-y: hidden !important;
-}
+    body, html{
+        overflow-y: hidden !important;
+    }
 
-main#main-secundario{
-    margin: auto;
-    max-width: 800px;
-    min-width: none;
-    padding: 10px 0px 0px 0px;
-    color: white;
-    height: 100vh;
-    
+    main#main-secundario{
+        margin: auto;
+        max-width: 1200px;
+        min-width: none;
+        padding: 10px 0px 0px 0px;
+        color: white;
+        height: 100vh;
+        
 
-    -ms-overflow-style: none;  /* IE e Edge */
-    scrollbar-width: none;  /* Firefox */
-}
-/*FIM-PRIMORDIAIS*/
-nav#celular{display: none;}
-nav#barra-de-navegação{
-    display: block;
-    background-color: #2f324a;
-    color: #dbdbdb;
+        -ms-overflow-style: none;  /* IE e Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+    /*FIM-PRIMORDIAIS*/
+    nav#celular{display: none;}
+    nav#barra-de-navegação{
+        display: block;
+        background-color: #2f324a;
+        color: #dbdbdb;
 
-    padding: 1.7em 1.2em;
+        padding: 1.7em 1.2em;
 
-    margin: -10px 0px;
+        margin: -10px 0px;
 
-    border-right: 1px solid;
+        border-right: 1px solid;
 
-    width: 23%;
-    height: 100vh;
-    
-    float:left;
+        width: 23%;
+        height: 100vh;
+        
+        float:left;
 
-}
-nav#barra-de-navegação li{
-    font-size: 0.7em;
-    text-transform: uppercase;
-}
-nav#barra-de-navegação h2{
-    font-size: 1.4em;
-}
-nav#barra-de-navegação ul{
-    padding: 0px 0px 20px 0px;
-}
+    }
+    nav#barra-de-navegação li{
+        font-size: 0.7em;
+        text-transform: uppercase;
+    }
+    nav#barra-de-navegação h2{
+        font-size: 1.4em;
+    }
+    nav#barra-de-navegação ul{
+        padding: 0px 0px 20px 0px;
+    }
+    section.codigo{
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+    }
+    .vscode{
+        flex: 0 0 50%;
+    }
+    .navegador{
+        flex: 0 0 50%;
+        height: 240px;
+        border: 3px solid;
+        border-radius: 20px;
+    }
 }
