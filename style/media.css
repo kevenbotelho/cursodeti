@@ -1,58 +1,6 @@
 @charset "UTF-8";
 @media screen and (min-width: 992px) {
-
-    /*PRIMORDIAIS*/
-
-    body, html{
-        overflow-y: hidden !important;
-    }
-
-    main#main-secundario{
-        margin: auto;
-        max-width: 1200px;
-        min-width: none;
-        padding: 10px 0px 0px 0px;
-        color: white;
-        height: 100vh;
-        
-
-        -ms-overflow-style: none;  /* IE e Edge */
-        scrollbar-width: none;  /* Firefox */
-    }
-    /*FIM-PRIMORDIAIS*/
-    nav#celular{display: none;}
-    nav#barra-de-navegação{
-        display: block;
-        background-color: #2f324a;
-        color: #dbdbdb;
-
-        padding: 1.7em 1.2em;
-
-        margin: -10px 0px;
-
-        border-right: 1px solid;
-
-        width: 23%;
-        height: 100vh;
-        
-        float:left;
-
-    }
-    nav#barra-de-navegação li{
-        font-size: 0.7em;
-        text-transform: uppercase;
-    }
-    nav#barra-de-navegação h2{
-        font-size: 1.4em;
-    }
-    nav#barra-de-navegação ul{
-        padding: 0px 0px 20px 0px;
-    }
-    section.codigo{
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: center;
-    }
+    
     .vscode{
         flex: 0 0 50%;
     }
@@ -61,5 +9,25 @@
         height: 240px;
         border: 3px solid;
         border-radius: 20px;
+    }
+
+    main#main-secundario{
+        max-width: 1300px;
+    }
+    section.branco  div.flex{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+    }
+    section.branco div.flex div.imagem{
+        max-width: 700px;
+    }
+    section.branco section.imagem{
+        border-radius: 20px;
+        display: flex;
+        padding-right: 40px;
+    }
+    section.branco div.flex div.item{
+        width: 60%;
     }
 }

@@ -12,17 +12,24 @@ body#body-principal{
 
 header#header-principal{
     background-color: #2b5d68;
+    padding: 0 20px;
     width: 100%;
     border-bottom: 1px solid #dbdbdb;
     letter-spacing: 3px;
     font-size: 23px;
 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
 }
 header > h1#titulo-principal-pagina-principal{
     color: rgb(214, 214, 214);
-    text-align: center;
     padding: 5px 0px 5px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
+    margin-left: auto;
+    margin-right: auto;
 }
 main{
     padding: 20px;
