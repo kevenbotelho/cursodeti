@@ -46,20 +46,17 @@ header#header-secundario{
     position: fixed;
     width: 100%;
     top: 0;
-    border-bottom: 1px solid #dbdbdb;
     z-index: 1;
 }
 header h1#titulo-principal-pagina-secundaria{
     text-align: center;
-    padding: 5px 0px 5px 0px;
+    padding: 5px 0px 6px 0px;
     text-shadow: 1px 2px 5px rgb(71, 71, 71);
     word-wrap: normal;
 }
 nav#celular{
-    border-bottom: 1px solid #dbdbdb;
-    border-left: 1px solid #dbdbdb;
-    border-right: 1px solid #dbdbdb;
-    display: flex;
+    background-color: #2b5d68;
+    border: 1px solid #dbdbdb;
     justify-content: center;
     align-items: center;
 }
@@ -67,7 +64,7 @@ nav#celular ul{
     overflow: auto;
     white-space: nowrap;
     scrollbar-width: none;
-    padding-top: 5px;
+    padding-top: 5px;background-color: #2b5d68;
 }
 nav#celular ul li{
     display: inline-block;
@@ -76,6 +73,7 @@ nav#celular ul li{
     
 }
 nav#celular ul li a{
+    color: #b1f1ff;
     padding: 10px 15px;
 }
 nav#celular ul li:hover , a:hover{
@@ -232,8 +230,8 @@ hr.divisao-de-conteudo{
     margin: 10px 0px 10px 0px;
 }
 a{
-    color: rgb(169, 255, 254);
-    text-decoration: none;
+    color: rgb(79, 120, 120);
+    text-decoration:   dashed;
 }
 /*LOGICA*/
 ul.ul-exemplo{
