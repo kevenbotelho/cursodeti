@@ -59,6 +59,8 @@ nav#celular{
     border: 1px solid #dbdbdb;
     justify-content: center;
     align-items: center;
+
+    display: none;
 }
 nav#celular ul{
     overflow: auto;

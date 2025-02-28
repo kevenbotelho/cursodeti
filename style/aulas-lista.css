@@ -88,13 +88,25 @@ footer#rodape-principal{
     padding: 10px 0px;
 }
 
-
-
-
-
-
 /*telas menores de 400px*/
 @media screen and (max-width:400px){
+    body{
+        margin-top: -30px;
+    }
+    img{
+        display: none;
+    }
+    *{
+        font-size: 80% !important;
+    }
+}
+
+
+
+
+
+/*telas menores de 200px*/
+@media screen and (max-width:200px){
     body{
         margin-top: -30px;
     }

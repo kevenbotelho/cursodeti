@@ -13,6 +13,7 @@
 
     main#main-secundario{
         max-width: 1300px;
+        transition: 2.5s;
     }
     section.branco  div.flex{
         display: flex;
